@@ -1,27 +1,20 @@
 <template>
     <div>
-        <!-- <div class="progress"></div>
-        <div class="flex-logo">
-            <i class="fad fa-2x fa-list" @click="menu">
-                <nav class="nav">
-                    <a v-for="(item, index) of list" :key="index" :href="item.anchor">
-                        {{  item.title  }}
-                    </a>
-                </nav>
-            </i>
-        </div> -->
         <div class="header">
             <div class="logo">
-                <a href="">民視新聞網</a>
+
+                <a href=""> <img src="../assets/logo.png" alt="民視新聞網"></a>
 
             </div>
             <div class="navbar">
                 <a v-for="(item, index) of list" :key="index" :href="item.anchor">
-                    {{  item.title  }}
+                    {{ item.title }}
                 </a>
             </div>
         </div>
     </div>
+
+
 </template>
 
 <script>
@@ -34,18 +27,15 @@ export default {
                     anchor: '#voting',
                 },
                 {
-                    title: '選將名單',
+                    title: '最新新聞',
                     anchor: '#profile',
                 },
                 {
-                    title: '歷年版圖',
+                    title: '影音專區',
                     anchor: '#porcess',
                 },
                 {
-                    title: '修憲公投',
-                    anchor: '#news',
-                }, {
-                    title: '新聞專區',
+                    title: 'LIVE新聞',
                     anchor: '#news',
                 },
             ],
@@ -92,7 +82,7 @@ export default {
 }
 
 .fa-list {
-    color: #003881;
+    color: #595757;
     cursor: pointer;
     position: fixed;
     z-index: 999;
@@ -120,15 +110,27 @@ export default {
     width: 300px;
 }
 
+.logo img {
+    width: 200px;
+}
+
 @media screen and (max-width: 768px) {
     .logo {
         width: 200px;
+    }
+
+    .logo img {
+        width: 180px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .logo {
         width: 200px;
+    }
+
+    .logo img {
+        width: 160px;
     }
 }
 
@@ -142,21 +144,21 @@ export default {
 }
 
 a {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 1rem;
     display: block;
-    color: #003881;
+    color: #595757;
     font-weight: bolder;
     transition: 0.3s;
-    border-bottom: 1px solid #d6e3ed;
-    padding-bottom: 10px;
+
 }
 
 .header {
     display: grid;
-
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: 1fr 1fr;
 }
 
-.navbar {}
+.navbar {
+    justify-content: end;
+}
 </style>

@@ -1,6 +1,14 @@
 <template>
     <div class="section" id="video">
         <h3>{{ title }}</h3>
+
+        <div class="line">
+            <img src="../assets/選舉章icon.png" alt="">
+            <hr>
+            <img src="../assets/選舉章icon.png" alt="">
+
+
+        </div>
         <div class="section-box">
             <div class="iframe-container">
                 <iframe src="https://www.youtube.com/embed/XGEmg3vhrzU" title="YouTube video player" frameborder="0"
@@ -51,4 +59,25 @@ export default {
 .iframe-container-4x3 {
     padding-top: 75%;
 }
+
+.line {
+    display: flex;
+}
+
+.line img {
+    width: 60px;
+    padding: 10px;
+}
+
+img::after {}
+
+
+hr {
+    align-items: center;
+    color: rgb(39, 39, 39);
+    font-weight: 900;
+    width: 90%;
+    margin: auto;
+}
+
 </style>

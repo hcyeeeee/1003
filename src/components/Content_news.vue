@@ -6,6 +6,15 @@
             <li @click="getData_ftvNews1">政治新聞</li>
             <li @click="getData_ftvNews2">修憲公投</li>
         </ul>
+
+        <div class="line">
+            <img src="../assets/選舉章icon.png" alt="">
+            <hr>
+            <img src="../assets/選舉章icon.png" alt="">
+
+
+        </div>
+
         <div class="section-box">
             <div class="news-layout">
                 <div class="news" v-for="(item, index) of newsInfo" :key="index">
@@ -33,7 +42,7 @@
 export default {
     data() {
         return {
-            title: '最新新聞',
+            title: '最新戰況',
             newsInfo: [],
         }
     },
@@ -102,7 +111,7 @@ export default {
 .news-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
     padding: 1rem;
 }
 
@@ -118,21 +127,45 @@ export default {
     }
 }
 
+.line {
+    display: flex;
+    padding: 0px 30px;
+}
+
+.line img {
+    width: 50px;
+    padding: 5px;
+}
+
+
+
+hr {
+    align-items: center;
+    color: rgb(67, 67, 67);
+    font-weight: bolder;
+    width: 95%;
+
+    margin: auto;
+}
+
+
+
 .news {
     transition: 0.5s;
-    background-color: #eff1f7;
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .news:hover {
     display: block;
-    background-color: #45588f;
+    background-color: #cae3bb;
     text-decoration: none !important;
 }
 
 .news:hover h2,
 .news:hover p {
-    color: white;
+    color: rgb(42, 42, 42);
 }
 
 .news h2 {
@@ -201,7 +234,6 @@ ul li:before {
 .btn_more {
     max-width: 300px;
     margin: 3rem auto;
-    background-color: #45588f;
     padding: 0.6rem;
     display: block;
     font-weight: bolder;

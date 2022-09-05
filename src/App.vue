@@ -2,36 +2,43 @@
     <div>
         <Header />
         <COntentBanner />
+        <AdditionBox />
+        <ContentTime />
         <ContentNews />
         <ContentVideo />
         <Footer />
-        <AdditionSide />
+
+        <!-- <AdditionSide /> -->
         <AdditionScrolltop />
-        <AdditionBottom />
+        <!-- <AdditionBottom /> -->
     </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue'
 import COntentBanner from '@/components/Content_banner.vue'
+import AdditionBox from '@/components/Addition_box.vue'
+import ContentTime from '@/components/Content_time.vue'
 import ContentVideo from '@/components/Content_video.vue'
 import ContentNews from '@/components/Content_news.vue'
 import Footer from '@/components/Footer.vue'
-import AdditionSide from '@/components/Addition_side.vue'
+// import AdditionSide from '@/components/Addition_side.vue'
 import AdditionScrolltop from './components/Addition_scrolltop.vue'
-import AdditionBottom from './components/Addition_bottom.vue'
+// import AdditionBottom from './components/Addition_bottom.vue'
 
 export default {
     name: 'App',
     components: {
         Header,
         COntentBanner,
+        AdditionBox,
+        ContentTime,
         ContentNews,
         ContentVideo,
         Footer,
-        AdditionSide,
+        // AdditionSide,
         AdditionScrolltop,
-        AdditionBottom,
+        // AdditionBottom,
     },
 }
 </script>
@@ -184,7 +191,7 @@ body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
-    background-color: rgb(237, 240, 247);
+    background-color: #F3FFF5;
 }
 
 #app {
@@ -192,7 +199,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: #595757;
     transition: 0.3s;
     width: 100%;
     overflow-x: hidden;
@@ -209,8 +216,8 @@ h3 {
     font-weight: bolder;
     padding: 0.6rem 0;
     margin: 2rem 0 0.1rem 0;
-    color: white;
-    background-color: #45588f;
+    color: rgb(59, 59, 59);
+
 }
 
 h4 {
@@ -257,14 +264,16 @@ figure {
 }
 
 .section {
-    margin: 3rem auto;
+    margin: 2rem auto;
     max-width: 1000px;
-    background-color: white;
+
 }
 
 .section-box {
-    margin: auto;
+    margin: 0.5rem auto;
     padding: 1rem;
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -317,5 +326,10 @@ figure {
 .fa-stack-1x {
     color: red;
     font-weight: bolder;
+}
+
+hr {
+    border-top: 1px solid rgb(19, 19, 19);
+
 }
 </style>

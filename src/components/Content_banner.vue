@@ -1,6 +1,7 @@
 <template>
     <div class="main">
         <h1>{{ title }}</h1>
+
         <a href="#video">
             <img src="../assets/desktopbanner.jpg" />
         </a>
