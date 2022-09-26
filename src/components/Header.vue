@@ -1,16 +1,27 @@
 <template>
     <div>
         <div class="header">
-            <div class="logo">
+            <div class="flex-logo logo">
 
-                <a href=""> <img src="../assets/logo.png" alt="民視新聞網"></a>
-
+                <a href="https://www.ftvnews.com.tw/" target="blank"> <img src="../assets/logo.png" alt="民視新聞網"></a>
             </div>
-            <div class="navbar">
+
+            <nav class="computer navbar">
                 <a v-for="(item, index) of list" :key="index" :href="item.anchor">
                     {{ item.title }}
                 </a>
+            </nav>
+            <div class="fad fa-2x fa-bars mobile" @click="menu">
+                <nav class=" nav ">
+                    <a v-for="(item, index) of list" :key="index" :href="item.anchor">
+                        {{ item.title }}
+                        <hr>
+
+                    </a>
+                </nav>
+
             </div>
+
         </div>
     </div>
 
@@ -24,40 +35,37 @@ export default {
             list: [
                 {
                     title: '首頁',
-                    anchor: '#voting',
+                    anchor: '#',
                 },
                 {
                     title: '最新新聞',
-                    anchor: '#profile',
+                    anchor: '#news',
+                },
+                {
+                    title: '地方選戰',
+                    anchor: '#district',
                 },
                 {
                     title: '影音專區',
-                    anchor: '#porcess',
+                    anchor: '#video',
                 },
                 {
-                    title: 'LIVE新聞',
-                    anchor: '#news',
+                    title: '直播新聞',
+                    anchor: '#live',
                 },
+
             ],
         }
     },
+    created() {
+        window.addEventListener('scroll', this.handleScroll)
+    },
     methods: {
-        scroll() {
-            window.addEventListener('scroll', () => {
-                this.moveBar('#374674')
-            })
-        },
-
-        moveBar(color = '#0984e3') {
-            let bar = document.querySelector('.progress')
-            let w = Math.ceil(
-                (Math.round(window.pageYOffset) / (document.body.scrollHeight - window.innerHeight)) * 100
-            )
-            bar.style.width = w + '%'
-            bar.style.background = color
-        },
 
         menu() { },
+        handleScroll() {
+            this.active = window.scrollY < 700 ? true : false
+        },
     },
     mounted() {
         this.scroll()
@@ -67,34 +75,39 @@ export default {
 </script>
 
 <style scoped>
+.fixed {
+    display: none;
+}
+
 /* 漢堡選單 */
+
 .nav {
-    width: 250px;
+
+    width: 220px;
     padding: 1rem;
     position: fixed;
-    background-color: rgba(255, 255, 255);
+    background-color: #F3FFF5;
     z-index: 998;
     top: 3.3rem;
     right: 1rem;
     border-radius: 10px;
     display: none;
-    box-shadow: 1px 2px 3px black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.fa-list {
-    color: #595757;
+.fa-bars {
+    color: #78a17f;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     z-index: 999;
     top: 1rem;
     right: 1rem;
-    background-color: white;
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 1px 2px 3px black;
+
 }
 
-.fa-list:hover .nav {
+.fa-bars:hover .nav {
     display: block;
 }
 
@@ -107,11 +120,11 @@ export default {
 
 .logo {
     max-width: 100%;
-    width: 300px;
+    width: 250px;
 }
 
 .logo img {
-    width: 200px;
+    width: 180px;
 }
 
 @media screen and (max-width: 768px) {
@@ -151,14 +164,55 @@ a {
     font-weight: bolder;
     transition: 0.3s;
 
+
 }
 
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: fixed;
+    background-color: #f3fff5a8;
+    opacity: .99;
+    z-index: 100;
+    width: 100%;
+    height: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .navbar {
     justify-content: end;
+}
+
+.nav {
+    display: none;
+}
+
+
+.computer {
+
+    display: flex;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .computer {
+
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+}
+
+.icon {
+    display: flex;
+    width: 10px;
+    display: fixed;
 }
 </style>

@@ -3,296 +3,197 @@
         <h3>{{ title }}</h3>
         <div class="section-box">
             <b-tabs content-class="mt-3" fill>
-                <b-tab title="張烱春">
+                <!-- 縣市 fg-->
+                <b-tab title="北部">
                     <div class="grid">
                         <div>
-                            <h4>
-                                <span class="fa-stack">
-                                    <!-- The icon that will wrap the number -->
-                                    <span class="fa fa-circle-o fa-stack-2x"></span>
-                                    <!-- a strong element with the custom content, in this case a number -->
-                                    <strong class="fa-stack-1x"> {{ getProfile[0].no }}</strong>
-                                </span>
-                                <div>
-                                    {{ getProfile[0].party }}
-                                </div>
-                            </h4>
-                            <div>
-                                <img :src="getProfile[0].photo" loading="lazy" />
-                                <img :src="getProfile[0].party_photo" alt="政黨" />
-                            </div>
-                        </div>
-                        <div>
                             <b-tabs content-class="mt-3" fill>
-                                <b-tab title="經歷" active>
-                                    <p>學歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[0].experience.edu" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                    <hr />
-                                    <p>經歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[0].experience.exp" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
+                                <!-- 縣市 -->
+                                <b-tab title="基隆市">
+                                    <b-tabs content-class="mt-3" fill>
+                                        <!-- 選區 -->
+                                        <b-tab title="第一選區" active>
+                                            <b-tab title="第一選區">
+
+                                            </b-tab>
+                                        </b-tab>
+                                        <b-tab title="第二選區">
+                                            <ul>
+
+                                            </ul>
+                                        </b-tab>
+                                        <b-tab title="第三選區">
+
+                                        </b-tab>
+                                        <b-tab title="第四選區">
+
+                                        </b-tab>
+                                        <b-tab title="第五選區">
+
+                                        </b-tab>
+                                        <b-tab title="第六選區">
+
+                                        </b-tab>
+                                        <b-tab title="第七選區">
+
+                                        </b-tab>
+                                    </b-tabs>
+
                                 </b-tab>
-                                <b-tab title="政見" class="opinion">
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[0].opinion.opin" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
+                                <b-tab title="台北市">
+                                    <b-tabs content-class="mt-3" fill>
+                                        <!-- 選區 -->
+                                        <b-tab title="第一選區" active>
+                                            <b-tab title="第一選區">
+
+                                            </b-tab>
+                                        </b-tab>
+                                        <b-tab title="第二選區">
+                                            <ul>
+
+                                            </ul>
+                                        </b-tab>
+                                        <b-tab title="第三選區">
+
+                                        </b-tab>
+                                        <b-tab title="第四選區">
+
+                                        </b-tab>
+                                        <b-tab title="第五選區">
+
+                                        </b-tab>
+                                        <b-tab title="第六選區">
+
+                                        </b-tab>
+                                        <b-tab title="第七選區">
+
+                                        </b-tab>
+                                    </b-tabs>
+
                                 </b-tab>
-                                <b-tab title="財產申報">
-                                    <div class="grid-inner">
-                                        <a :href="getProfile[0].property.file" target="_blank"
-                                            ><i class="fad fa-lg fa-file-download"></i>_財產申報資料</a
-                                        >
-                                        <ul>
-                                            <li v-for="(item, index) of getProfile[0].property.prop" :key="index">
-                                                {{ item }}
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <b-tab title="新北市">
+                                    <b-tabs content-class="mt-3" fill>
+                                        <!-- 選區 -->
+                                        <b-tab title="第一選區" active>
+                                            <b-tab title="第一選區">
+
+                                            </b-tab>
+                                        </b-tab>
+                                        <b-tab title="第二選區">
+                                            <ul>
+
+                                            </ul>
+                                        </b-tab>
+                                        <b-tab title="第三選區">
+
+                                        </b-tab>
+                                        <b-tab title="第四選區">
+
+                                        </b-tab>
+                                        <b-tab title="第五選區">
+
+                                        </b-tab>
+                                        <b-tab title="第六選區">
+
+                                        </b-tab>
+                                        <b-tab title="第七選區">
+
+                                        </b-tab>
+                                    </b-tabs>
+
                                 </b-tab>
-                            </b-tabs>
-                        </div>
-                    </div>
-                </b-tab>
-                <b-tab title="林金連">
-                    <div class="grid">
-                        <div>
-                            <h4>
-                                <span class="fa-stack">
-                                    <!-- The icon that will wrap the number -->
-                                    <span class="fa fa-circle-o fa-stack-2x"></span>
-                                    <!-- a strong element with the custom content, in this case a number -->
-                                    <strong class="fa-stack-1x"> {{ getProfile[1].no }}</strong>
-                                </span>
-                                <div>
-                                    {{ getProfile[1].party }}
-                                </div>
-                            </h4>
-                            <div>
-                                <img :src="getProfile[1].photo" loading="lazy" />
-                                <img :src="getProfile[1].party_photo" alt="政黨" />
-                            </div>
-                        </div>
-                        <div>
-                            <b-tabs content-class="mt-3" fill>
-                                <b-tab title="經歷" active>
-                                    <p>學歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[1].experience.edu" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                    <hr />
-                                    <p>經歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[1].experience.exp" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
+                                <b-tab title="桃園市">
+                                    <b-tabs content-class="mt-3" fill>
+                                        <!-- 選區 -->
+                                        <b-tab title="第一選區" active>
+                                            <b-tab title="第一選區">
+
+                                            </b-tab>
+                                        </b-tab>
+                                        <b-tab title="第二選區">
+                                            <ul>
+
+                                            </ul>
+                                        </b-tab>
+                                        <b-tab title="第三選區">
+
+                                        </b-tab>
+                                        <b-tab title="第四選區">
+
+                                        </b-tab>
+                                        <b-tab title="第五選區">
+
+                                        </b-tab>
+                                        <b-tab title="第六選區">
+
+                                        </b-tab>
+                                        <b-tab title="第七選區">
+
+                                        </b-tab>
+                                    </b-tabs>
+
                                 </b-tab>
-                                <b-tab title="政見" class="opinion">
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[1].opinion.opin" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
+                                <b-tab title="新竹縣">
+                                    <b-tabs content-class="mt-3" fill>
+                                        <!-- 選區 -->
+                                        <b-tab title="第一選區" active>
+                                            <b-tab title="第一選區">
+
+                                            </b-tab>
+                                        </b-tab>
+                                        <b-tab title="第二選區">
+                                            <ul>
+
+                                            </ul>
+                                        </b-tab>
+                                        <b-tab title="第三選區">
+
+                                        </b-tab>
+                                        <b-tab title="第四選區">
+
+                                        </b-tab>
+                                        <b-tab title="第五選區">
+
+                                        </b-tab>
+                                        <b-tab title="第六選區">
+
+                                        </b-tab>
+                                        <b-tab title="第七選區">
+
+                                        </b-tab>
+                                    </b-tabs>
+
                                 </b-tab>
-                                <b-tab title="財產申報">
-                                    <div class="grid-inner">
-                                        <a :href="getProfile[1].property.file" target="_blank"
-                                            ><i class="fad fa-lg fa-file-download"></i>_財產申報資料</a
-                                        >
-                                        <ul>
-                                            <li v-for="(item, index) of getProfile[1].property.prop" :key="index">
-                                                {{ item }}
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </b-tab>
-                            </b-tabs>
-                        </div>
-                    </div>
-                </b-tab>
-                <b-tab title="李昇翰">
-                    <div class="grid">
-                        <div>
-                            <h4>
-                                <span class="fa-stack">
-                                    <!-- The icon that will wrap the number -->
-                                    <span class="fa fa-circle-o fa-stack-2x"></span>
-                                    <!-- a strong element with the custom content, in this case a number -->
-                                    <strong class="fa-stack-1x"> {{ getProfile[2].no }}</strong>
-                                </span>
-                                <div>
-                                    {{ getProfile[2].party }}
-                                </div>
-                            </h4>
-                            <div>
-                                <img :src="getProfile[2].photo" loading="lazy" />
-                                <img :src="getProfile[2].party_photo" alt="政黨" />
-                            </div>
-                        </div>
-                        <div>
-                            <b-tabs content-class="mt-3" fill>
-                                <b-tab title="經歷" active>
-                                    <p>學歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[2].experience.edu" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                    <hr />
-                                    <p>經歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[2].experience.exp" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                </b-tab>
-                                <b-tab title="政見" class="opinion">
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[2].opinion.opin" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                </b-tab>
-                                <b-tab title="財產申報">
-                                    <div class="grid-inner">
-                                        <a :href="getProfile[2].property.file" target="_blank"
-                                            ><i class="fad fa-lg fa-file-download"></i>_財產申報資料</a
-                                        >
-                                        <ul>
-                                            <li v-for="(item, index) of getProfile[2].property.prop" :key="index">
-                                                {{ item }}
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </b-tab>
-                            </b-tabs>
-                        </div>
-                    </div>
-                </b-tab>
-                <b-tab title="林靜儀" active>
-                    <div class="grid">
-                        <div>
-                            <h4>
-                                <span class="fa-stack">
-                                    <!-- The icon that will wrap the number -->
-                                    <span class="fa fa-circle-o fa-stack-2x"></span>
-                                    <!-- a strong element with the custom content, in this case a number -->
-                                    <strong class="fa-stack-1x"> {{ getProfile[3].no }}</strong>
-                                </span>
-                                <div>
-                                    {{ getProfile[3].party }}
-                                </div>
-                            </h4>
-                            <div>
-                                <img :src="getProfile[3].photo" loading="lazy" />
-                                <img :src="getProfile[3].party_photo" alt="政黨" />
-                            </div>
-                        </div>
-                        <div>
-                            <b-tabs content-class="mt-3" fill>
-                                <b-tab title="經歷" active>
-                                    <p>學歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[3].experience.edu" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                    <hr />
-                                    <p>經歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[3].experience.exp" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                </b-tab>
-                                <b-tab title="政見" class="opinion">
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[3].opinion.opin" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                </b-tab>
-                                <b-tab title="財產申報">
-                                    <div class="grid-inner">
-                                        <a :href="getProfile[3].property.file" target="_blank"
-                                            ><i class="fad fa-lg fa-file-download"></i>_財產申報資料</a
-                                        >
-                                        <ul>
-                                            <li v-for="(item, index) of getProfile[3].property.prop" :key="index">
-                                                {{ item }}
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </b-tab>
-                            </b-tabs>
-                        </div>
-                    </div>
-                </b-tab>
-                <b-tab title="顏寬恒">
-                    <div class="grid">
-                        <div>
-                            <h4>
-                                <span class="fa-stack">
-                                    <!-- The icon that will wrap the number -->
-                                    <span class="fa fa-circle-o fa-stack-2x"></span>
-                                    <!-- a strong element with the custom content, in this case a number -->
-                                    <strong class="fa-stack-1x"> {{ getProfile[4].no }}</strong>
-                                </span>
-                                <div>
-                                    {{ getProfile[4].party }}
-                                </div>
-                            </h4>
-                            <div>
-                                <img :src="getProfile[4].photo" loading="lazy" />
-                                <img :src="getProfile[4].party_photo" alt="政黨" />
-                            </div>
-                        </div>
-                        <div>
-                            <b-tabs content-class="mt-3" fill>
-                                <b-tab title="經歷" active>
-                                    <p>學歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[4].experience.edu" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                    <hr />
-                                    <p>經歷</p>
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[4].experience.exp" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                </b-tab>
-                                <b-tab title="政見" class="opinion">
-                                    <ul>
-                                        <li v-for="(item, index) of getProfile[4].opinion.opin" :key="index">
-                                            {{ item }}
-                                        </li>
-                                    </ul>
-                                </b-tab>
-                                <b-tab title="財產申報">
-                                    <div class="grid-inner">
-                                        <a :href="getProfile[4].property.file" target="_blank"
-                                            ><i class="fad fa-lg fa-file-download"></i>_財產申報資料</a
-                                        >
-                                        <ul>
-                                            <li v-for="(item, index) of getProfile[4].property.prop" :key="index">
-                                                {{ item }}
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <b-tab title="新北市">
+                                    <b-tabs content-class="mt-3" fill>
+                                        <!-- 選區 -->
+                                        <b-tab title="第一選區" active>
+                                            <b-tab title="第一選區">
+
+                                            </b-tab>
+                                        </b-tab>
+                                        <b-tab title="第二選區">
+                                            <ul>
+
+                                            </ul>
+                                        </b-tab>
+                                        <b-tab title="第三選區">
+
+                                        </b-tab>
+                                        <b-tab title="第四選區">
+
+                                        </b-tab>
+                                        <b-tab title="第五選區">
+
+                                        </b-tab>
+                                        <b-tab title="第六選區">
+
+                                        </b-tab>
+                                        <b-tab title="第七選區">
+
+                                        </b-tab>
+                                    </b-tabs>
+
                                 </b-tab>
                             </b-tabs>
                         </div>
@@ -338,6 +239,7 @@ ul li {
 }
 
 @media screen and (max-width: 768px) {
+
     p,
     ul li {
         font-size: 1rem;
@@ -346,7 +248,7 @@ ul li {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
 }
 
@@ -359,10 +261,12 @@ ul li {
 .grid div {
     position: relative;
 }
+
 .grid div img:nth-child(1) {
     width: 100%;
     padding: 1rem;
 }
+
 .grid div img:nth-child(2) {
     position: absolute;
     top: 0px;

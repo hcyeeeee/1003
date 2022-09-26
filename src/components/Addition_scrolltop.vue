@@ -1,6 +1,7 @@
 <template>
     <div>
-        <i @click="scrollTop" class="fad fa-3x fa-angle-up"></i>
+        <i @click="scrollTop" class="fad fa-2x fa-angle-up"></i>
+
     </div>
 </template>
 
@@ -18,15 +19,17 @@ export default {
 <style scoped>
 .fa-angle-up {
     position: fixed;
-    right: 0px;
-    bottom: 4rem;
-    color: #374674;
+    right: 0.5rem;
+    bottom: 5rem;
+    color: rgb(172, 188, 162);
+    background-color: rgb(226, 246, 214);
     cursor: pointer;
     background-color: #ffffffa6;
-    box-shadow: 1px 2px 3px black;
-    border: 1px solid black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
     border-radius: 10px;
-    padding: 0 8px;
+    padding: 2px 5px;
     z-index: 1000;
+    background-image: url('../assets/投票箱.png');
 }
 </style>

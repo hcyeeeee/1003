@@ -1,105 +1,151 @@
 <template>
-    <div class="section" id="porcess">
-        <h3>{{ title }}</h3>
+    <div>
+        <img class="img" src="../assets/小可愛.png" alt="小可愛">
         <div class="section-box">
-            <div>
-                <ul>
-                    <li v-for="(item, index) of list" :key="index">
-                        <span>{{ list[index].date }}</span>
-                        <p>{{ list[index].project }}</p>
-                    </li>
-                </ul>
-            </div>
+
+            <ul class="entries">
+
+                <li class="entry">08.29 ~ 09.02 登記參選</li>
+                <li class="entry">10.21 號次抽籤</li>
+                <li class="entry">11.11 ~ 11.25 政見發表會</li>
+                <li class="entry">11.25 公告選舉人數</li>
+                <li class="entry">11.26 投票日</li>
+
+            </ul>
+
         </div>
     </div>
 </template>
-
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script>
+
+$(document).ready(function () {
+    var fadetime = 1000;
+    var delaytime = 1000;
+    function carousel() {
+        $('.entry:first-child').fadeIn(fadetime).delay(delaytime).queue(
+            function () {
+            $(this).fadeOut(fadetime).appendTo('.entries').dequeue();
+        });
+    }
+    carousel();
+    setInterval(function () { carousel() }, fadetime + delaytime);
+});
 export default {
     data() {
         return {
-            title: '補選程序',
+            title: '重要日程',
             list: [
                 {
-                    date: '2021.12.8',
-                    project: '候選人抽籤決定號次',
+                    date: '08.29 ~ 09.02登記參選',
+                    project: '登記參選',
                 },
                 {
-                    date: '2021.12.20',
-                    project: '選舉人名冊編造完成',
+                    date: '10.21號次抽籤',
+                    project: '號次抽籤',
                 },
                 {
-                    date: '2021.12.29',
-                    project: '公告候選人名單',
+                    date: '11.11 ~ 11.25',
+                    project: '政見發表會',
                 },
                 {
-                    date: '2021.12.30 - 2021.1.8',
-                    project: '辦理公辦政見發表會',
+                    date: '11.25',
+                    project: '公告選舉人數',
                 },
                 {
-                    date: '2022.1.5前',
-                    project: '公告選舉人人數',
+                    date: '11.26',
+                    project: '投票日',
                 },
-                {
-                    date: '2022.1.9',
-                    project: '投票、開票',
-                },
-                {
-                    date: '2022.1.14前',
-                    project: '審定當選人名單',
-                },
-                {
-                    date: '2022.1.14',
-                    project: '公告當選人名單',
-                },
+
             ],
         }
+    },
+    methods: {
+        getLocalUrl() {
+            let e = document.createElement('input'),
+                t = window.location.href + '?utm_source=3qpage&utm_medium=copybutton'
+            document.body.appendChild(e),
+                (e.value = t),
+                e.select(),
+                document.execCommand('copy'),
+                document.body.removeChild(e),
+                alert('複製成功!')
+        },
     },
 }
 </script>
 
 <style scoped>
-.section-box div {
+@media screen and (min-width: 600px) {
+    .section-box {
+        display: none;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+
+.section-box {
+
     padding: 1rem;
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    background-image:
+        linear-gradient(rgba(203, 232, 245, 0.3) 1px, transparent 0),
+        linear-gradient(90deg, rgba(203, 232, 245, 0.3) 1px, transparent 0),
+        linear-gradient(rgba(203, 232, 245, 0.3)1px, transparent 0),
+        linear-gradient(90deg, rgba(203, 232, 245, 0.3) 1px, transparent 0);
+    background-size:
+
+        20px 20px;
+
+
+
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto 2rem;
+    margin-top: 5rem;
 }
 
-ul {
-    display: inline-block;
-    max-width: 390px;
-    width: 100%;
-    list-style-type: none;
-}
 
-ul li {
-    width: 100%;
-    margin-bottom: 2rem;
+img {
+
+    margin: auto;
     text-align: center;
+    width: 130px;
+    display: flex;
+    margin-bottom: -6rem;
+    margin-top: 3rem;
+
+}
+
+
+
+
+.entries {
     padding: 1rem;
-    position: relative;
-    background-color: rgb(222, 222, 222);
-    border-radius: 10px;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+
 }
 
-ul li::after {
-    content: '|';
-    position: absolute;
-    bottom: -25px;
+li {
+    font-size: 1.2rem;
 }
 
-ul li:nth-last-child(1)::after {
-    content: '';
-}
+.entries .entry {
 
-ul li span {
-    display: inline-flex;
-    text-align: center;
-    margin: 0 0.3rem;
-    display: block;
-}
-
-ul li p {
-    text-align: center;
+    list-style: none;
+    padding: 0;
     margin: 0;
+    display: none;
+    text-align: center;
+
 }
 </style>

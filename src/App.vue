@@ -3,14 +3,17 @@
         <Header />
         <COntentBanner />
         <AdditionBox />
+        <ContentProcess />
         <ContentTime />
         <ContentNews />
+        <ContentDistrict />
         <ContentVideo />
         <Footer />
-
         <!-- <AdditionSide /> -->
-        <AdditionScrolltop />
+        <!-- <AdditionScrolltop /> -->
         <!-- <AdditionBottom /> -->
+        <Share />
+        <ContentProfile />
     </div>
 </template>
 
@@ -18,32 +21,42 @@
 import Header from '@/components/Header.vue'
 import COntentBanner from '@/components/Content_banner.vue'
 import AdditionBox from '@/components/Addition_box.vue'
+import ContentProcess from '@/components/Content_process.vue'
 import ContentTime from '@/components/Content_time.vue'
 import ContentVideo from '@/components/Content_video.vue'
 import ContentNews from '@/components/Content_news.vue'
+import ContentDistrict from '@/components/Content_district.vue'
 import Footer from '@/components/Footer.vue'
 // import AdditionSide from '@/components/Addition_side.vue'
-import AdditionScrolltop from './components/Addition_scrolltop.vue'
+// import AdditionScrolltop from './components/Addition_scrolltop.vue'
+import Share from './components/share.vue'
 // import AdditionBottom from './components/Addition_bottom.vue'
-
+import ContentProfile from './components/Content_profile.vue'
 export default {
     name: 'App',
     components: {
         Header,
         COntentBanner,
         AdditionBox,
+        ContentProcess,
         ContentTime,
         ContentNews,
+        ContentDistrict,
         ContentVideo,
         Footer,
         // AdditionSide,
-        AdditionScrolltop,
-        // AdditionBottom,
+        // AdditionScrolltop,
+        Share,
+        ContentProfile
     },
 }
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:wght@100;300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&display=swap');
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -90,7 +103,10 @@ tt,
 var,
 b,
 u,
-i,
+i {
+    font-family: 'Noto Sans TC';
+}
+
 center,
 dl,
 dt,
@@ -185,6 +201,7 @@ table {
 /* 全局自訂 */
 * {
     scroll-behavior: smooth;
+    font-family: 'Noto Sans TC'
 }
 
 body {
@@ -192,10 +209,11 @@ body {
     width: 100%;
     overflow-x: hidden;
     background-color: #F3FFF5;
+    font-family: 'Noto Sans TC'
 }
 
 #app {
-    font-family: Helvetica, 微軟正黑體, 蘋果儷中黑, Arial, sans-serif;
+    font-family: 'Noto Sans TC', sans-serif, '微軟正黑體', '蘋果儷中黑', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -207,10 +225,12 @@ body {
 
 h1,
 h2 {
+    font-family: 'Noto Sans TC';
     font-size: 1.8rem;
 }
 
 h3 {
+    font-family: 'Noto Sans TC';
     text-align: center;
     font-size: 1.6rem;
     font-weight: bolder;
@@ -221,10 +241,12 @@ h3 {
 }
 
 h4 {
+    font-family: 'Noto Sans TC';
     font-size: 1.3rem;
 }
 
 ul li {
+    font-family: 'Noto Sans TC';
     text-align: left;
     margin: 1rem 0 1rem 0;
     font-size: 1.2rem;
@@ -232,6 +254,7 @@ ul li {
 }
 
 p {
+    font-family: 'Noto Sans TC';
     text-align: left;
     margin: 0.5rem 0 2rem 0;
     line-height: 1.4rem;
@@ -247,33 +270,37 @@ p {
 }
 
 a {
-    color: black;
+    font-family: 'Noto Sans TC';
+    color: #595757;
     text-decoration: none !important;
 }
 
 a:hover {
+    font-family: 'Noto Sans TC';
     color: black;
 }
 
 figure {
+    font-family: 'Noto Sans TC';
     margin: 0;
 }
 
 .layout {
+    font-family: 'Noto Sans TC';
     max-width: 1000px;
 }
 
 .section {
+    font-family: 'Noto Sans TC';
     margin: 2rem auto;
     max-width: 1000px;
 
 }
 
 .section-box {
-    margin: 0.5rem auto;
+    font-family: 'Noto Sans TC';
+    margin: 1rem auto;
     padding: 1rem;
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -329,7 +356,9 @@ figure {
 }
 
 hr {
-    border-top: 1px solid rgb(19, 19, 19);
-
+    color: inherit;
+    border: 0;
+    border-top: 2px solid;
+    opacity: .9;
 }
 </style>
