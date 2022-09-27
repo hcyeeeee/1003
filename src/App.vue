@@ -335,13 +335,14 @@ figure {
 
 /* Tabs style */
 .nav-tabs .nav-link.active {
-    background-color: #5d72af !important;
-    color: white;
+    background-color: #A5D35E !important;
+    color: rgb(45, 44, 44);
 }
 
 .nav-item {
-    background-color: rgb(233 233 233);
-    border-left: 2px solid white;
+    color: rgb(32, 32, 32);
+    border-bottom: 3px solid #A5D35E;
+    margin: .5rem;
 }
 
 /* 候選人編號樣式 */
@@ -360,5 +361,10 @@ hr {
     border: 0;
     border-top: 2px solid;
     opacity: .9;
+    
+}
+
+.nav-tabs{
+--bs-nav-tabs-border-color:transparent;
 }
 </style>
