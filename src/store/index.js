@@ -5,13 +5,13 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    guys_Taipei: [
+    guys: [
       {
         name: "陳時中",
         no: "1",
         party: "民進黨",
-        photo: require("../assets/陳時中.png"),
-        party_photo: require("../assets/民進黨.png"),
+        photo: "../assets/陳時中.png",
+        party_photo: "../assets/民進黨.png",
         experience: {
           edu: ["臺北醫學院牙醫學系"],
           exp: [
@@ -27,8 +27,8 @@ export default new Vuex.Store({
         name: "蔣萬安",
         no: "2",
         party: "國民黨",
-        photo: require("../assets/蔣萬安.png"),
-        party_photo: require("../assets/國民黨.png"),
+        photo: "../assets/蔣萬安.png",
+        party_photo: "../assets/國民黨.png",
         experience: {
           edu: [
             "國立政治大學外交學系國際關係學學士",
@@ -50,8 +50,8 @@ export default new Vuex.Store({
         name: "黃珊珊",
         no: "3 ",
         party: "無黨",
-        photo: require("../assets/黃珊珊.png"),
-        party_photo: require("../assets/無黨籍.png"),
+        photo: "../assets/黃珊珊.png",
+        party_photo: "../assets/無黨籍.png",
         experience: {
           edu: [
             "國立臺灣大學大氣科學系轉法律系",
@@ -72,8 +72,8 @@ export default new Vuex.Store({
         name: "蘇煥智",
         no: "4",
         party: "維新黨",
-        photo: require("../assets/蘇煥智.png"),
-        party_photo: require("../assets/維新黨.png"),
+        photo: "../assets/蘇煥智.png",
+        party_photo: "../assets/維新黨.png",
         experience: {
           edu: [
             "國立臺灣大學物理系肄業",
@@ -93,8 +93,8 @@ export default new Vuex.Store({
         name: "張家豪",
         no: "5",
         party: "台灣動保黨",
-        photo: require("../assets/張家豪.png"),
-        party_photo: require("../assets/台灣動保黨.png"),
+        photo: "../assets/張家豪.png",
+        party_photo: "../assets/台灣動保黨.png",
         experience: {
           edu: ["台灣大學心理學系學士"],
           exp: [
@@ -107,8 +107,8 @@ export default new Vuex.Store({
         name: "黃聖峰",
         no: "6",
         party: "台澎黨",
-        photo: require("../assets/黃聖峰.png"),
-        party_photo: require("../assets/台澎黨.png"),
+        photo: "../assets/黃聖峰.png",
+        party_photo: "../assets/台澎黨.png",
         experience: {
           edu: [
             "國立臺灣大學法律學系學士畢",
@@ -127,8 +127,8 @@ export default new Vuex.Store({
         name: "童文薰",
         no: "7",
         party: "無黨",
-        photo: require("../assets/張家豪.png"),
-        party_photo: require("../assets/無黨籍.png"),
+        photo: "../assets/張家豪.png",
+        party_photo: "../assets/無黨籍.png",
         experience: {
           edu: ["國立臺灣大學法律學系學士", "美國麥克喬治法學院LLM法學碩士"],
           exp: [
@@ -143,8 +143,8 @@ export default new Vuex.Store({
         name: "鄭匡宇",
         no: "8",
         party: "無黨",
-        photo: require("../assets/鄭匡宇.png"),
-        party_photo: require("../assets/無黨.png"),
+        photo: "../assets/鄭匡宇.png",
+        party_photo: "../assets/無黨.png",
         experience: {
           edu: [
             "國立政治大學哲學系畢業",
@@ -160,8 +160,8 @@ export default new Vuex.Store({
         name: "施奉先",
         no: "9",
         party: "無黨",
-        photo: require("../assets/施奉先.png"),
-        party_photo: require("../assets/無黨.png"),
+        photo: "../assets/施奉先.png",
+        party_photo: "../assets/無黨.png",
         experience: {
           edu: [""],
           exp: [""],
@@ -171,8 +171,8 @@ export default new Vuex.Store({
         name: "唐新民",
         no: "10",
         party: "無黨",
-        photo: require("../assets/唐新民.png"),
-        party_photo: require("../assets/無黨.png"),
+        photo: "../assets/唐新民.png",
+        party_photo: "../assets/無黨.png",
         experience: {
           edu: [""],
           exp: [""],
@@ -182,8 +182,8 @@ export default new Vuex.Store({
         name: "王文娟",
         no: "9",
         party: "無黨",
-        photo: require("../assets/王文娟.png"),
-        party_photo: require("../assets/無黨.png"),
+        photo: "../assets/王文娟.png",
+        party_photo: "../assets/無黨.png",
         experience: {
           edu: [""],
           exp: [""],
@@ -193,8 +193,8 @@ export default new Vuex.Store({
         name: "謝立康",
         no: "10",
         party: "無黨",
-        photo: require("../assets/謝立康.png"),
-        party_photo: require("../assets/無黨.png"),
+        photo: "../assets/謝立康.png",
+        party_photo: "../assets/無黨.png",
         experience: {
           edu: [""],
           exp: [""],
@@ -207,8 +207,8 @@ export default new Vuex.Store({
         name: "林佳龍",
         no: "1",
         party: "民進黨",
-        photo: require("../assets/林佳龍.png"),
-        party_photo: require("../assets/民進黨.png"),
+        photo: "../assets/林佳龍.png",
+        party_photo: "../assets/民進黨.png",
         experience: {
           edu: [
             "國立臺灣大學政治學系學士、碩士",
@@ -227,8 +227,8 @@ export default new Vuex.Store({
         name: "侯友宜",
         no: "2",
         party: "國民黨",
-        photo: require("../assets/侯友宜.png"),
-        party_photo: require("../assets/國民黨.png"),
+        photo: "../assets/侯友宜.png",
+        party_photo: "../assets/國民黨.png",
         experience: {
           edu: [
             "中央警官學校刑事警察學系法學學士",
@@ -253,8 +253,8 @@ export default new Vuex.Store({
         name: "鄭運鵬",
         no: "1",
         party: "民進黨",
-        photo: require("../assets/鄭運鵬.png"),
-        party_photo: require("../assets/民進黨.png"),
+        photo: "../assets/鄭運鵬.png",
+        party_photo: "../assets/民進黨.png",
         experience: {
           edu: ["國立臺灣大學土木工程學系畢業"],
           exp: [
@@ -271,8 +271,8 @@ export default new Vuex.Store({
         name: "張善政",
         no: "2",
         party: "國民黨",
-        photo: require("../assets/張善政.png"),
-        party_photo: require("../assets/國民黨.png"),
+        photo: "../assets/張善政.png",
+        party_photo: "../assets/國民黨.png",
         experience: {
           edu: [
             "國立臺灣大學土木工程學系工學學士",
@@ -294,8 +294,8 @@ export default new Vuex.Store({
         name: "賴香伶",
         no: "3",
         party: "民眾黨",
-        photo: require("../assets/張善政.png"),
-        party_photo: require("../assets/民眾黨.png"),
+        photo: "../assets/張善政.png",
+        party_photo: "../assets/民眾黨.png",
         experience: {
           edu: [
             "國立臺灣大學土木工程學系工學學士",
@@ -317,8 +317,8 @@ export default new Vuex.Store({
         name: "張善政",
         no: "2",
         party: "國民黨",
-        photo: require("../assets/張善政.png"),
-        party_photo: require("../assets/國民黨.png"),
+        photo: "../assets/張善政.png",
+        party_photo: "../assets/國民黨.png",
         experience: {
           edu: [
             "國立臺灣大學土木工程學系工學學士",
@@ -342,8 +342,8 @@ export default new Vuex.Store({
         name: "鄭運鵬",
         no: "1",
         party: "民進黨",
-        photo: require("../assets/鄭運鵬.png"),
-        party_photo: require("../assets/民進黨.png"),
+        photo: "../assets/鄭運鵬.png",
+        party_photo: "../assets/民進黨.png",
         experience: {
           edu: ["國立臺灣大學土木工程學系畢業"],
           exp: [
@@ -360,8 +360,8 @@ export default new Vuex.Store({
         name: "張善政",
         no: "2",
         party: "國民黨",
-        photo: require("../assets/張善政.png"),
-        party_photo: require("../assets/國民黨.png"),
+        photo: "../assets/張善政.png",
+        party_photo: "../assets/國民黨.png",
         experience: {
           edu: [
             "國立臺灣大學土木工程學系工學學士",

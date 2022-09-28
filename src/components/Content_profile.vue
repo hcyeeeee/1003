@@ -3,298 +3,52 @@
         <h3>{{ title }}</h3>
         <div class="section-box">
             <b-tabs content-class="mt-3" fill>
-                <!-- 縣市 fg-->
-                <b-tab title="北部">
-                    <div class>
-                        <b-tabs content-class="mt-3" fill>
-                            <div class="line">
-                                <img src="../assets/選舉章icon.png" alt="">
-                                <hr class="line2">
-                                <img src="../assets/選舉章icon.png" alt="">
-                            </div>
-                            <!-- 縣市 -->
-                            <b-tab class="" title="基隆市">
-                                <div class="layout">
-                                    <div class="layout_card">
-                                        <img class="person_img" src="../assets/無黨籍.png" alt="">
-                                        <img class="party_img" src="../assets/無黨籍.png" alt="">
-                                        <!-- person -->
-                                        <div class="text">
-                                            <h4>蔣萬安</h4>
-                                            <!-- party -->
-                                            <h4>中國國民黨</h4>
-                                            <!-- edu -->
-                                            <p class="edu_title">最高學歷</p>
-                                            <p class="edu_content">Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                            </p>
-                                            <!-- exp -->
-                                            <p class="exp_title">經歷</p>
-                                            <p class="exp_content">Lorem ipsum dolor sit amet consectetur
-                                                adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                                itae blanditiis dolor autem sunt tempora
-                                                placeat porro!</p>
-                                        </div>
-                                    </div>
-                                    <div class="layout_card">
-                                        <img src="../assets/國民黨.png" alt="">
-                                        <!-- person -->
-                                        <h4>蔣萬安</h4>
-                                        <!-- party -->
-                                        <p>中國國民黨</p>
-                                        <!-- edu -->
-                                        <p class="edu_title">最高學歷</p>
-                                        <p class="edu_content">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                        </p>
-                                        <!-- exp -->
-                                        <p class="exp_title">最高學歷</p>
-                                        <p class="exp_content">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                            itae blanditiis dolor autem sunt tempora
-                                            placeat porro!</p>
-                                    </div>
-                                    <div class="layout_card">
-                                        <img src="../assets/國民黨.png" alt="">
-                                        <!-- person -->
-                                        <h4>蔣萬安</h4>
-                                        <!-- party -->
-                                        <p>中國國民黨</p>
-                                        <!-- edu -->
-                                        <p class="edu_title">最高學歷</p>
-                                        <p class="edu_content">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                        </p>
-                                        <!-- exp -->
-                                        <p class="exp_title">最高學歷</p>
-                                        <p class="exp_content">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                            i</p>
-                                    </div>
-                                    <div class="layout_card">
-                                        <img src="../assets/國民黨.png" alt="">
-                                        <!-- person -->
-                                        <h4>蔣萬安</h4>
-                                        <!-- party -->
-                                        <p>中國國民黨</p>
-                                        <!-- edu -->
-                                        <p class="edu_title">最高學歷</p>
-                                        <p class="edu_content">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                        </p>
-                                        <!-- exp -->
-                                        <p class="exp_title">最高學歷</p>
-                                        <p class="exp_content">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit. Corporis reiciendis perferendis rem saepe
-                                            itae blanditiis dolor autem sunt tempora
-                                            placeat porro!</p>
-                                    </div>
-                                </div>
-                                <div class="line">
-                                    <img src="../assets/選舉章icon.png" alt="">
-                                    <hr class="line2">
-                                    <img src="../assets/選舉章icon.png" alt="">
-                                </div>
-                                <b-tabs content-class="mt-3" fill>
-                                    <!-- 選區 -->
-                                    <b-tab title="第一選區" active>
-                                        <b-tab title="第一選區">
+                <div class v-for="(item, index) of list" :key="index">
+                    <b-tab :title="list[index].area">
 
-                                        </b-tab>
-                                    </b-tab>
-                                    <b-tab title="第二選區">
-                                        <ul>
 
-                                        </ul>
-                                    </b-tab>
-                                    <b-tab title="第三選區">
-
-                                    </b-tab>
-                                    <b-tab title="第四選區">
-
-                                    </b-tab>
-                                    <b-tab title="第五選區">
-
-                                    </b-tab>
-                                    <b-tab title="第六選區">
-
-                                    </b-tab>
-                                    <b-tab title="第七選區">
-
-                                    </b-tab>
-                                </b-tabs>
-
-                            </b-tab>
-                            <b-tab title="台北市">
-                                <b-tabs content-class="mt-3" fill>
-                                    <!-- 選區 -->
-                                    <b-tab title="第一選區" active>
-                                        <b-tab title="第一選區">
-
-                                        </b-tab>
-                                    </b-tab>
-                                    <b-tab title="第二選區">
-                                        <ul>
-
-                                        </ul>
-                                    </b-tab>
-                                    <b-tab title="第三選區">
-
-                                    </b-tab>
-                                    <b-tab title="第四選區">
-
-                                    </b-tab>
-                                    <b-tab title="第五選區">
-
-                                    </b-tab>
-                                    <b-tab title="第六選區">
-
-                                    </b-tab>
-                                    <b-tab title="第七選區">
-
-                                    </b-tab>
-                                </b-tabs>
-
-                            </b-tab>
-                            <b-tab title="新北市">
-                                <b-tabs content-class="mt-3" fill>
-                                    <!-- 選區 -->
-                                    <b-tab title="第一選區" active>
-                                        <b-tab title="第一選區">
-
-                                        </b-tab>
-                                    </b-tab>
-                                    <b-tab title="第二選區">
-                                        <ul>
-
-                                        </ul>
-                                    </b-tab>
-                                    <b-tab title="第三選區">
-
-                                    </b-tab>
-                                    <b-tab title="第四選區">
-
-                                    </b-tab>
-                                    <b-tab title="第五選區">
-
-                                    </b-tab>
-                                    <b-tab title="第六選區">
-
-                                    </b-tab>
-                                    <b-tab title="第七選區">
-
-                                    </b-tab>
-                                </b-tabs>
-
-                            </b-tab>
-                            <b-tab title="桃園市">
-                                <b-tabs content-class="mt-3" fill>
-                                    <!-- 選區 -->
-                                    <b-tab title="第一選區" active>
-                                        <b-tab title="第一選區">
-
-                                        </b-tab>
-                                    </b-tab>
-                                    <b-tab title="第二選區">
-                                        <ul>
-
-                                        </ul>
-                                    </b-tab>
-                                    <b-tab title="第三選區">
-
-                                    </b-tab>
-                                    <b-tab title="第四選區">
-
-                                    </b-tab>
-                                    <b-tab title="第五選區">
-
-                                    </b-tab>
-                                    <b-tab title="第六選區">
-
-                                    </b-tab>
-                                    <b-tab title="第七選區">
-
-                                    </b-tab>
-                                </b-tabs>
-
-                            </b-tab>
-                            <b-tab title="新竹縣">
-                                <b-tabs content-class="mt-3" fill>
-                                    <!-- 選區 -->
-                                    <b-tab title="第一選區" active>
-                                        <b-tab title="第一選區">
-
-                                        </b-tab>
-                                    </b-tab>
-                                    <b-tab title="第二選區">
-                                        <ul>
-
-                                        </ul>
-                                    </b-tab>
-                                    <b-tab title="第三選區">
-
-                                    </b-tab>
-                                    <b-tab title="第四選區">
-
-                                    </b-tab>
-                                    <b-tab title="第五選區">
-
-                                    </b-tab>
-                                    <b-tab title="第六選區">
-
-                                    </b-tab>
-                                    <b-tab title="第七選區">
-
-                                    </b-tab>
-                                </b-tabs>
-
-                            </b-tab>
-                            <b-tab title="新竹市">
-                                <b-tabs content-class="mt-3" fill>
-                                    <!-- 選區 -->
-                                    <b-tab title="第一選區" active>
-                                        <b-tab title="第一選區">
-
-                                        </b-tab>
-                                    </b-tab>
-                                    <b-tab title="第二選區">
-                                        <ul>
-
-                                        </ul>
-                                    </b-tab>
-                                    <b-tab title="第三選區">
-
-                                    </b-tab>
-                                    <b-tab title="第四選區">
-
-                                    </b-tab>
-                                    <b-tab title="第五選區">
-
-                                    </b-tab>
-                                    <b-tab title="第六選區">
-
-                                    </b-tab>
-                                    <b-tab title="第七選區">
-
-                                    </b-tab>
-                                </b-tabs>
-
-                            </b-tab>
-                        </b-tabs>
-
-                    </div>
-
-                </b-tab>
+                    </b-tab>
+                </div>
             </b-tabs>
         </div>
     </div>
 </template>
 
 <script>
+
 export default {
     data() {
         return {
             title: '候選人介紹',
+            list: [
+                {
+                    area: '北部',
+                    city: ['基隆市', '台北市', '新北市', '桃園市', '新竹縣', '新竹市',],
+                    district: ['第一選區', '第二選區', '第三選區', '第四選區', '第五選區', '第六選區',],
+                },
+                {
+                    area: '中部',
+                    city: ['苗栗縣', '台中市', '彰化縣', '南投縣', '雲林縣',],
+                    district: ['第一選區', '第二選區', '第三選區', '第四選區', '第五選區', '第六選區',],
+                },
+                {
+                    area: '南部',
+                    city: ['嘉義市', '嘉義縣', '台南市', '高雄市', '屏東縣',],
+                    district: ['第一選區', '第二選區', '第三選區', '第四選區', '第五選區', '第六選區',],
+                },
+                {
+                    area: '東部',
+                    city: ['花蓮縣', '台東縣',],
+                    district: ['第一選區', '第二選區', '第三選區', '第四選區', '第五選區', '第六選區',],
+                },
+                {
+                    area: '離島',
+                    city: ['澎湖縣', '金門縣', '連江縣',],
+                    district: ['第一選區', '第二選區', '第三選區', '第四選區', '第五選區', '第六選區',],
+                },
+            ],
+
+
         }
     },
 
