@@ -342,6 +342,7 @@
                             </b-tab>
                         </b-tabs>
                     </b-tab>
+
                     <b-tab title="南部">
                         <b-tabs content-class="mt-3" fill>
                             <b-tab title="嘉義市">
@@ -395,7 +396,7 @@
                                             <!-- exp -->
                                             <p class="exp_title">經歷</p>
                                             <p class="exp_content"
-                                                v-for="(item, index) of getProfile114[index].experience.exp"
+                                                v-for="(item, index) of getProfile14[index].experience.exp"
                                                 :key="index">
                                                 {{item}}</p>
                                         </div>
@@ -491,6 +492,7 @@
                             </b-tab>
                         </b-tabs>
                     </b-tab>
+
                     <b-tab title="東部">
                         <b-tabs content-class="mt-3" fill>
                             <b-tab title="花蓮縣">
@@ -556,11 +558,11 @@
                     <b-tab title="離島">
                         <b-tabs content-class="mt-3" fill>
                             <b-tab title="澎湖縣">
-                                <div class="layout" v-for="(item, index) of getProfile19" :key="index">
+                                <div class="layout" v-for="(item, index) of getProfile20" :key="index">
                                     <div class="layout_card">
-                                        <img class="person_img" :src="getProfile19[index].photo" alt="personal"
+                                        <img class="person_img" :src="getProfile20[index].photo" alt="personal"
                                             loading="lazy">
-                                        <img class="party_img" :src="getProfile19[index].party_photo" alt="party"
+                                        <img class="party_img" :src="getProfile20[index].party_photo" alt="party"
                                             loading="lazy">
                                         <!-- person -->
                                         <div class="text">
@@ -570,14 +572,14 @@
                                             <!-- edu -->
                                             <p class="edu_title">最高學歷</p>
                                             <p class="edu_content"
-                                                v-for="(item, index) of getProfile19[index].experience.edu"
+                                                v-for="(item, index) of getProfile20[index].experience.edu"
                                                 :key="index">
                                                 {{item}}
                                             </p>
                                             <!-- exp -->
                                             <p class="exp_title">經歷</p>
                                             <p class="exp_content"
-                                                v-for="(item, index) of getProfile19[index].experience.exp"
+                                                v-for="(item, index) of getProfile20[index].experience.exp"
                                                 :key="index">
                                                 {{item}}</p>
                                         </div>
