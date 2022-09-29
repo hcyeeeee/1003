@@ -9,11 +9,9 @@
         <ContentDistrict />
         <ContentVideo />
         <Footer />
-        <!-- <AdditionSide /> -->
-        <!-- <AdditionScrolltop /> -->
-        <!-- <AdditionBottom /> -->
         <Share />
         <ContentProfile />
+        <!-- <ContentPM /> -->
     </div>
 </template>
 
@@ -27,11 +25,9 @@ import ContentVideo from '@/components/Content_video.vue'
 import ContentNews from '@/components/Content_news.vue'
 import ContentDistrict from '@/components/Content_district.vue'
 import Footer from '@/components/Footer.vue'
-// import AdditionSide from '@/components/Addition_side.vue'
-// import AdditionScrolltop from './components/Addition_scrolltop.vue'
 import Share from './components/share.vue'
-// import AdditionBottom from './components/Addition_bottom.vue'
 import ContentProfile from './components/Content_profile.vue'
+// import ContentPM from './components/Content_pm.vue'
 export default {
     name: 'App',
     components: {
@@ -44,10 +40,9 @@ export default {
         ContentDistrict,
         ContentVideo,
         Footer,
-        // AdditionSide,
-        // AdditionScrolltop,
         Share,
-        ContentProfile
+        ContentProfile,
+        // ContentPM,
     },
 }
 </script>
@@ -361,10 +356,10 @@ hr {
     border: 0;
     border-top: 2px solid;
     opacity: .9;
-    
+
 }
 
-.nav-tabs{
---bs-nav-tabs-border-color:transparent;
+.nav-tabs {
+    --bs-nav-tabs-border-color: transparent;
 }
 </style>
