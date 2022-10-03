@@ -3,19 +3,61 @@
         <h3>{{ title }}</h3>
 
         <ul class="desktop">
-            <li @click="getData_ftvNews">北部</li>
-            <li @click="getData_ftvNews1">中部</li>
-            <li @click="getData_ftvNews2">南部</li>
-            <li @click="getData_ftvNews2">東部</li>
-            <li @click="getData_ftvNews2">離島</li>
+            <li @click="getData_ftvNews">宜蘭市</li>
+            <li @click="getData_ftvNews1">基隆市</li>
+            <li @click="getData_ftvNews2">台北市</li>
+            <li @click="getData_ftvNews3">新北市</li>
+            <li @click="getData_ftvNews4">桃園市</li>
+            <li @click="getData_ftvNews5">新竹市</li>
+            <li @click="getData_ftvNews6">新竹縣</li>
+            <!-- 中部 -->
+            <li @click="getData_ftvNews7">苗栗縣</li>
+            <li @click="getData_ftvNews8">台中市</li>
+            <li @click="getData_ftvNews9">彰化縣</li>
+            <li @click="getData_ftvNews10">南投縣</li>
+            <li @click="getData_ftvNews11">雲林縣</li>
+            <!-- 南部 -->
+            <li @click="getData_ftvNews12">嘉義市</li>
+            <li @click="getData_ftvNews13">嘉義縣</li>
+            <li @click="getData_ftvNews14">台南市</li>
+            <li @click="getData_ftvNews15">高雄市</li>
+            <li @click="getData_ftvNews16">屏東縣</li>
+            <!-- 東部 -->
+            <li @click="getData_ftvNews17">花蓮縣</li>
+            <li @click="getData_ftvNews18">台東縣</li>
+            <!-- 離島 -->
+            <li @click="getData_ftvNews19">澎湖縣</li>
+            <li @click="getData_ftvNews20">金門縣</li>
+            <li @click="getData_ftvNews21">連江縣</li>
         </ul>
 
         <ul class="mobile">
-            <li @click="getData_ftvNews">北部</li>
-            <li @click="getData_ftvNews1">中部</li>
-            <li @click="getData_ftvNews2">南部</li>
-            <li @click="getData_ftvNews2">東部</li>
-            <li @click="getData_ftvNews2">離島</li>
+            <li @click="getData_ftvNews">宜蘭市</li>
+            <li @click="getData_ftvNews1">基隆市</li>
+            <li @click="getData_ftvNews2">台北市</li>
+            <li @click="getData_ftvNews3">新北市</li>
+            <li @click="getData_ftvNews4">桃園市</li>
+            <li @click="getData_ftvNews5">新竹市</li>
+            <li @click="getData_ftvNews6">新竹縣</li>
+            <!-- 中部 -->
+            <li @click="getData_ftvNews7">苗栗縣</li>
+            <li @click="getData_ftvNews8">台中市</li>
+            <li @click="getData_ftvNews9">彰化縣</li>
+            <li @click="getData_ftvNews10">南投縣</li>
+            <li @click="getData_ftvNews11">雲林縣</li>
+            <!-- 南部 -->
+            <li @click="getData_ftvNews12">嘉義市</li>
+            <li @click="getData_ftvNews13">嘉義縣</li>
+            <li @click="getData_ftvNews14">台南市</li>
+            <li @click="getData_ftvNews15">高雄市</li>
+            <li @click="getData_ftvNews16">屏東縣</li>
+            <!-- 東部 -->
+            <li @click="getData_ftvNews17">花蓮縣</li>
+            <li @click="getData_ftvNews18">台東縣</li>
+            <!-- 離島 -->
+            <li @click="getData_ftvNews19">澎湖縣</li>
+            <li @click="getData_ftvNews20">金門縣</li>
+            <li @click="getData_ftvNews21">連江縣</li>
         </ul>
 
         <div class="line">
@@ -27,18 +69,20 @@
         <div class="section-box">
             <div class="news-layout desktop">
                 <div class="news" v-for="(item, index) of newsInfo" :key="index">
-                    <a :href="'https://www.ftvnews.com.tw/news/detail/' + item.ID" target="blank">
-                        <div>
-                            <img :src="item.Image" alt=" 議員候選人" />
 
-                        </div>
-                        <div>
-                            <h2 class="title">{{ item.Title }}</h2>
-                        </div>
-                        <div>
-                            <p>{{ item.CreateDate }}</p>
+                    <a :href="'https://www.ftvnews.com.tw/news/detail/' + item.ID" target="blank">
+                        <div class="content-layout">
+
+
+                            <img :src="' https://www.ftvnews.com.tw/topics/test/image/'+ item.party +'.jpg'"
+                                alt="新聞封面照" />
+                            <div class="porfile">
+                                <h2 class="name">{{ item.name }}</h2>
+                                <h2 class="party">{{ item.party }}</h2>
+                            </div>
                         </div>
                     </a>
+
                 </div>
             </div>
 
@@ -46,10 +90,13 @@
                 <div class="news" v-for="(item, index) of newsInfo" :key="index">
                     <a :href="'https://www.ftvnews.com.tw/news/detail/' + item.ID" target="blank">
                         <div class="content-layout">
-                            <img :src="item.Image" alt="新聞封面照" />
+
+
+                            <img :src="' https://www.ftvnews.com.tw/topics/test/image/'+ item.party +'.jpg'"
+                                alt="新聞封面照" />
                             <div class="porfile">
-                                <h2 class="name">黃珊珊</h2>
-                                <h2 class="party">小咪黨</h2>
+                                <h2 class="name">{{ item.name }}</h2>
+                                <h2 class="party">{{ item.party }}</h2>
                             </div>
                         </div>
                     </a>
@@ -71,11 +118,12 @@ export default {
         }
     },
     methods: {
+        // Yilan
         getData_ftvNews() {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=九合一選舉&Page=1&sp=6')
+                .get('https://www.ftvnews.com.tw/topics/test/Yilan.json')
                 .then((response) => {
                     // console.log(response)
                     let data = response.data.ITEM
@@ -88,51 +136,48 @@ export default {
                     console.log('error' + error)
                 })
         },
+        //Keelung 
         getData_ftvNews1() {
-
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=政治&Page=1&sp=6')
+                .get('https://www.ftvnews.com.tw/topics/test/Keelung.json')
                 .then((response) => {
                     // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.Keelung
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
-                    // console.log(this.newsInfo)
                 })
                 .catch((error) => {
                     console.log('error' + error)
                 })
         },
+        // Taipei
         getData_ftvNews2() {
-
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=18歲公民權&Page=1&sp=6')
+                .get('https://www.ftvnews.com.tw/topics/test/Taipei.json')
                 .then((response) => {
-                    // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.Taipei
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
-                    // console.log(this.newsInfo)
                 })
                 .catch((error) => {
                     console.log('error' + error)
                 })
         },
+        //Newtaipei
         getData_ftvNews3() {
-
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=桃園市選戰&Page=1&sp=9')
+                .get('https://www.ftvnews.com.tw/topics/test/Newtaipei.json')
                 .then((response) => {
                     // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.Newtaipei
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
@@ -142,15 +187,16 @@ export default {
                     console.log('error' + error)
                 })
         },
+        //Taoyuan
         getData_ftvNews4() {
 
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=新竹市選戰&Page=1&sp=9')
+                .get('https://www.ftvnews.com.tw/topics/test/Taoyuan.json')
                 .then((response) => {
                     // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.Taoyuan
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
@@ -160,32 +206,15 @@ export default {
                     console.log('error' + error)
                 })
         },
-
-        getData_ftvNews5() {
-            document.querySelectorAll('.news').forEach((e) => e.remove())
-            // eslint-disable-next-line no-undef
-            axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=九合一選舉&Page=1&sp=4')
-                .then((response) => {
-                    // console.log(response)
-                    let data = response.data.ITEM
-                    data.forEach((item) => {
-                        this.newsInfo.push(item)
-                    })
-                    // console.log(this.newsInfo)
-                })
-                .catch((error) => {
-                    console.log('error' + error)
-                })
-        },
+        //新竹縣
         getData_ftvNews6() {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=政治&Page=1&sp=4')
+                .get('https://www.ftvnews.com.tw/topics/test/HsinchuCountry.json')
                 .then((response) => {
                     // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.HsinchuCountry
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
@@ -195,14 +224,33 @@ export default {
                     console.log('error' + error)
                 })
         },
+        //Hsinchucity:
+        getData_ftvNews5() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Hsinchucity.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Hsinchucity
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //苗栗縣
         getData_ftvNews7() {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=18歲公民權&Page=1&sp=4')
+                .get('https://www.ftvnews.com.tw/topics/test/Miaoli.json')
                 .then((response) => {
                     // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.Miaoli
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
@@ -212,15 +260,15 @@ export default {
                     console.log('error' + error)
                 })
         },
+        //Taichung
         getData_ftvNews8() {
-
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=桃園市選戰&Page=1&sp=4')
+                .get('https://www.ftvnews.com.tw/topics/test/Taichung.json')
                 .then((response) => {
                     // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.Taichung
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
@@ -230,15 +278,15 @@ export default {
                     console.log('error' + error)
                 })
         },
+        //Changhua
         getData_ftvNews9() {
-
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=新竹市選戰&Page=1&sp=4')
+                .get('https://www.ftvnews.com.tw/topics/test/Changhua.json')
                 .then((response) => {
                     // console.log(response)
-                    let data = response.data.ITEM
+                    let data = response.data.Changhua
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
@@ -248,6 +296,223 @@ export default {
                     console.log('error' + error)
                 })
         },
+        //Nantou
+        getData_ftvNews10() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Nantou.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Nantou
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Yunlin
+        getData_ftvNews11() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Yunlin.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Yunlin
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Chiayicity
+        getData_ftvNews12() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Chiayicity.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Chiayicity
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //ChiayiCountry
+        getData_ftvNews13() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/ChiayiCountry.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ChiayiCountry
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Tainan
+        getData_ftvNews14() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Tainan.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Tainan
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Kaohsiung
+        getData_ftvNews15() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Kao.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Kao
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Pingtung
+        getData_ftvNews16() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Pingtung.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Pingtung
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Hualien
+        getData_ftvNews17() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Hualien.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Hualien
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Taitung
+        getData_ftvNews18() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Tai.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Tai
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Penghu
+        getData_ftvNews19() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Penghu.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Penghu
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Kinmen
+        getData_ftvNews20() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Kinmen.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Kinmen
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        //Lienchiang
+        getData_ftvNews21() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://www.ftvnews.com.tw/topics/test/Lienchiang.json')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.Lienchiang
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+
     },
     mounted() {
         this.getData_ftvNews()

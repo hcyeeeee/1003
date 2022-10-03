@@ -1,0 +1,410 @@
+{
+  "Hualien": [
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "胡仁順",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "張美慧",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "謝國榮",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "林宗昆",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "吳東昇",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "徐子芳",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "韓林梅",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "蔡翼鍾",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "洪士閔",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "傅國淵",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "楊華美",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 1,
+      "name": "魏嘉賢",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 2,
+      "name": "陳財能",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 2,
+      "name": "邱光明",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 2,
+      "name": "鄭寶秀",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "王格致",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "林則箷",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "黃馨",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "吳建志",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "張正治",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "林品仰",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "徐雪玉",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "蔡文隆",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "潘璿安",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "陳慶元",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "張峻",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "林源富",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "鄭乾龍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "王能昌",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 3,
+      "name": "沈君茹",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 4,
+      "name": "陳飛廷",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 4,
+      "name": "詹金富",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 4,
+      "name": "鍾素政",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 4,
+      "name": "黃玲蘭",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 4,
+      "name": "陳志明",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 5,
+      "name": "林資斌",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 5,
+      "name": "督固·撒耘",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 5,
+      "name": "陳進德",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 5,
+      "name": "周駿宥",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 5,
+      "name": "笛布斯‧顗賚",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 5,
+      "name": "李正文",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 5,
+      "name": "葉志豪",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 6,
+      "name": "林正福",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 6,
+      "name": "何進雄（Kin Cian‧Ri Pun）",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 6,
+      "name": "賴國祥（O·Seng·Ka'ti）",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 6,
+      "name": "蔡依靜（Lamen‧Panay）",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 7,
+      "name": "陳建忠",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 7,
+      "name": "林玉芬",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 7,
+      "name": "哈尼‧噶照",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 7,
+      "name": "葉微琪",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 7,
+      "name": "陳德仁",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 8,
+      "name": "程美蓮",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 8,
+      "name": "田韻馨",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 8,
+      "name": "連一龍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 9,
+      "name": "吳香蘭（Hisa‧Sakay）",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 9,
+      "name": "簡智隆",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 10,
+      "name": "金淑敏",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "花蓮縣",
+      "zone": 10,
+      "name": "高小成",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    }
+  ]
+}

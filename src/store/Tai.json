@@ -1,0 +1,431 @@
+{
+  "Tai": [
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "黃治維",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "林文隆",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "余振維",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "簡維國",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "李建智",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "吳秀華",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "陳志峰",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "周達三",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "張國洲",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "傅文鵬",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "林冠任",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "吳景槐",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "林參天",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "王文怡",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "劉秋美",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "陳允萍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "宋良安",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "張躍贏",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 1,
+      "name": "蔣明道",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 2,
+      "name": "許文獻",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 2,
+      "name": "楊招信",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 3,
+      "name": "林東滿",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 3,
+      "name": "許進榮",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 4,
+      "name": "林金樺",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 4,
+      "name": "戴文達",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 4,
+      "name": "王瀚駿",
+      "party": "台灣維新",
+      "party_photo": "../assets/台灣團結聯盟.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 4,
+      "name": "陳宏宗",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 4,
+      "name": "張堯城",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 4,
+      "name": "潘貴蘭",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 5,
+      "name": "翁麗吟",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 5,
+      "name": "林曉彤",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 6,
+      "name": "李數奼",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 6,
+      "name": "王姷力",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 6,
+      "name": "林為德",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 6,
+      "name": "林誌鴻",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 7,
+      "name": "林琮翰",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 7,
+      "name": "方賢仁",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 7,
+      "name": "陽昇宏",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 7,
+      "name": "陳政宗",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 7,
+      "name": "張信一",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 7,
+      "name": "林秀信",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 8,
+      "name": "鄭崗山",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 8,
+      "name": "江堅壽",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 9,
+      "name": "尤忠正",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 10,
+      "name": "楊清順（Cinsun·Pawtawan）",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 11,
+      "name": "高美珠",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 11,
+      "name": "楊秋珍",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 11,
+      "name": "嚴惠美",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 11,
+      "name": "武雪恩",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 12,
+      "name": "古志成",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 13,
+      "name": "張全馨嵐",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 13,
+      "name": "江金香",
+      "party": "無黨籍 ",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 13,
+      "name": "余秀芳",
+      "party": "無黨籍 ",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 14,
+      "name": "章正輝（Lemajiz‧Kusaza）",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 14,
+      "name": "林本森",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 15,
+      "name": "蔡玉玲",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 15,
+      "name": "林芳如",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 15,
+      "name": "葉巴格力亞斯振宇",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 16,
+      "name": "黃碧妹",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 16,
+      "name": "黃天德",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "臺東縣",
+      "zone": 16,
+      "name": "施森茂",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    }
+  ]
+}

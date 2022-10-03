@@ -1,0 +1,284 @@
+{
+  "Chiayicity": [
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "黃盈智",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "黃露慧",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "凌子楚",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "傅大偉",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "陳家平",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "張敏琪",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "梁樹綸",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "郭定緯",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "林昱孜",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "翁渙瑤",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "蔡永泉",
+      "party": "台灣團結聯盟",
+      "party_photo": "../assets/台灣團結聯盟.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "張榮藏",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "李奕德",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "戴寧",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "郭文居",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "林瑞霞",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "顏色不分藍綠支持性專區顏色田慎節",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 1,
+      "name": "吳家慧",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "蔡文旭",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "黃大祐",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "黃敏修",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "許明對",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "林煒軒",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "陳品蓁",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "張秀華",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "鄭光宏",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "林雪峰",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "蘇慶良",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "張閔舜",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "王浩",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "洪瑋庭",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "蘇澤峰",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "莊豐安",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "李忠曆",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "孫貫志",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "陳姿妏",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "黃思婷",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "蔡坤叡",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "王冠鈞",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "嘉義市",
+      "zone": 2,
+      "name": "李錦洋",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    }
+  ]
+}

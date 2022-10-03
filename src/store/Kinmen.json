@@ -1,0 +1,228 @@
+{
+  "Kinmen": [
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "蔡其雍",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "許玉昭",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "歐陽儀雄",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "洪允典",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "周曉芸",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "董森堡",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "楊永立",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "石永城",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "李養生",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "唐麗輝",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "王碧珍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "翁文奧",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "許大鴻",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "陳泱瑚",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "楊霈璿",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 1,
+      "name": "胡凱宇",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "周子傑",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "王秀玉",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "林長鴻",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "王國代",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "馬自壯",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "蔡水游",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "張雲量",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "黃子誠",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "陳錦偉",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "吳金鏷",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "歐陽豪",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "吳佩雯",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 2,
+      "name": "楊育菡",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 3,
+      "name": "洪成發",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 3,
+      "name": "洪鴻斌",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "金門縣",
+      "zone": 3,
+      "name": "吳嘉將",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    }
+  ]
+}

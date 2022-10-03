@@ -1,0 +1,487 @@
+{
+  "Nantou": [
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "沈夙崢",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "曾琮愷",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "吳棋楠",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "楊玉秀",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "洪浩原",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "史雪燕",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "宋懷琳",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "林憶如",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "林儒暘",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "紀百鍊",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "簡千翔",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "曾振炎",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "蔡宗智",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "洪明科",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "張雅琪",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "張秀枝",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "張婉慈",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "王燕珠",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "林佑虔",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "邱奇才",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "白騏澤",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "史祝賢",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "王鵬霖",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "洪志杰",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "張錫淵",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 1,
+      "name": "賴世皎",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "蔡銘軒",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "李帛璋",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "廖梓佑",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "李洲忠",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "唐曉棻",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "涂恩平",
+      "party": "台灣團結聯盟",
+      "party_photo": "../assets/台灣團結聯盟.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "阮惠心",
+      "party": "台灣新住民黨",
+      "party_photo": "../assets/台灣新住民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "簡峻庭",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "簡賜勝",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "莊士傑",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "廖明川",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "邱淑君",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 2,
+      "name": "林友友",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 3,
+      "name": "林良政",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 3,
+      "name": "王秋淑",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 3,
+      "name": "陳淑惠",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 3,
+      "name": "謝明謀",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 3,
+      "name": "陳奎合",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 3,
+      "name": "李天慧",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 3,
+      "name": "黃春麟",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 4,
+      "name": "陳玉鈴",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 4,
+      "name": "游顥",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 4,
+      "name": "何勝豐",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 4,
+      "name": "黃東灝",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 4,
+      "name": "吳瑞芳",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 4,
+      "name": "蔡孟娥",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 4,
+      "name": "李廣演",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "葉仁創",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "陳宜君",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "蘇昱誠",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "潘一全",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "王彩雲",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "林芳伃",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "黃世芳",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "戴世詮",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "吳國昌",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 5,
+      "name": "陳淯程",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 6,
+      "name": "江秉翰",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 6,
+      "name": "石慶龍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 7,
+      "name": "全文才",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 7,
+      "name": "王榮儀",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 8,
+      "name": "廖崧皓",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "南投縣",
+      "zone": 8,
+      "name": "林婷立",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    }
+  ]
+}

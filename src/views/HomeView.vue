@@ -7,6 +7,7 @@
     <ContentTime />
     <ContentProfile />
     <ContentNews />
+    <ContentDistrict />
     <ContentVideo />
     <Footer />
     <Share />
@@ -23,6 +24,7 @@ import ContentProcess from '@/components/Content_process.vue'
 import ContentTime from '@/components/Content_time.vue'
 import ContentVideo from '@/components/Content_video.vue'
 import ContentNews from '@/components/Content_news.vue'
+import ContentDistrict from '@/components/Content_district.vue'
 import Footer from '@/components/Footer.vue'
 import Share from '../components/share.vue'
 
@@ -35,6 +37,7 @@ export default {
     ContentProcess,
     ContentTime,
     ContentNews,
+    ContentDistrict,
     ContentVideo,
     Footer,
     Share,
@@ -287,8 +290,12 @@ figure {
 .section {
   font-family: 'Noto Sans TC';
   margin: 2rem auto;
-  max-width: 1000px;
 
+
+}
+
+.nav-tabs {
+  max-width: 1000px;
 }
 
 .section-box {
@@ -370,6 +377,7 @@ hr {
   display: flex;
   flex-flow: nowrap !important;
   overflow: scroll;
+  margin: auto;
 }
 
 .nav-link {

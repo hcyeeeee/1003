@@ -6,7 +6,7 @@
     </div>
 
 </template>
-
+<!-- 
 <script >
 var nowTime = new Date();
 console.log(Date());
@@ -46,7 +46,7 @@ export default {
         },
     }
 }
-</script>
+</script> -->
 <style scoped>
 .addition {
     display: flex;

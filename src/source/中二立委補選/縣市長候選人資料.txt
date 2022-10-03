@@ -848,3 +848,33 @@ Kolas Yotaka
 * ../assets/饒慶鈴
 * ../assets/黃師鵬
 * ../assets/黃紹聰
+
+
+
+
+  <li @click="getData_ftvNews">宜蘭縣</li>
+            <li @click="getData_ftvNews1">基隆市</li>
+            <li @click="getData_ftvNews2">台北市</li>
+            <li @click="getData_ftvNews3">新北市</li>
+            <li @click="getData_ftvNews4">桃園市</li>
+            <li @click="getData_ftvNews5">新竹縣</li>
+            <li @click="getData_ftvNews6">新竹市</li>
+            <!-- 中部 -->
+            <li @click="getData_ftvNews7">苗栗縣</li>
+            <li @click="getData_ftvNews8">台中市</li>
+            <li @click="getData_ftvNews9">彰化縣</li>
+            <li @click="getData_ftvNews10">南投縣</li>
+            <li @click="getData_ftvNews11">雲林縣</li>
+             <!-- 南部 -->
+             <li @click="getData_ftvNews12">嘉義市</li>
+            <li @click="getData_ftvNews13">嘉義縣</li>
+            <li @click="getData_ftvNews14">台南市</li>
+            <li @click="getData_ftvNews15">高雄市</li>
+            <li @click="getData_ftvNews16">屏東縣</li>
+              <!-- 東部 -->
+              <li @click="getData_ftvNews17">花蓮縣</li>
+            <li @click="getData_ftvNews18">台東縣</li>
+               <!-- 離島 -->
+            <li @click="getData_ftvNews19">澎湖縣</li>
+            <li @click="getData_ftvNews20">金門縣</li>
+            <li @click="getData_ftvNews21">連江縣</li>

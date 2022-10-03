@@ -1,0 +1,410 @@
+{
+  "ITEM": [
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "林麗",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "黃惠慈",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "吳福田",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "林岳賢",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "張勝德",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "莊淑如",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "尤文瀚",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "林正芳",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "陳漢澤",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "楊順木",
+      "party": "正神名黨",
+      "party_photo": "../assets/正神明黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "黃定和",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "林錫明",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "胡健森",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "魯秀傑",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "潘淑芬",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "吳長青",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 1,
+      "name": "孫博萮",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 2,
+      "name": "林詩穎",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 2,
+      "name": "賴良洲",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 2,
+      "name": "簡英俊",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 2,
+      "name": "林東成",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 3,
+      "name": "吳宏謀",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 3,
+      "name": "李清林",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 3,
+      "name": "林聰池",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 4,
+      "name": "陳俊宇",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 4,
+      "name": "黃浴沂",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 5,
+      "name": "黃建勇",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 5,
+      "name": "陳福山",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "呂惠卿",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "劉添梧",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "謝家倫",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "黃琤婷",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "陳鴻禧",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "謝志得",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "楊坊翔",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "林意評",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 6,
+      "name": "陳漢鍾",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 7,
+      "name": "簡松樹",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 7,
+      "name": "張明華",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 7,
+      "name": "林義剛",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 7,
+      "name": "沈信雄",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 8,
+      "name": "謝燦輝",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 8,
+      "name": "林佩螢",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 8,
+      "name": "江汶賢",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 8,
+      "name": "楊弘旻",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 8,
+      "name": "邱素梅",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 8,
+      "name": "張芷珊",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 9,
+      "name": "陳文昌",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 9,
+      "name": "吳珮菱",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 9,
+      "name": "江信賢",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 10,
+      "name": "謝正信",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 10,
+      "name": "陳金麟",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 10,
+      "name": "李茂豐",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 10,
+      "name": "陳玉萍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 11,
+      "name": "孫湯玉惠（aly saku）",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 12,
+      "name": "沈志弘",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 12,
+      "name": "陳傑麟",
+      "party": "親民黨",
+      "party_photo": "../assets/親民黨.jpg"
+    },
+    {
+      "city": "宜蘭縣",
+      "zone": 13,
+      "name": "游吉祥",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    }
+  ]
+}

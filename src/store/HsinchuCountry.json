@@ -1,0 +1,522 @@
+{
+  "HsinchuCountry": [
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "張珈源",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "蔡蕥鍹",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "歐陽霆",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "王炳漢",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "陳凱榮",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "蔡志環",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "杜文中",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "林增堂",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "吳旭智",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "林碩彥",
+      "party": "台灣民眾黨 ",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "陳立基",
+      "party": "台灣民眾黨 ",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "連郁婷",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "陳冠宇",
+      "party": "綠黨",
+      "party_photo": "../assets/綠黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "許育綸",
+      "party": "勞動黨",
+      "party_photo": "../assets/勞動黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "鄭美琴",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "林禹佑",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "林祺軒",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "朱健銘",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "陳文得",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "范植華",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "鄭福強",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 1,
+      "name": "邱靖雅",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "何建樺",
+      "party": "民主進步黨 ",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "吳菊花",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "陳德木",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "陳栢誠",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "萬正英",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "齊占翔",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "范振龍",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "羅美文",
+      "party": "勞動黨",
+      "party_photo": "../assets/勞動黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "甄克堅",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 2,
+      "name": "張燦堂",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 3,
+      "name": "吳傳地",
+      "party": "民主進步黨 ",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 3,
+      "name": "張鎮榮",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 3,
+      "name": "徐勝凌",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 3,
+      "name": "何智達",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 4,
+      "name": "吳發勝",
+      "party": "民主進步黨 ",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 4,
+      "name": "羅仕琦",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 4,
+      "name": "徐瑜新",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 5,
+      "name": "范曰富",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 5,
+      "name": "林保祿",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 5,
+      "name": "呂宛庭",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 6,
+      "name": "張良印",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 6,
+      "name": "張永奎",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 7,
+      "name": "劉代洋",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 7,
+      "name": "鄭昱芸",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "楊昌德",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "黃豪傑",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "上官秋燕",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "彭余美玲",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "馮守亮",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "林子丞",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "彭致豪",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "余筱菁",
+      "party": "綠黨",
+      "party_photo": "../assets/綠黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "劉珈愷",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "范振港",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "范振東",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "呂幸潤",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "鄭朝鐘",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "林昭錡",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "陳晏華",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "鄭正",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "劉興藻",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 8,
+      "name": "林若宸",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 9,
+      "name": "邱坤桶",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 10,
+      "name": "范文鴻",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 10,
+      "name": "王辰翔",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 10,
+      "name": "湯惠鈴",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 11,
+      "name": "法隆伊佑",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 11,
+      "name": "林秉君（Kaying·Kuying·Kalang）",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 12,
+      "name": "劉建民",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 12,
+      "name": "林世偉",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 13,
+      "name": "張益生",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "新竹縣",
+      "zone": 13,
+      "name": "張雁萍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    }
+  ]
+}

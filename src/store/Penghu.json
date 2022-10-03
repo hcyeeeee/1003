@@ -1,0 +1,207 @@
+{
+  "Penghu": [
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "呂黃春金",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "盧長在",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "蘇育德",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "劉陳昭玲",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "呂光宇",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "歐中慨",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "許國政",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "林建勳",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "許智富",
+      "party": "台灣民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "胡松榮",
+      "party": " 無黨團結聯盟",
+      "party_photo": "../assets/無黨團結聯盟.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "張再興",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "陳海山",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "藍凱元",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "蘇陳綉色",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "莊光大",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "陳文謙",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "陳毓仁",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 1,
+      "name": "歐修智",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 2,
+      "name": "蔡清續",
+      "party": "民主進步黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 2,
+      "name": "吳政杰",
+      "party": "中國國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 2,
+      "name": "許育愷",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 2,
+      "name": "廖璟華",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 3,
+      "name": "宋昀芝",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 3,
+      "name": "魏睿宏",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 4,
+      "name": "許月里",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 4,
+      "name": "薛雲鴻",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 5,
+      "name": "陳佩真",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 6,
+      "name": "夏晨榮",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "澎湖縣",
+      "zone": 6,
+      "name": "張仁和",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    }
+  ]
+}

@@ -7,21 +7,32 @@
       </div>
       <!-- desktop -->
       <nav class=" computer navbar">
-        <router-link to="/">Home</router-link>
-        <router-link to="/about">candidate</router-link>
-        <a href="/#news">news</a>
-        <a href="/#footer">vote</a>
+        <router-link to="/">首頁</router-link>
+        <hr>
+        <router-link to="/about">選將名單</router-link>
+        <hr>
+        <a href="/topics/test/#district">地方選戰</a>
+        <hr>
+        <a href="/topics/test/#news">最新新聞</a>
+        <hr>
+        <a href="/topics/test/#video">影音專區</a>
+        <hr>
+        <router-link to="/#live">首頁</router-link>
       </nav>
       <!-- mobile -->
       <div class="fad fa-2x fa-bars mobile" @click="menu">
         <nav class="nav">
-          <router-link to="/">Home</router-link>
+          <router-link to="/">首頁</router-link>
           <hr>
-          <router-link to="/about">candidate</router-link>
+          <router-link to="/about">選將名單</router-link>
           <hr>
-          <a href="/#news">news</a>
+          <a href="/topics/test/#district">地方選戰</a>
           <hr>
-          <a href="/#footer">vote</a>
+          <a href="/topics/test/#news">最新新聞</a>
+          <hr>
+          <a href="/topics/test/#video">影音專區</a>
+          <hr>
+          <a href="/topics/test/#live">直播新聞</a>
           <hr>
         </nav>
       </div>
@@ -91,6 +102,18 @@ export default {
 }
 </style> -->
 <style scoped>
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
 .fixed {
   display: none;
 }

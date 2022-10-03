@@ -1,5 +1,5 @@
 <template>
-    <div class="section" id="profile">
+    <div class="aaa" id="profile">
         <h3>{{ title }}</h3>
         <div class="section-box">
             <!-- 區域 -->
@@ -816,6 +816,7 @@ ul li {
     margin: .5rem;
     width: 300px;
     overflow-y: hidden;
+    overflow-y: scroll;
     height: 600px;
 
 }
@@ -830,6 +831,7 @@ ul li {
         margin: .5rem;
         width: 250px;
         overflow-y: hidden;
+        overflow-y: scroll;
         height: 500px;
     }
 
@@ -898,6 +900,8 @@ p {
 
 .tab-content {
     overflow: scroll;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .tab-content::after {

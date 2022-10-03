@@ -1,0 +1,935 @@
+{
+  "Taichung": [
+    {
+      "city": "台中市",
+      "zone": 1,
+      "name": "施志昌",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 1,
+      "name": "吳敏濟",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 1,
+      "name": "楊啓邦",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 1,
+      "name": "李文傑",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "王立任",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "楊典忠",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "張清照",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "顏莉敏",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "陳怡萱",
+      "party": "小民參政歐巴桑聯盟",
+      "party_photo": "../assets/小民參政歐巴桑聯盟.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "陳廷秀",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "尤碧鈴",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "陳奇勳",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 2,
+      "name": "紀金豐",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "張家銨",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "曾威",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "吳瓊華",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "魏嘉慶",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "林孟令",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "林昊佑",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "陳玄曄",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "楊文元",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 3,
+      "name": "宋柏誼",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "謝志忠",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "廖芝晏",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "張瀞分",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "陳本添",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "邱愛珊",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "傅智恆",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "陳若庭",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "陳清龍",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "王朝坤",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "翁美春",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "蔡怡萱",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 4,
+      "name": "黃朝淵",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "蕭隆澤",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "周永鴻",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "林義偉",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "賴朝國",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "羅永珍",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "吳呈賢",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "張睿倉",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "鄭勁節",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "黃郁芩",
+      "party": "小民參政歐巴桑聯盟",
+      "party_photo": "../assets/小民參政歐巴桑聯盟.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "徐瑄灃",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "黃威堯",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 5,
+      "name": "邢振華",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "林祈烽",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "陳淑華",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "黃馨慧",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "張廖乃綸",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "楊大鋐",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "張仲翹",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "曾崇芳",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 6,
+      "name": "羅東霖",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 7,
+      "name": "何文海",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 7,
+      "name": "張耀中",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 7,
+      "name": "朱暖英",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 7,
+      "name": "劉士州",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 7,
+      "name": "洪鑫任",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 7,
+      "name": "吳佩芸",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 7,
+      "name": "何坤鑫",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "曾朝榮",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "蔡雅玲",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "謝家宜",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "陳成添",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "沈佑蓮",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "賴順仁",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "黃健豪",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "邱于珊",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "楊欣怡",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "彭振芳",
+      "party": "前進黨",
+      "party_photo": "../assets/前進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "段體佩",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 8,
+      "name": "李文基",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 9,
+      "name": "賴佳微",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 9,
+      "name": "陳俞融",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 9,
+      "name": "陳政顯",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 9,
+      "name": "陳文政",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 9,
+      "name": "林欣德",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 10,
+      "name": "黃守達",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 10,
+      "name": "江肇國",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 10,
+      "name": "張彥彤",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 10,
+      "name": "許瑞宏",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 10,
+      "name": "林京玲",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 10,
+      "name": "紀文清",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 10,
+      "name": "黃敬傑",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "鄭功進",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "陳雅惠",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "何昆霖",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "李中",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "羅廷瑋",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "林霈涵",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "林俊凱",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "徐小媚",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "張鈺禎",
+      "party": "小民參政歐巴桑聯盟",
+      "party_photo": "../assets/小民參政歐巴桑聯盟.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "翁俊楠",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 11,
+      "name": "林文仲",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 12,
+      "name": "蔡耀頡",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 12,
+      "name": "張玉嬿",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 12,
+      "name": "賴義鍠",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 12,
+      "name": "黃佳恬",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 12,
+      "name": "葉諾凡",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 12,
+      "name": "林宜蓁",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 12,
+      "name": "吳吉森",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "林德宇",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "李天生",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "張芬郁",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "林碧秀",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "蘇柏興",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "鄭伯其",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "江和樹",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "鄒明諺",
+      "party": "時代力量",
+      "party_photo": "../assets/時代力量.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "薛安琪",
+      "party": "小民參政歐巴桑聯盟",
+      "party_photo": "../assets/小民參政歐巴桑聯盟.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "張滄沂",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "段中仁",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "陳裕承",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "林子傑",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 13,
+      "name": "楊偉浚",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 14,
+      "name": "蔡成圭",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 14,
+      "name": "吳振嘉",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 14,
+      "name": "徐煊博",
+      "party": "台灣基進",
+      "party_photo": "../assets/基進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 14,
+      "name": "冉齡軒",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 14,
+      "name": "賴裕銘",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 15,
+      "name": "江愛珍",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 15,
+      "name": "黃仁",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 15,
+      "name": "洪志明",
+      "party": "民眾黨",
+      "party_photo": "../assets/民眾黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 15,
+      "name": "吳建德",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 15,
+      "name": "林清發",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 16,
+      "name": "劉新仁",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 16,
+      "name": "林榮進",
+      "party": "國民黨",
+      "party_photo": "../assets/國民黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 16,
+      "name": "古秀英",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 17,
+      "name": "孫造雄",
+      "party": "民進黨",
+      "party_photo": "../assets/民進黨.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 17,
+      "name": "朱元宏",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    },
+    {
+      "city": "台中市",
+      "zone": 17,
+      "name": "柯靜志",
+      "party": "無黨籍",
+      "party_photo": "../assets/無黨籍.jpg"
+    }
+  ]
+}
