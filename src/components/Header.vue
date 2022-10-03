@@ -16,12 +16,9 @@
                     <a v-for="(item, index) of list" :key="index" :href="item.anchor">
                         {{ item.title }}
                         <hr>
-
                     </a>
                 </nav>
-
             </div>
-
         </div>
     </div>
 
@@ -36,6 +33,10 @@ export default {
                 {
                     title: '首頁',
                     anchor: '#',
+                },
+                {
+                    title: '候選人簡介',
+                    anchor: '#profile',
                 },
                 {
                     title: '最新新聞',

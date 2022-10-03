@@ -1,330 +1,508 @@
 <template>
-    <div class="section" id="profile">
+    <div class="section">
         <h3>{{ title }}</h3>
+
+        <ul class="desktop">
+            <li @click="getData_ftvNews">北部</li>
+            <li @click="getData_ftvNews1">中部</li>
+            <li @click="getData_ftvNews2">南部</li>
+            <li @click="getData_ftvNews2">東部</li>
+            <li @click="getData_ftvNews2">離島</li>
+        </ul>
+
+        <ul class="mobile">
+            <li @click="getData_ftvNews">北部</li>
+            <li @click="getData_ftvNews1">中部</li>
+            <li @click="getData_ftvNews2">南部</li>
+            <li @click="getData_ftvNews2">東部</li>
+            <li @click="getData_ftvNews2">離島</li>
+        </ul>
+
+        <div class="line">
+            <img src="../assets/選舉章icon.png" alt="">
+            <hr>
+            <img src="../assets/選舉章icon.png" alt="">
+        </div>
+
         <div class="section-box">
+            <div class="news-layout desktop">
+                <div class="news" v-for="(item, index) of newsInfo" :key="index">
+                    <a :href="'https://www.ftvnews.com.tw/news/detail/' + item.ID" target="blank">
+                        <div>
+                            <img :src="item.Image" alt=" 議員候選人" />
 
-            <!-- 區域 -->
-            <b-tabs content-class="mt-3" fill>
-                <div class>
-                    <b-tab title="北部">
-                        <b-tabs content-class="mt-3" fill>
-                            <b-tab title="基隆市">
-
-                            </b-tab>
-                            <b-tab title="台北市">
-
-                            </b-tab>
-                            <b-tab title="新北市">
-
-                            </b-tab>
-                            <b-tab title="桃園市">
-
-                            </b-tab>
-                            <b-tab title="新竹縣">
-
-                            </b-tab>
-                            <b-tab title="新竹市">
-
-                            </b-tab>
-                            <b-tab title="宜蘭縣">
-
-                            </b-tab>
-                        </b-tabs>
-                    </b-tab>
-                    <b-tab title="中部">
-                        <b-tabs content-class="mt-3" fill>
-                            <b-tab title="苗栗縣">
-
-                            </b-tab>
-                            <b-tab title="台中市">
-
-
-                            </b-tab>
-                            <b-tab title="彰化縣">
-
-                            </b-tab>
-                            <b-tab title="南投縣">
-
-                            </b-tab>
-                            <b-tab title="雲林縣">
-
-
-                            </b-tab>
-                        </b-tabs>
-                    </b-tab>
-                    <b-tab title="南部">
-                        <b-tabs content-class="mt-3" fill>
-                            <b-tab title="嘉義市">
-
-                            </b-tab>
-                            <b-tab title="嘉義縣">
-
-                            </b-tab>
-                            <b-tab title="台南市">
-
-                            </b-tab>
-                            <b-tab title="高雄市">
-
-                            </b-tab>
-                            <b-tab title="屏東縣">
-
-                            </b-tab>
-                        </b-tabs>
-                    </b-tab>
-                    <b-tab title="東部">
-                        <b-tabs content-class="mt-3" fill>
-                            <b-tab title="花蓮縣">
-
-                            </b-tab>
-                            <b-tab title="台東縣">
-
-                            </b-tab>
-                        </b-tabs>
-                    </b-tab>
-                    <b-tab title="離島">
-                        <b-tabs content-class="mt-3" fill>
-                            <b-tab title="澎湖縣">
-
-                            </b-tab>
-                            <b-tab title="金門縣">
-
-                            </b-tab>
-                            <b-tab title="連江縣">
-
-
-                            </b-tab>
-                        </b-tabs>
-                    </b-tab>
+                        </div>
+                        <div>
+                            <h2 class="title">{{ item.Title }}</h2>
+                        </div>
+                        <div>
+                            <p>{{ item.CreateDate }}</p>
+                        </div>
+                    </a>
                 </div>
-            </b-tabs>
-            <!-- zone end-->
+            </div>
 
-
-
+            <div class="news-layout mobile1">
+                <div class="news" v-for="(item, index) of newsInfo" :key="index">
+                    <a :href="'https://www.ftvnews.com.tw/news/detail/' + item.ID" target="blank">
+                        <div class="content-layout">
+                            <img :src="item.Image" alt="新聞封面照" />
+                            <div class="porfile">
+                                <h2 class="name">黃珊珊</h2>
+                                <h2 class="party">小咪黨</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="btn_more">
+                <a href="https://www.ftvnews.com.tw/tag/九合一選舉/" target="blank">更多新聞</a>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-
 export default {
     data() {
         return {
-            title: "候選人介紹",
-            list: [
-                {
-                    area: "北部",
-                    city: [
-                        "基隆市",
-                        "台北市",
-                        "新北市",
-                        "桃園市",
-                        "新竹縣",
-                        "新竹市",
-                    ],
-
-                    district: ["第一中部選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-
-
-                },
-                {
-                    area: "中部",
-                    city: ["苗栗縣", "台中市", "彰化縣", "南投縣", "雲林縣",],
-                    district: ["第一中部選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-                {
-                    area: "南部",
-                    city: ["嘉義市", "嘉義縣", "台南市", "高雄市", "屏東縣",],
-                    district: ["南第一選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-                {
-                    area: "東部",
-                    city: ["花蓮縣", "台東縣",],
-                    district: ["東第一選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-                {
-                    area: "離島",
-                    city: ["澎湖縣", "金門縣", "連江縣",],
-                    district: ["離島第一選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-            ],
-
-
+            title: '縣市議員',
+            newsInfo: [],
         }
     },
+    methods: {
+        getData_ftvNews() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=九合一選舉&Page=1&sp=6')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews1() {
 
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=政治&Page=1&sp=6')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews2() {
 
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=18歲公民權&Page=1&sp=6')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews3() {
+
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=桃園市選戰&Page=1&sp=9')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews4() {
+
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=新竹市選戰&Page=1&sp=9')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+
+        getData_ftvNews5() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=九合一選舉&Page=1&sp=4')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews6() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=政治&Page=1&sp=4')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews7() {
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=18歲公民權&Page=1&sp=4')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews8() {
+
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=桃園市選戰&Page=1&sp=4')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        getData_ftvNews9() {
+
+            document.querySelectorAll('.news').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=新竹市選戰&Page=1&sp=4')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+    },
+    mounted() {
+        this.getData_ftvNews()
+    },
 }
 </script>
 
 <style scoped>
-h4 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-p {
-    text-align: left;
-    font-size: 1.2rem;
-}
-
-.exp_title::before {
-    content: "  ";
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background-color: #FFA255;
-    display: inline-block;
-    margin: 1rem .5rem -3px 0px;
-}
-
-.edu_title::before {
-    text-align: left;
-    font-size: 1.2rem;
-    content: "  ";
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background-color: #FFA255;
-    display: inline-block;
-    margin: 1rem .5rem -3px 0px;
-}
-
-ul li {
-    font-size: 1.2rem;
-    margin: 1rem 0 1rem 2rem;
-}
-
-@media screen and (max-width: 768px) {
-
-    p,
-    ul li {
-        font-size: 1rem;
-    }
-}
-
-/* .grid {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem; */
-
-
-@media screen and (max-width: 500px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-.grid div {
-    position: relative;
-}
-
-.person_img {
-    width: 150px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 2rem;
-    border-radius: 100%;
-}
-
-.party_img {
-    position: relative;
-    top: -4.5rem;
-    right: -3.5rem;
-    width: 50px;
-}
-
-
-.layout_card {
-    height: fit-content;
-    background-color: white;
-    border-radius: 1.5rem;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding: 1rem;
-    margin: .5rem;
-    width: 300px;
-    overflow-y: scroll;
-    height: 600px;
-
-}
-
-.layout {
-    max-width: 1000px;
-    overflow-x: scroll;
-    display: flex;
-    flex-wrap: nowrap;
-
-}
-
-.nav_city {
-    overflow-x: scroll;
-}
-
-.nav_city {
-
+.news-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.5rem;
     padding: 1rem;
 }
 
-
-b-tab {
-    color: yellow
+@media screen and (max-width: 768px) {
+    .news-layout {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-img {
-    width: 100px;
-    margin: auto;
-    display: block;
-}
+@media screen and (max-width: 500px) {
+    .news-layout {
+        grid-template-columns: 1fr;
+    }
 
+}
 
 .line {
     display: flex;
-    padding: 0px
+    padding: 0px 30px;
 }
 
 .line img {
-    width: 40px;
-    padding: 3px;
+    width: 50px;
+    padding: 5px;
 }
 
 
 
-.line1 {
+hr {
     align-items: center;
-    color: rgb(102, 102, 102);
-    width: 100%;
+    color: rgb(67, 67, 67);
+    font-weight: bolder;
+    width: 95%;
     margin: auto;
-    border-top: 2px dashed rgb(92, 92, 92);
-}
-
-.line2 {
-    align-items: center;
-    color: rgb(102, 102, 102);
-    width: 100%;
-    margin: auto;
-    border-top: 2px solid rgb(92, 92, 92);
 }
 
 
-p {
-    font-family: "Noto Sans TC";
+
+.news {
+    transition: 0.5s;
+
+}
+
+.news:hover {
+    display: block;
+    background-color: #cae3bb;
+    text-decoration: none !important;
+}
+
+.news:hover h2,
+.news:hover p {
+    color: rgb(42, 42, 42);
+}
+
+.news h2 {
+    padding: 0.3rem 1rem;
+}
+
+.news p {
     text-align: left;
-    margin: 0.5rem 0 1rem 0;
-    padding: 0rem 1rem;
-    line-height: 1.5rem;
-    font-size: 1rem;
+    margin: 20px 0 0 0;
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
+    font-weight: lighter;
 }
 
-.text {
+.news img {
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
-    margin-top: -2rem;
 }
 
-.tab-content>.active {
-    display: -webkit-inline-box;
-    overflow-x: scroll;
-    max-width: 1000px;
+ul {
+    margin: 2rem;
+}
+
+.title {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* 解決firefox不支援-webkit-line-clamp的問題 */
+    line-height: 30px;
+    max-height: 60px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: 0.3rem;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile1 {
+    display: none;
+}
+
+
+
+ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: no-wrap;
+
+
+}
+
+ul li {
+    text-align: center;
+    margin: 0.5rem;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    opacity: .9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+    cursor: pointer;
+    color: #2e2e2e
+}
+
+ul li:before {
+    content: '';
+}
+
+
+ul li:hover {
+    background-color: rgb(217, 246, 201);
+    color: #000000;
+    opacity: 1;
+}
+
+ul li:active {
+    background-color: rgb(217, 246, 201);
+    color: #000000;
+}
+
+.news a div:nth-child(1) {
+    overflow-y: hidden;
+}
+
+.btn_more {
+    max-width: 300px;
+    margin: 2rem auto;
+    padding: 0.6rem;
+    display: block;
+    cursor: pointer;
+    text-align: center !important;
+
+}
+
+.btn_more a {
+    border: 1px solid #595757;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    box-shadow: 1px 2px 3px gray;
+    cursor: pointer;
+    font-size: 1.2rem;
+    opacity: .9;
+
+}
+
+.btn_more a:hover {
+    background-color: rgb(217, 246, 201);
+    color: #000000;
+    opacity: 1;
+}
+
+.btn_more a:active {
+    background: rgb(255, 255, 255, .8);
+}
+
+a {
+    color: #2e2e2e;
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .line {
+        display: flex;
+        padding: 0px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+
+        margin: auto;
+    }
+
+    .mobile1 {
+        display: grid;
+    }
+
+    ul li {
+        text-align: center;
+        margin: .5rem;
+        border: 1px solid;
+        border-radius: 30px;
+        padding: .5rem 1rem;
+        width: fit-content;
+        opacity: .9;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+        cursor: pointer;
+        color: #2e2e2e;
+        font-size: 16px;
+        width: 78px
+    }
+
+
+}
+
+
+.content-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.porfile {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.name {
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.party {
+    font-size: 1.2rem;
+    text-align: left;
+
 }
 </style>

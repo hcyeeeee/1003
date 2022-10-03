@@ -2,15 +2,12 @@
     <div>
         <img class="img" src="../assets/小可愛.png" alt="小可愛">
         <div class="section-box">
-
             <ul class="entries">
-
                 <li class="entry">08.29 ~ 09.02 登記參選</li>
                 <li class="entry">10.21 號次抽籤</li>
                 <li class="entry">11.11 ~ 11.25 政見發表會</li>
                 <li class="entry">11.25 公告選舉人數</li>
                 <li class="entry">11.26 投票日</li>
-
             </ul>
 
         </div>

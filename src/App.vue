@@ -1,370 +1,241 @@
 <template>
-    <div>
-        <Header />
-        <COntentBanner />
-        <AdditionBox />
-        <ContentProcess />
-        <ContentTime />
-        <ContentNews />
-        <ContentDistrict />
-        <ContentVideo />
-        <Footer />
-        <!-- <AdditionSide /> -->
-        <!-- <AdditionScrolltop /> -->
-        <!-- <AdditionBottom /> -->
-        <Share />
-        <ContentProfile />
+  <div id="app">
+    <div class="header">
+      <!-- logo -->
+      <div class="flex-logo logo">
+        <a href="https://www.ftvnews.com.tw/" target="blank"> <img src="./assets/logo.png" alt="民視新聞網"></a>
+      </div>
+      <!-- desktop -->
+      <nav class=" computer navbar">
+        <router-link to="/">Home</router-link>
+        <router-link to="/about">candidate</router-link>
+        <a href="/#news">news</a>
+        <a href="/#footer">vote</a>
+      </nav>
+      <!-- mobile -->
+      <div class="fad fa-2x fa-bars mobile" @click="menu">
+        <nav class="nav">
+          <router-link to="/">Home</router-link>
+          <hr>
+          <router-link to="/about">candidate</router-link>
+          <hr>
+          <a href="/#news">news</a>
+          <hr>
+          <a href="/#footer">vote</a>
+          <hr>
+        </nav>
+      </div>
     </div>
+    <!-- <HomeView /> -->
+    <router-view />
+  </div>
 </template>
 
+
 <script>
-import Header from '@/components/Header.vue'
-import COntentBanner from '@/components/Content_banner.vue'
-import AdditionBox from '@/components/Addition_box.vue'
-import ContentProcess from '@/components/Content_process.vue'
-import ContentTime from '@/components/Content_time.vue'
-import ContentVideo from '@/components/Content_video.vue'
-import ContentNews from '@/components/Content_news.vue'
-import ContentDistrict from '@/components/Content_district.vue'
-import Footer from '@/components/Footer.vue'
-// import AdditionSide from '@/components/Addition_side.vue'
-// import AdditionScrolltop from './components/Addition_scrolltop.vue'
-import Share from './components/share.vue'
-// import AdditionBottom from './components/Addition_bottom.vue'
-import ContentProfile from './components/Content_profile.vue'
+// import HomeView from '@/views/HomeView.vue'
 export default {
-    name: 'App',
-    components: {
-        Header,
-        COntentBanner,
-        AdditionBox,
-        ContentProcess,
-        ContentTime,
-        ContentNews,
-        ContentDistrict,
-        ContentVideo,
-        Footer,
-        // AdditionSide,
-        // AdditionScrolltop,
-        Share,
-        ContentProfile
+
+  name: 'App',
+  components: {
+    // HomeView,
+  },
+
+  data() {
+    return {
+      list: [
+        {
+          title: '首頁',
+          anchor: '#voting',
+        },
+        {
+          title: '最新新聞',
+          anchor: '#profile',
+        },
+        {
+          title: '影音專區',
+          anchor: '#porcess',
+        },
+        {
+          title: 'LIVE新聞',
+          anchor: '#news',
+        },
+      ],
+    }
+  },
+  created() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+
+    menu() {
+      this.active.removeEventListener('click', false);
     },
+    handleScroll() {
+      this.active = window.scrollY < 700 ? true : false
+    },
+  },
+  mounted() {
+    this.scroll()
+    this.moveBar()
+  },
 }
 </script>
-
-<style>
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:wght@100;300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&display=swap');
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i {
-    font-family: 'Noto Sans TC';
-}
-
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-</style>
-
-<style>
-/* 全局自訂 */
-* {
-    scroll-behavior: smooth;
-    font-family: 'Noto Sans TC'
-}
-
-body {
-    margin: 0;
-    width: 100%;
-    overflow-x: hidden;
-    background-color: #F3FFF5;
-    font-family: 'Noto Sans TC'
-}
-
+<!-- <style lang="scss">
 #app {
-    font-family: 'Noto Sans TC', sans-serif, '微軟正黑體', '蘋果儷中黑', Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #595757;
-    transition: 0.3s;
-    width: 100%;
-    overflow-x: hidden;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+</style> -->
+<style scoped>
+.fixed {
+  display: none;
 }
 
-h1,
-h2 {
-    font-family: 'Noto Sans TC';
-    font-size: 1.8rem;
+/* 漢堡選單 */
+
+.nav {
+  width: 220px;
+  padding: 1rem;
+  position: fixed;
+  background-color: #F3FFF5;
+  z-index: 998;
+  top: 3.3rem;
+  right: 1rem;
+  border-radius: 10px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-h3 {
-    font-family: 'Noto Sans TC';
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: bolder;
-    padding: 0.6rem 0;
-    margin: 2rem 0 0.1rem 0;
-    color: rgb(59, 59, 59);
+.fa-bars {
+  color: #78a17f;
+  cursor: pointer;
+  position: absolute;
+  z-index: 999;
+  top: 1rem;
+  right: 1rem;
+  border-radius: 10px;
+  padding: 5px;
 
 }
 
-h4 {
-    font-family: 'Noto Sans TC';
-    font-size: 1.3rem;
+.fa-bars:hover .nav {
+  display: block;
 }
 
-ul li {
-    font-family: 'Noto Sans TC';
-    text-align: left;
-    margin: 1rem 0 1rem 0;
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+
+.nav a:hover::before {
+  content: '\f061';
+  padding-right: 1rem;
 }
 
-p {
-    font-family: 'Noto Sans TC';
-    text-align: left;
-    margin: 0.5rem 0 2rem 0;
-    line-height: 1.4rem;
-    font-size: 1.3rem;
+
+.logo {
+  max-width: 100%;
+  width: 250px;
+}
+
+.logo img {
+  width: 180px;
 }
 
 @media screen and (max-width: 768px) {
+  .logo {
+    width: 200px;
+  }
 
-    p,
-    ul li {
-        font-size: 1rem;
-    }
+  .logo img {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 200px;
+  }
+
+  .logo img {
+    width: 160px;
+  }
+}
+
+/* 進度條 */
+.progress {
+  position: fixed;
+  top: 1px;
+  width: 0.5%;
+  height: 10px;
+  z-index: 999;
 }
 
 a {
-    font-family: 'Noto Sans TC';
-    color: #595757;
-    text-decoration: none !important;
-}
+  font-size: 1.2rem;
+  margin: 1rem;
+  display: block;
+  color: #595757;
+  font-weight: bolder;
+  transition: 0.3s;
 
-a:hover {
-    font-family: 'Noto Sans TC';
-    color: black;
-}
-
-figure {
-    font-family: 'Noto Sans TC';
-    margin: 0;
-}
-
-.layout {
-    font-family: 'Noto Sans TC';
-    max-width: 1000px;
-}
-
-.section {
-    font-family: 'Noto Sans TC';
-    margin: 2rem auto;
-    max-width: 1000px;
 
 }
 
-.section-box {
-    font-family: 'Noto Sans TC';
-    margin: 1rem auto;
-    padding: 1rem;
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  background-color: #f3fff5a8;
+  opacity: .99;
+  z-index: 100;
+  width: 100%;
+  height: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
+.navbar {
+  justify-content: end;
+}
+
+.nav {
+  display: none;
+}
+
+
+.computer {
+
+  display: flex;
+}
+
+.mobile {
+  display: none;
+}
+
+
 
 @media screen and (max-width: 768px) {
-    .section {
-        margin: 3rem auto;
-        padding: 0 1rem;
-        width: 100%;
-    }
-}
+  .computer {
+    display: none;
+  }
 
-.flex {
-    display: flex;
-}
-
-@media screen and (max-width: 350px) {
-    .flex {
-        display: block;
-    }
-}
-
-.name {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 1.6rem;
-    margin: 1rem 0;
-    line-height: 2rem;
-}
-
-.section-box p:nth-child(1) {
-    margin-left: 0;
-}
-
-/* Tabs style */
-.nav-tabs .nav-link.active {
-    background-color: #A5D35E !important;
-    color: rgb(45, 44, 44);
-}
-
-.nav-item {
-    color: rgb(32, 32, 32);
-    border-bottom: 3px solid #A5D35E;
-    margin: .5rem;
-}
-
-/* 候選人編號樣式 */
-.fa.fa-circle-o {
-    font-weight: lighter !important;
-    color: #494949;
-}
-
-.fa-stack-1x {
-    color: red;
-    font-weight: bolder;
-}
-
-hr {
-    color: inherit;
-    border: 0;
-    border-top: 2px solid;
-    opacity: .9;
+  .mobile {
+    display: block;
+  }
 
 }
 
-.nav-tabs {
-    --bs-nav-tabs-border-color: transparent;
+.icon {
+  display: flex;
+  width: 10px;
+  display: fixed;
+}
+
+.tab-content {
+  overflow: scroll;
 }
 </style>
+
+
+
+  

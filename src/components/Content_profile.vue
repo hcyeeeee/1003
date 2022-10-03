@@ -2,7 +2,6 @@
     <div class="section" id="profile">
         <h3>{{ title }}</h3>
         <div class="section-box">
-
             <!-- 區域 -->
             <b-tabs content-class="mt-3" fill>
                 <div class>
@@ -375,11 +374,11 @@
                                 </div>
                             </b-tab>
                             <b-tab title="嘉義縣">
-                                <div class="layout" v-for="(item, index) of getProfile14" :key="index">
+                                <div class="layout" v-for="(item, index) of getProfile13" :key="index">
                                     <div class="layout_card">
-                                        <img class="person_img" :src="getProfile14[index].photo" alt="personal"
+                                        <img class="person_img" :src="getProfile13[index].photo" alt="personal"
                                             loading="lazy">
-                                        <img class="party_img" :src="getProfile14[index].party_photo" alt="party"
+                                        <img class="party_img" :src="getProfile13[index].party_photo" alt="party"
                                             loading="lazy">
                                         <!-- person -->
                                         <div class="text">
@@ -389,14 +388,14 @@
                                             <!-- edu -->
                                             <p class="edu_title">最高學歷</p>
                                             <p class="edu_content"
-                                                v-for="(item, index) of getProfile14[index].experience.edu"
+                                                v-for="(item, index) of getProfile13[index].experience.edu"
                                                 :key="index">
                                                 {{item}}
                                             </p>
                                             <!-- exp -->
                                             <p class="exp_title">經歷</p>
                                             <p class="exp_content"
-                                                v-for="(item, index) of getProfile14[index].experience.exp"
+                                                v-for="(item, index) of getProfile13[index].experience.exp"
                                                 :key="index">
                                                 {{item}}</p>
                                         </div>
@@ -558,11 +557,11 @@
                     <b-tab title="離島">
                         <b-tabs content-class="mt-3" fill>
                             <b-tab title="澎湖縣">
-                                <div class="layout" v-for="(item, index) of getProfile20" :key="index">
+                                <div class="layout" v-for="(item, index) of getProfile19" :key="index">
                                     <div class="layout_card">
-                                        <img class="person_img" :src="getProfile20[index].photo" alt="personal"
+                                        <img class="person_img" :src="getProfile19[index].photo" alt="personal"
                                             loading="lazy">
-                                        <img class="party_img" :src="getProfile20[index].party_photo" alt="party"
+                                        <img class="party_img" :src="getProfile19[index].party_photo" alt="party"
                                             loading="lazy">
                                         <!-- person -->
                                         <div class="text">
@@ -572,14 +571,14 @@
                                             <!-- edu -->
                                             <p class="edu_title">最高學歷</p>
                                             <p class="edu_content"
-                                                v-for="(item, index) of getProfile20[index].experience.edu"
+                                                v-for="(item, index) of getProfile19[index].experience.edu"
                                                 :key="index">
                                                 {{item}}
                                             </p>
                                             <!-- exp -->
                                             <p class="exp_title">經歷</p>
                                             <p class="exp_content"
-                                                v-for="(item, index) of getProfile20[index].experience.exp"
+                                                v-for="(item, index) of getProfile19[index].experience.exp"
                                                 :key="index">
                                                 {{item}}</p>
                                         </div>
@@ -649,9 +648,6 @@
                 </div>
             </b-tabs>
             <!-- zone end-->
-
-
-
         </div>
     </div>
 </template>
@@ -662,45 +658,6 @@ export default {
     data() {
         return {
             title: "候選人介紹",
-            list: [
-                {
-                    area: "北部",
-                    city: [
-                        "基隆市",
-                        "台北市",
-                        "新北市",
-                        "桃園市",
-                        "新竹縣",
-                        "新竹市",
-                    ],
-
-                    district: ["第一中部選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-
-
-                },
-                {
-                    area: "中部",
-                    city: ["苗栗縣", "台中市", "彰化縣", "南投縣", "雲林縣",],
-                    district: ["第一中部選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-                {
-                    area: "南部",
-                    city: ["嘉義市", "嘉義縣", "台南市", "高雄市", "屏東縣",],
-                    district: ["南第一選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-                {
-                    area: "東部",
-                    city: ["花蓮縣", "台東縣",],
-                    district: ["東第一選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-                {
-                    area: "離島",
-                    city: ["澎湖縣", "金門縣", "連江縣",],
-                    district: ["離島第一選區", "第二選區", "第三選區", "第四選區", "第五選區", "第六選區",],
-                },
-            ],
-
-
         }
     },
 
@@ -824,11 +781,6 @@ ul li {
     }
 }
 
-/* .grid {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem; */
-
 
 @media screen and (max-width: 500px) {
     .grid {
@@ -842,6 +794,7 @@ ul li {
 
 .person_img {
     width: 150px;
+    height: 150px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top: 2rem;
     border-radius: 100%;
@@ -854,41 +807,38 @@ ul li {
     width: 50px;
 }
 
-
 .layout_card {
     height: fit-content;
     background-color: white;
     border-radius: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding: 1rem;
+    padding: .5rem 1rem;
     margin: .5rem;
     width: 300px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     height: 600px;
 
 }
 
+@media screen and (max-width: 500px) {
+    .layout_card {
+        height: fit-content;
+        background-color: white;
+        border-radius: 1.5rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        padding: .5rem 1rem;
+        margin: .5rem;
+        width: 250px;
+        overflow-y: hidden;
+        height: 500px;
+    }
+
+}
+
 .layout {
-    max-width: 1000px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     display: flex;
     flex-wrap: nowrap;
-
-}
-
-.nav_city {
-    overflow-x: scroll;
-}
-
-.nav_city {
-
-    grid-gap: 1.5rem;
-    padding: 1rem;
-}
-
-
-b-tab {
-    color: yellow
 }
 
 img {
@@ -897,7 +847,7 @@ img {
     display: block;
 }
 
-
+/* 分隔線 */
 .line {
     display: flex;
     padding: 0px
@@ -908,8 +858,7 @@ img {
     padding: 3px;
 }
 
-
-
+/* 分隔線 */
 .line1 {
     align-items: center;
     color: rgb(102, 102, 102);
@@ -918,6 +867,7 @@ img {
     border-top: 2px dashed rgb(92, 92, 92);
 }
 
+/* 點點分隔線 */
 .line2 {
     align-items: center;
     color: rgb(102, 102, 102);
@@ -937,13 +887,30 @@ p {
 }
 
 .text {
-
     margin-top: -2rem;
 }
 
 .tab-content>.active {
-    display: -webkit-inline-box;
+    display: inline-flex;
     overflow-x: scroll;
-    max-width: 1000px;
+    margin: auto;
+}
+
+.tab-content {
+    overflow: scroll;
+}
+
+.tab-content::after {
+    content: "sss";
+}
+
+a {
+    color: black;
+}
+
+.section-box {
+    font-family: 'Noto Sans TC';
+    margin: 1rem auto;
+    padding: 1rem 2.2rem 1rem 1rem;
 }
 </style>

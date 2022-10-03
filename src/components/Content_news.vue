@@ -1,6 +1,6 @@
 <template>
     <div class="section" id="news">
-        <!-- <h3>{{ title }}</h3> -->
+        <h3>{{ title }}</h3>
         <ul class="desktop">
             <li @click="getData_ftvNews">最新新聞</li>
             <li @click="getData_ftvNews1">政治新聞</li>
@@ -389,14 +389,14 @@ ul li:before {
 
 
 ul li:hover {
-  background-color: rgb(217, 246, 201);
+    background-color: rgb(217, 246, 201);
     background-color: rgb(217, 246, 201);
     color: #000000;
     opacity: 1;
 }
 
 ul li:active {
-  background-color: rgb(217, 246, 201);
+    background-color: rgb(217, 246, 201);
     color: #000000;
 }
 
@@ -429,7 +429,7 @@ ul li:active {
 }
 
 .btn_more a:hover {
-  background-color: rgb(217, 246, 201);
+    background-color: rgb(217, 246, 201);
     color: #000000;
     opacity: 1;
 }

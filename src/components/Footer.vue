@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="footer">
         <footer>Copyright © 2022 民視新聞網路部 社群中心</footer>
     </div>
 </template>
