@@ -272,6 +272,7 @@ export default {
 @media screen and (max-width: 500px) {
     .news-layout {
         grid-template-columns: 1fr;
+        overflow-x: scroll;
     }
 
 }

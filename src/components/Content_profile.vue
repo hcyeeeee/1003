@@ -803,6 +803,7 @@ ul li {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     margin-top: 2rem;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .party_img {
@@ -928,6 +929,9 @@ a {
     margin-top: 6rem;
 }
 
+.section-box {
+    max-width: 1000px;
+}
 
 @media screen and (max-width: 900px) {
     .layout_card {
@@ -937,7 +941,7 @@ a {
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         padding: .5rem 1rem;
         margin: .5rem;
-        width: 250px;
+        width: 280px;
         overflow-y: hidden;
         height: 600px;
     }
@@ -954,7 +958,7 @@ a {
         margin: .5rem;
         width: 250px;
         overflow-y: hidden;
-        height: 600px;
+        height: fit-content;
     }
 
     .tab-content>.active {

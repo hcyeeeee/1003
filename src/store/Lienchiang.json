@@ -2,105 +2,105 @@
   "Lienchiang": [
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "劉浩晨",
       "party": "民主進步黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "林明揚",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "曹丞君",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "楊清宇",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "林貽祥",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "曹爾章",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "曹以標",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "林惠萍",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "陳玉發",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "周瑞國",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "陳如嵐",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "陳貽斌",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "陳善澔",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "張永江",
       "party": "中國國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "連江縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "馮印才",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"

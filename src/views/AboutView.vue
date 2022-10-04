@@ -58,18 +58,26 @@ export default {
     overflow: scroll;
 
   }
+
+  .section-box {
+    max-height: 550px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 }
 
-.section {
-  margin: 6rem auto;
-  padding: 0 1rem;
-  width: 100%;
-  max-width: 1200px;
-}
+
 
 
 .tabs {
   max-width: 1300px;
   margin: auto;
+}
+
+
+.section-box {
+  max-height: 800px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 </style>

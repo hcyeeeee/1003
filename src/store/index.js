@@ -1320,7 +1320,7 @@ export default new Vuex.Store({
         name: "KolasYotaka",
         no: "1",
         party: "民進黨",
-        // photo: require("../assets/Kolas.png"),
+        photo: require("../assets/Kolas.png"),
         party_photo: require("../assets/民進黨.jpg"),
         experience: {
           edu: ["東海大學社會學系學士", "東海大學社會學研究所碩士"],
@@ -1379,7 +1379,7 @@ export default new Vuex.Store({
           exp: [
             // "2001年臺東縣副縣長",
             // "2019年民主進步黨政策會執行長",
-            "2020年民主進步黨台東縣黨部主委",
+            "2020年民進黨台東縣黨部主委",
             "2012年第8屆立法委員",
             "2016年第9屆立法委員",
             "2020年第10屆立法委員",

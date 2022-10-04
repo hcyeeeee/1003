@@ -2,392 +2,392 @@
   "Keelung": [
     {
       "city": "基隆市",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "張顥瀚",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "許睿慈",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "張淵翔",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "呂美玲",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "藍敏煌",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "林毓峯",
       "party": "台灣民眾黨",
       "party_photo": "台灣民眾黨"
     },
     {
       "city": "基隆市",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "陳宜",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "陳軍佐",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "江鑒育",
-      "party": "",
-      "party_photo": ""
+      "party": "中國國民黨",
+      "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "何淑萍",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "韓世昱",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "紀珈",
       "party": "台灣民眾黨",
       "party_photo": "台灣民眾黨"
     },
     {
       "city": "基隆市",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "李嘉濠",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "童子瑋",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "鄭文婷",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "張芳麗",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "莊榮欽",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "曾紀嚴",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "紀文荃",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "李依芩",
       "party": "台灣民眾黨",
       "party_photo": "台灣民眾黨"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "張秉鈞",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "施偉政",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "莊敬聖",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "宋瑋莉",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "徐佑昇",
       "party": "台灣民眾黨",
       "party_photo": "台灣民眾黨"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "郭美秀",
       "party": "親民黨",
       "party_photo": "親民黨"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "張哲源",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "梁堂華",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "張之豪",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "洪森永",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "吳驊珈",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "林沛祥",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "秦鉦",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "鄭愷玲",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "俞叄發",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "劉韋巡",
       "party": "台灣民眾黨",
       "party_photo": "台灣民眾黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "江欣怡",
       "party": "時代力量",
       "party_photo": "時代力量"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "莊錦田",
       "party": "親民黨",
       "party_photo": "親民黨"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "黃紀棠",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "張銘傑",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "黃永翔",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "李偉華",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "許超勝",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "連恩典",
-      "party": "中國國民黨 ",
-      "party_photo": "中國國民黨 "
+      "party": "中國國民黨",
+      "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "林旻勳",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "陳冠羽",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "莫璦緁",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "林坤明",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "曾怡芳",
       "party": "民主進步黨",
       "party_photo": "民主進步黨"
     },
     {
       "city": "基隆市",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "蔡旺璉",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "陳愷閎",
       "party": "時代力量",
       "party_photo": "時代力量"
     },
     {
       "city": "基隆市",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "楊秀玉",
       "party": "親民黨",
       "party_photo": "親民黨"
     },
     {
       "city": "基隆市",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "張耿輝",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 8,
+      "zone": "第8選區",
       "name": "王尚潔",
       "party": "中國國民黨",
       "party_photo": "中國國民黨"
     },
     {
       "city": "基隆市",
-      "zone": 8,
+      "zone": "第8選區",
       "name": "陳明建",
       "party": "無黨籍",
       "party_photo": "無黨籍"
     },
     {
       "city": "基隆市",
-      "zone": 8,
+      "zone": "第8選區",
       "name": "拔耐‧茹妮老王",
       "party": "無黨籍",
       "party_photo": "無黨籍"

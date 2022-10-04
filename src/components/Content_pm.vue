@@ -70,12 +70,12 @@
                     <li @click="getData_ftvNews15">高雄市</li>
                     <li @click="getData_ftvNews16">屏東縣</li>
                 </b-tab>
-                <b-tab title="東部">
+                <b-tab title="東部" class="lesscity">
                     <!-- 東部 -->
                     <li @click="getData_ftvNews17">花蓮縣</li>
                     <li @click="getData_ftvNews18">台東縣</li>
                 </b-tab>
-                <b-tab title="離島">
+                <b-tab title="離島" class="lesscity">
                     <!-- 離島 -->
                     <li @click="getData_ftvNews19">澎湖縣</li>
                     <li @click="getData_ftvNews20">金門縣</li>
@@ -92,9 +92,10 @@
                 <div class="news" v-for="(item, index) of newsInfo" :key="index">
                     <div class="content-layout">
                         <img :src="' https://www.ftvnews.com.tw/topics/test/image/'+ item.party +'.jpg'" alt="新聞封面照" />
-                        <div class="porfile">
+                        <div class="porfile ">
                             <h2 class="name">{{ item.name }}</h2>
                             <p class="party">{{ item.party }}</p>
+                            <p class="party">{{ item.zone }}</p>
                         </div>
                     </div>
                 </div>
@@ -107,6 +108,7 @@
                         <div class="porfile">
                             <h2 class="name">{{ item.name }}</h2>
                             <p class="party">{{ item.party }}</p>
+                            <p class="party">{{ item.zone }}</p>
                         </div>
                     </div>
                 </div>
@@ -586,7 +588,6 @@ hr {
 
 .news p {
     text-align: left;
-    margin: 20px 0 0 0;
     padding: 0.3rem 1rem;
     font-weight: lighter;
 }
@@ -640,12 +641,13 @@ ul {
 
 ul li {
     text-align: center;
-    margin: 2rem;
+    margin: 1.2rem;
     padding: 1rem;
     opacity: .9;
     cursor: pointer;
     color: #2e2e2e;
     border-bottom: 3px solid #71b2e4;
+    width: 100px;
 
 }
 
@@ -726,23 +728,44 @@ a {
     }
 
     .mobile1 {
-        display: grid;
+        display: inline-block;
     }
 
     ul li {
         text-align: center;
         margin: .5rem;
-        border-radius: 30px;
         padding: .5rem 1rem;
         width: fit-content;
         opacity: .9;
         cursor: pointer;
         color: #2e2e2e;
         font-size: 16px;
-        width: 78px;
-        border-bottom: 3px solid #A5D35E;
+        width: 100px;
+        border-bottom: 3px solid #80c1d3;
     }
 
+    .news img {
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    }
+
+    .section-box {
+        max-height: 550px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+
+    .porfile {
+        display: grid;
+        padding: .2rem;
+        /* grid-template-rows: 1fr 1fr; */
+
+    }
 
 }
 
@@ -755,6 +778,7 @@ a {
 
 .porfile {
     display: grid;
+    padding: .2rem;
     grid-template-rows: 1fr 1fr;
 
 }
@@ -771,7 +795,7 @@ a {
 }
 
 .tab-pane {
-    display: flex
+    display: flex;
 }
 
 p {
@@ -780,5 +804,16 @@ p {
 
 .section-box {
     max-width: 1200px;
+}
+
+.section {
+    margin: 0rem auto;
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.lesscity {
+    justify-content: center;
 }
 </style>

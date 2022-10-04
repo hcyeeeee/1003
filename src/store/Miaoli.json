@@ -2,511 +2,511 @@
   "Miaoli": [
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "徐筱菁",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "許櫻萍",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "鄭碧玉",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "曾美露",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "謝庚霖",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "楊喬安",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "林志豪",
       "party": "時代力量",
       "party_photo": "../assets/時代力量.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "余文忠",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "楊明燁",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "湯維岳",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "禹耀東",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "張志宇",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "孫素娥",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "羅以明",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "黃萬盛",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 1,
+      "zone": "第1選區",
       "name": "莊智凱",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "羅貴星",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "黃芳樁",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "黎尚安",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "徐文達",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 2,
+      "zone": "第2選區",
       "name": "吳昌運",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "翁杰",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "傅郁揚",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "陳品安",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "徐永煌",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "張顧礫",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "劉寶鈴",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "周玉滿",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 3,
+      "zone": "第3選區",
       "name": "孟文源",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "劉治竑",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "邱毓興",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "鄭秋風",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "謝端容",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "葉忠倫",
       "party": "時代力量",
       "party_photo": "../assets/時代力量.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "李文斌",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "廖英利",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "林寶珠",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "張佳玲",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "陳碧華",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "廖秀紅",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "徐明傑",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "謝大山",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "蕭國清",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 4,
+      "zone": "第4選區",
       "name": "吳亭亭",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "陳光軒",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "陳詩弦",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "李貴富",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "鄭聚然",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "張淑芬",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "林志學",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "吳翌立",
       "party": "時代力量",
       "party_photo": "../assets/時代力量.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "曾宛菁",
       "party": "統促黨",
       "party_photo": "../assets/中華統一促進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "徐功凡",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "曾玟學",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "陳永賢",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "溫俊勇",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "李本欽",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "鍾維發",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "徐沄臻",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "蕭詠萱",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "黃聲全",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "饒斯淵",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "黎光明",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "黃桂坤",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 5,
+      "zone": "第5選區",
       "name": "劉恭銘",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "陳春暖",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "楊恭林",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "盛瑛",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 6,
+      "zone": "第6選區",
       "name": "胡娘妹",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "楊文昌",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 7,
+      "zone": "第7選區",
       "name": "朱仲一",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 8,
+      "zone": "第8選區",
       "name": "劉美蘭",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "苗栗縣",
-      "zone": 8,
+      "zone": "第8選區",
       "name": "黃月娥",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
