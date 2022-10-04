@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-
+    <COntentBanner />
+    <AdditionBox />
     <ContentProfile />
     <ContentPm />
     <Footer />
@@ -11,7 +12,8 @@
 
 
 <script>
-
+import COntentBanner from '@/components/Content_banner.vue'
+import AdditionBox from '@/components/Addition_box.vue'
 import ContentProfile from '@/components/Content_profile.vue'
 import ContentPm from '@/components/Content_pm.vue'
 import Footer from '@/components/Footer.vue'
@@ -20,7 +22,8 @@ import Share from '../components/share.vue'
 export default {
   name: 'App',
   components: {
-
+    COntentBanner,
+    AdditionBox,
     ContentProfile,
     ContentPm,
     Footer,
@@ -30,6 +33,13 @@ export default {
 </script>
 
 <style >
+.tab-content {
+  /* overflow: scroll; */
+  max-width: 2000px !important;
+
+
+}
+
 ::-webkit-scrollbar {
   width: 0;
   /* Remove scrollbar space */
@@ -42,16 +52,21 @@ export default {
   background: transparent;
 }
 
-.tab-content {
-  overflow: scroll;
-  max-width: 2000px !important;
+
+@media screen and (max-width: 500px) {
+  .tab-content {
+    overflow: scroll;
+
+  }
 }
 
 .section {
   margin: 6rem auto;
   padding: 0 1rem;
   width: 100%;
+  max-width: 1200px;
 }
+
 
 .tabs {
   max-width: 1300px;

@@ -6,7 +6,7 @@
     </div>
 
 </template>
-<!-- 
+
 <script >
 var nowTime = new Date();
 console.log(Date());
@@ -15,27 +15,27 @@ console.log(nowTime.getDay());
 console.log(nowTime.getMonth());
 console.log(nowTime.getHours());
 console.log(nowTime.getMinutes());
-// let A = document.getElementsByTagName("i");
+let aI = document.getElementsByTagName("i");
 var hour = nowTime.getHours()
 console.log('hour', hour);
 setInterval(function () {  // 設置倒數計時: 結束時間 - 當前時間
 
     // 當前時間
     var time = new Date();
-    // var nowTime = time.getTime(); // 獲取當前毫秒數
+    var nowTime = time.getTime(); // 獲取當前毫秒數
     // 設置結束時間 : 5月13號 15點0分0秒
     time.setMonth(10); //   獲取當前 月份 (從 '0' 開始算)
     time.setDate(26); //   獲取當前 日
     time.setHours(0); //   獲取當前 時
     time.setMinutes(0); //   獲取當前 分
     time.setSeconds(0);
-    // var endTime = time.getTime();
+    var endTime = time.getTime();
 
     // 倒數計時: 差值
-    // var offsetTime = (endTime - nowTime) / 1000; // ** 以秒為單位
+    var offsetTime = (endTime - nowTime) / 1000; // ** 以秒為單位
     // var hr = parseInt(23 - hour); // 時
-    // var day = parseInt(offsetTime / 60 / 60 / 24); // 時
-    // A[0].textContent = day;
+    var day = parseInt(offsetTime / 60 / 60 / 24); // 時
+    aI[0].textContent = day;
     // aI[1].textContent = hr + "時";
 
 }, 1);
@@ -46,7 +46,7 @@ export default {
         },
     }
 }
-</script> -->
+</script>
 <style scoped>
 .addition {
     display: flex;

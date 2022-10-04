@@ -101,11 +101,16 @@
                                             <!-- party -->
                                             <h4>{{item.party}}</h4>
                                             <!-- edu -->
+
+
                                             <p class="edu_title">最高學歷</p>
-                                            <p class="edu_content"
-                                                v-for="(item, index) of getProfile4[index].experience.edu" :key="index">
-                                                {{item}}
-                                            </p>
+                                            <div class="emil">
+                                                <p class="edu_content ellipsis2"
+                                                    v-for="(item, index) of getProfile4[index].experience.edu"
+                                                    :key="index">
+                                                    {{item}}
+                                                </p>
+                                            </div>
                                             <!-- exp -->
                                             <p class="exp_title">經歷</p>
                                             <p class="exp_content"
@@ -657,7 +662,7 @@
 export default {
     data() {
         return {
-            title: "候選人介紹",
+            title: "縣市長候選人",
         }
     },
 
@@ -816,26 +821,11 @@ ul li {
     margin: .5rem;
     width: 300px;
     overflow-y: hidden;
-    overflow-y: scroll;
     height: 600px;
 
 }
 
-@media screen and (max-width: 500px) {
-    .layout_card {
-        height: fit-content;
-        background-color: white;
-        border-radius: 1.5rem;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        padding: .5rem 1rem;
-        margin: .5rem;
-        width: 250px;
-        overflow-y: hidden;
-        overflow-y: scroll;
-        height: 500px;
-    }
 
-}
 
 .layout {
     overflow-x: hidden;
@@ -894,12 +884,21 @@ p {
 
 .tab-content>.active {
     display: inline-flex;
+    flex-wrap: wrap;
     overflow-x: scroll;
     margin: auto;
 }
 
+.tab-content>.active {
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    margin: auto;
+}
+
+
 .tab-content {
-    overflow: scroll;
+    /* overflow: scroll; */
     max-width: 1000px;
     margin: auto;
 }
@@ -916,5 +915,66 @@ a {
     font-family: 'Noto Sans TC';
     margin: 1rem auto;
     padding: 1rem 2.2rem 1rem 1rem;
+}
+
+.edu_content {
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    /*行數*/
+}
+
+
+.aaa {
+    margin-top: 6rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    .layout_card {
+        height: fit-content;
+        background-color: white;
+        border-radius: 1.5rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        padding: .5rem 1rem;
+        margin: .5rem;
+        width: 250px;
+        overflow-y: hidden;
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .layout_card {
+        height: fit-content;
+        background-color: white;
+        border-radius: 1.5rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        padding: .5rem 1rem;
+        margin: .5rem;
+        width: 250px;
+        overflow-y: hidden;
+        height: 600px;
+    }
+
+    .tab-content>.active {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        margin: auto;
+    }
+
+
+    .tab-content {
+        overflow: scroll;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .tab-content {
+        overflow-x: scroll;
+    }
+
+
 }
 </style>

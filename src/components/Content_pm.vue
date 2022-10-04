@@ -1,110 +1,117 @@
 <template>
     <div class="section">
         <h3>{{ title }}</h3>
+        <!-- 電腦版導覽列 -->
+        <b-tabs class="desktop" content-class="mt-3" fill>
+            <ul class="desktop">
+                <b-tab title="北部">
+                    <li @click="getData_ftvNews">宜蘭市</li>
+                    <li @click="getData_ftvNews1">基隆市</li>
+                    <li @click="getData_ftvNews2">台北市</li>
+                    <li @click="getData_ftvNews3">新北市</li>
+                    <li @click="getData_ftvNews4">桃園市</li>
+                    <li @click="getData_ftvNews5">新竹市</li>
+                    <li @click="getData_ftvNews6">新竹縣</li>
+                </b-tab>
+                <b-tab title="中部">
+                    <!-- 中部 -->
+                    <li @click="getData_ftvNews7">苗栗縣</li>
+                    <li @click="getData_ftvNews8">台中市</li>
+                    <li @click="getData_ftvNews9">彰化縣</li>
+                    <li @click="getData_ftvNews10">南投縣</li>
+                    <li @click="getData_ftvNews11">雲林縣</li>
+                </b-tab>
+                <b-tab title="南部">
+                    <!-- 南部 -->
+                    <li @click="getData_ftvNews12">嘉義市</li>
+                    <li @click="getData_ftvNews13">嘉義縣</li>
+                    <li @click="getData_ftvNews14">台南市</li>
+                    <li @click="getData_ftvNews15">高雄市</li>
+                    <li @click="getData_ftvNews16">屏東縣</li>
+                </b-tab>
+                <b-tab title="東部">
+                    <!-- 東部 -->
+                    <li @click="getData_ftvNews17">花蓮縣</li>
+                    <li @click="getData_ftvNews18">台東縣</li>
+                </b-tab>
+                <b-tab title="離島">
+                    <!-- 離島 -->
+                    <li @click="getData_ftvNews19">澎湖縣</li>
+                    <li @click="getData_ftvNews20">金門縣</li>
+                    <li @click="getData_ftvNews21">連江縣</li>
+                </b-tab>
+            </ul>
+        </b-tabs>
+        <!-- 手機版導覽列 -->
+        <b-tabs class="mobile" content-class="mt-3" fill>
+            <ul class="mobile">
+                <b-tab title="北部">
+                    <li @click="getData_ftvNews">宜蘭市</li>
+                    <li @click="getData_ftvNews1">基隆市</li>
+                    <li @click="getData_ftvNews2">台北市</li>
+                    <li @click="getData_ftvNews3">新北市</li>
+                    <li @click="getData_ftvNews4">桃園市</li>
+                    <li @click="getData_ftvNews5">新竹市</li>
+                    <li @click="getData_ftvNews6">新竹縣</li>
+                </b-tab>
+                <b-tab title="中部">
+                    <!-- 中部 -->
+                    <li @click="getData_ftvNews7">苗栗縣</li>
+                    <li @click="getData_ftvNews8">台中市</li>
+                    <li @click="getData_ftvNews9">彰化縣</li>
+                    <li @click="getData_ftvNews10">南投縣</li>
+                    <li @click="getData_ftvNews11">雲林縣</li>
+                </b-tab>
+                <b-tab title="南部">
+                    <!-- 南部 -->
+                    <li @click="getData_ftvNews12">嘉義市</li>
+                    <li @click="getData_ftvNews13">嘉義縣</li>
+                    <li @click="getData_ftvNews14">台南市</li>
+                    <li @click="getData_ftvNews15">高雄市</li>
+                    <li @click="getData_ftvNews16">屏東縣</li>
+                </b-tab>
+                <b-tab title="東部">
+                    <!-- 東部 -->
+                    <li @click="getData_ftvNews17">花蓮縣</li>
+                    <li @click="getData_ftvNews18">台東縣</li>
+                </b-tab>
+                <b-tab title="離島">
+                    <!-- 離島 -->
+                    <li @click="getData_ftvNews19">澎湖縣</li>
+                    <li @click="getData_ftvNews20">金門縣</li>
+                    <li @click="getData_ftvNews21">連江縣</li>
+                </b-tab>
+            </ul>
+        </b-tabs>
 
-        <ul class="desktop">
-            <li @click="getData_ftvNews">宜蘭市</li>
-            <li @click="getData_ftvNews1">基隆市</li>
-            <li @click="getData_ftvNews2">台北市</li>
-            <li @click="getData_ftvNews3">新北市</li>
-            <li @click="getData_ftvNews4">桃園市</li>
-            <li @click="getData_ftvNews5">新竹市</li>
-            <li @click="getData_ftvNews6">新竹縣</li>
-            <!-- 中部 -->
-            <li @click="getData_ftvNews7">苗栗縣</li>
-            <li @click="getData_ftvNews8">台中市</li>
-            <li @click="getData_ftvNews9">彰化縣</li>
-            <li @click="getData_ftvNews10">南投縣</li>
-            <li @click="getData_ftvNews11">雲林縣</li>
-            <!-- 南部 -->
-            <li @click="getData_ftvNews12">嘉義市</li>
-            <li @click="getData_ftvNews13">嘉義縣</li>
-            <li @click="getData_ftvNews14">台南市</li>
-            <li @click="getData_ftvNews15">高雄市</li>
-            <li @click="getData_ftvNews16">屏東縣</li>
-            <!-- 東部 -->
-            <li @click="getData_ftvNews17">花蓮縣</li>
-            <li @click="getData_ftvNews18">台東縣</li>
-            <!-- 離島 -->
-            <li @click="getData_ftvNews19">澎湖縣</li>
-            <li @click="getData_ftvNews20">金門縣</li>
-            <li @click="getData_ftvNews21">連江縣</li>
-        </ul>
 
-        <ul class="mobile">
-            <li @click="getData_ftvNews">宜蘭市</li>
-            <li @click="getData_ftvNews1">基隆市</li>
-            <li @click="getData_ftvNews2">台北市</li>
-            <li @click="getData_ftvNews3">新北市</li>
-            <li @click="getData_ftvNews4">桃園市</li>
-            <li @click="getData_ftvNews5">新竹市</li>
-            <li @click="getData_ftvNews6">新竹縣</li>
-            <!-- 中部 -->
-            <li @click="getData_ftvNews7">苗栗縣</li>
-            <li @click="getData_ftvNews8">台中市</li>
-            <li @click="getData_ftvNews9">彰化縣</li>
-            <li @click="getData_ftvNews10">南投縣</li>
-            <li @click="getData_ftvNews11">雲林縣</li>
-            <!-- 南部 -->
-            <li @click="getData_ftvNews12">嘉義市</li>
-            <li @click="getData_ftvNews13">嘉義縣</li>
-            <li @click="getData_ftvNews14">台南市</li>
-            <li @click="getData_ftvNews15">高雄市</li>
-            <li @click="getData_ftvNews16">屏東縣</li>
-            <!-- 東部 -->
-            <li @click="getData_ftvNews17">花蓮縣</li>
-            <li @click="getData_ftvNews18">台東縣</li>
-            <!-- 離島 -->
-            <li @click="getData_ftvNews19">澎湖縣</li>
-            <li @click="getData_ftvNews20">金門縣</li>
-            <li @click="getData_ftvNews21">連江縣</li>
-        </ul>
-
-        <div class="line">
-            <img src="../assets/選舉章icon.png" alt="">
-            <hr>
-            <img src="../assets/選舉章icon.png" alt="">
-        </div>
 
         <div class="section-box">
+            <!-- 電腦版內容 -->
             <div class="news-layout desktop">
                 <div class="news" v-for="(item, index) of newsInfo" :key="index">
-
-                    <a :href="'https://www.ftvnews.com.tw/news/detail/' + item.ID" target="blank">
-                        <div class="content-layout">
-
-
-                            <img :src="' https://www.ftvnews.com.tw/topics/test/image/'+ item.party +'.jpg'"
-                                alt="新聞封面照" />
-                            <div class="porfile">
-                                <h2 class="name">{{ item.name }}</h2>
-                                <h2 class="party">{{ item.party }}</h2>
-                            </div>
+                    <div class="content-layout">
+                        <img :src="' https://www.ftvnews.com.tw/topics/test/image/'+ item.party +'.jpg'" alt="新聞封面照" />
+                        <div class="porfile">
+                            <h2 class="name">{{ item.name }}</h2>
+                            <p class="party">{{ item.party }}</p>
                         </div>
-                    </a>
-
+                    </div>
                 </div>
             </div>
-
+            <!-- 手機版版內容 -->
             <div class="news-layout mobile1">
                 <div class="news" v-for="(item, index) of newsInfo" :key="index">
-                    <a :href="'https://www.ftvnews.com.tw/news/detail/' + item.ID" target="blank">
-                        <div class="content-layout">
-
-
-                            <img :src="' https://www.ftvnews.com.tw/topics/test/image/'+ item.party +'.jpg'"
-                                alt="新聞封面照" />
-                            <div class="porfile">
-                                <h2 class="name">{{ item.name }}</h2>
-                                <h2 class="party">{{ item.party }}</h2>
-                            </div>
+                    <div class="content-layout">
+                        <img :src="' https://www.ftvnews.com.tw/topics/test/image/'+ item.party +'.jpg'" alt="新聞封面照" />
+                        <div class="porfile">
+                            <h2 class="name">{{ item.name }}</h2>
+                            <p class="party">{{ item.party }}</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
-            <div class="btn_more">
-                <a href="https://www.ftvnews.com.tw/tag/九合一選舉/" target="blank">更多新聞</a>
-            </div>
+
         </div>
     </div>
 </template>
@@ -113,7 +120,7 @@
 export default {
     data() {
         return {
-            title: '縣市議員',
+            title: '縣市議員候選人',
             newsInfo: [],
         }
     },
@@ -130,7 +137,7 @@ export default {
                     data.forEach((item) => {
                         this.newsInfo.push(item)
                     })
-                    // console.log(this.newsInfo)
+                    console.log(this.newsInfo[1].zone)
                 })
                 .catch((error) => {
                     console.log('error' + error)
@@ -568,12 +575,6 @@ hr {
 
 }
 
-.news:hover {
-    display: block;
-    background-color: #cae3bb;
-    text-decoration: none !important;
-}
-
 .news:hover h2,
 .news:hover p {
     color: rgb(42, 42, 42);
@@ -587,7 +588,6 @@ hr {
     text-align: left;
     margin: 20px 0 0 0;
     padding: 0.3rem 1rem;
-    font-size: 0.8rem;
     font-weight: lighter;
 }
 
@@ -640,14 +640,13 @@ ul {
 
 ul li {
     text-align: center;
-    margin: 0.5rem;
-    border: 1px solid;
-    border-radius: 30px;
-    padding: 0.5rem 1rem;
+    margin: 2rem;
+    padding: 1rem;
     opacity: .9;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
     cursor: pointer;
-    color: #2e2e2e
+    color: #2e2e2e;
+    border-bottom: 3px solid #71b2e4;
+
 }
 
 ul li:before {
@@ -720,9 +719,10 @@ a {
     }
 
     .mobile {
-        display: flex;
-
+        display: block;
         margin: auto;
+        text-align: center;
+
     }
 
     .mobile1 {
@@ -732,16 +732,15 @@ a {
     ul li {
         text-align: center;
         margin: .5rem;
-        border: 1px solid;
         border-radius: 30px;
         padding: .5rem 1rem;
         width: fit-content;
         opacity: .9;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
         cursor: pointer;
         color: #2e2e2e;
         font-size: 16px;
-        width: 78px
+        width: 78px;
+        border-bottom: 3px solid #A5D35E;
     }
 
 
@@ -769,5 +768,17 @@ a {
     font-size: 1.2rem;
     text-align: left;
 
+}
+
+.tab-pane {
+    display: flex
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.section-box {
+    max-width: 1200px;
 }
 </style>

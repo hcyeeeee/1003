@@ -8,16 +8,10 @@
       <!-- desktop -->
       <nav class=" computer navbar">
         <router-link to="/">首頁</router-link>
-        <hr>
         <router-link to="/about">選將名單</router-link>
-        <hr>
-        <a href="/topics/test/#district">地方選戰</a>
-        <hr>
-        <a href="/topics/test/#news">最新新聞</a>
-        <hr>
-        <a href="/topics/test/#video">影音專區</a>
-        <hr>
-        <router-link to="/#live">首頁</router-link>
+        <a href="/#news">新聞專區</a>
+        <a href="/#district">地方選戰</a>
+        <a href="/#video">影音專區</a>
       </nav>
       <!-- mobile -->
       <div class="fad fa-2x fa-bars mobile" @click="menu">
@@ -26,30 +20,30 @@
           <hr>
           <router-link to="/about">選將名單</router-link>
           <hr>
-          <a href="/topics/test/#district">地方選戰</a>
+          <a href="/#news">新聞專區</a>
           <hr>
-          <a href="/topics/test/#news">最新新聞</a>
+          <a href="/#district">地方選戰</a>
           <hr>
-          <a href="/topics/test/#video">影音專區</a>
-          <hr>
-          <a href="/topics/test/#live">直播新聞</a>
+          <a href="/#video">影音專區</a>
           <hr>
         </nav>
       </div>
     </div>
-    <!-- <HomeView /> -->
     <router-view />
+
   </div>
+
+
 </template>
 
 
 <script>
-// import HomeView from '@/views/HomeView.vue'
+
 export default {
 
   name: 'App',
   components: {
-    // HomeView,
+
   },
 
   data() {
@@ -151,7 +145,7 @@ export default {
 
 
 .nav a:hover::before {
-  content: '\f061';
+  /* content: '\f061'; */
   padding-right: 1rem;
 }
 
@@ -254,8 +248,25 @@ a {
   display: fixed;
 }
 
-.tab-content {
+/* .tab-content {
   overflow: scroll;
+  
+} */
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.section {
+  max-width: 1200px
 }
 </style>
 
