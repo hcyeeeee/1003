@@ -110,7 +110,7 @@
       "zone": "第1選區",
       "name": "藍士博",
       "party": "台灣基進黨",
-      "party_photo": "../assets/基進黨jpg"
+      "party_photo": "../assets/台灣基進黨.jpg"
     },
     {
       "city": "桃園市",
@@ -851,7 +851,7 @@
       "city": "桃園市",
       "zone": "第13選區",
       "name": "蔡惠蘭",
-      "party": "台灣維新",
+      "party": "維新黨",
       "party_photo": "../assets/台灣團結聯盟jpg"
     },
     {

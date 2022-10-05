@@ -88,8 +88,8 @@
       "city": "新北市",
       "zone": "第2選區",
       "name": "董俊宏",
-      "party": "台灣基進黨 ",
-      "party_photo": "../assets/基進黨jpg"
+      "party": "台灣基進黨",
+      "party_photo": "../assets/台灣基進黨.jpg"
     },
     {
       "city": "新北市",
@@ -592,7 +592,7 @@
       "city": "新北市",
       "zone": "第7選區",
       "name": "蕭蒼澤",
-      "party": "台灣維新",
+      "party": "維新黨",
       "party_photo": "../assets/台灣團結聯盟jpg"
     },
     {

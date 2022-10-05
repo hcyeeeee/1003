@@ -287,7 +287,7 @@ export default new Vuex.Store({
           edu: ["台灣大學心理學系學士"],
           exp: [
             "2017年東默農編劇有限公司 共同創辦人 ",
-            "2020年台灣動物保護黨 副主席",
+            "2020年台灣動保黨 副主席",
           ],
         },
       },
@@ -1081,7 +1081,7 @@ export default new Vuex.Store({
         name: "王育敏",
         no: "2",
         party: "國民黨",
-        photo: require("../assets/徐榛蔚.jpg"),
+        photo: require("../assets/王育敏.jpg"),
         party_photo: require("../assets/國民黨.jpg"),
         experience: {
           edu: [
@@ -1128,16 +1128,16 @@ export default new Vuex.Store({
         name: "謝龍介",
         no: "2",
         party: "國民黨",
-        photo: require("../assets/徐榛蔚.jpg"),
+        photo: require("../assets/謝龍介.jpg"),
         party_photo: require("../assets/國民黨.jpg"),
         experience: {
           edu: ["遠東技術學院企業管理系", "國立成功大學高階管理碩士（EMBA）"],
           exp: [
-            "2002年省轄市第15屆臺南市議會議員",
-            "2006年省轄市第16屆臺南市議會議員",
+            // "2002年省轄市第15屆臺南市議會議員",
+            // "2006年省轄市第16屆臺南市議會議員",
             // "2010年直轄市第1屆臺南市議會議員",
-            // "2014年直轄市第2屆臺南市議會議員",
-            // "2018年直轄市第3屆臺南市議會議員",
+            "2014年直轄市第2屆臺南市議會議員",
+            "2018年直轄市第3屆臺南市議會議員",
           ],
         },
       },
@@ -1198,10 +1198,7 @@ export default new Vuex.Store({
         photo: require("../assets/陳其邁.jpg"),
         party_photo: require("../assets/民進黨.jpg"),
         experience: {
-          edu: [
-            "中山醫學院醫學系畢業",
-            "國立臺灣大學公共衛生研究所預防醫學碩士",
-          ],
+          edu: ["中山醫學院醫學系畢業", "國立臺灣大學公衛研究所預防醫學碩士"],
           exp: [
             // "2000年民主進步黨主流聯盟發言人",
             // "2002年第5屆立法委員",
@@ -1229,7 +1226,7 @@ export default new Vuex.Store({
         party_photo: require("../assets/國民黨.jpg"),
         experience: {
           edu: [
-            "國立政治大學教育學系教育學學士",
+            "國立政治大學教育學系學士",
             "美國密西根州立大學教育學碩士",
             "美國南加州大學教育心理學博士",
           ],
@@ -1302,7 +1299,7 @@ export default new Vuex.Store({
           edu: [
             "國立中興大學食品科學系",
             "高雄醫學大學學士後醫學系",
-            "國立屏東大學社會發展學系碩士班",
+            "國立屏東大學社會發展學碩士班",
           ],
           exp: [
             // "屏東縣就業歧視暨性平評議委員會委員",
@@ -1395,8 +1392,8 @@ export default new Vuex.Store({
         experience: {
           edu: [
             // "輔仁大學中文系",
-            "美國加州聖荷西州立大學媒體教育碩士",
-            "國立臺灣師範大學政治研究所博士",
+            "加州聖荷西州立大學媒體教育碩士",
+            "國立臺灣師範大學政治所博士",
           ],
           exp: [
             // "2006年第16屆臺東縣副議長",
@@ -1545,12 +1542,7 @@ export default new Vuex.Store({
         photo: require("../assets/陳福海.jpg"),
         party_photo: require("../assets/無黨.jpg"),
         experience: {
-          edu: [
-            "國立空中大學公共行政學系",
-            "銘傳大學公共事務所學分班",
-            "華中科技大學公共管理學院碩士",
-            "華中科技大學公共管理學院博士生",
-          ],
+          edu: ["華中科技大學公共管理學院碩士", "華中科技大學公共管理學院博士"],
           exp: ["2008年第7屆立法委員", "2014年第6屆金門縣縣長"],
         },
       },
@@ -1575,17 +1567,14 @@ export default new Vuex.Store({
         photo: require("../assets/選舉章icon.png"),
         party_photo: require("../assets/民進黨.jpg"),
         experience: {
-          edu: [
-            "國立臺灣大學人類學系學士",
-            "美國芝加哥大學社會科學碩士學程碩士",
-          ],
+          edu: ["國立臺灣大學人類學系學士", "芝加哥大學社會科學碩士學程碩士"],
           exp: [
             // "民主進步黨媒體創意中心副主任",
             // "民主進步黨公共關係處副主任",
             // "民主進步黨發言人",
             // "民主進步黨中國事務部副主任",
-            "民主進步黨連江縣入黨審查委員會召集人",
-            "民主進步黨連江縣黨部主委",
+            "民進黨連江縣入黨審查委員會召集人",
+            "民進黨連江縣黨部主委",
           ],
         },
       },

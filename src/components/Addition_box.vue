@@ -7,7 +7,7 @@
 
 </template>
 
-<script >
+<!-- <script >
 var nowTime = new Date();
 console.log(Date());
 console.log(nowTime.getTime());
@@ -46,7 +46,7 @@ export default {
         },
     }
 }
-</script>
+</script> -->
 <style scoped>
 .addition {
     display: flex;

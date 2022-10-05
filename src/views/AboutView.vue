@@ -75,9 +75,5 @@ export default {
 }
 
 
-.section-box {
-  max-height: 800px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
+
 </style>

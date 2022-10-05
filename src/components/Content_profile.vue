@@ -931,6 +931,7 @@ a {
 
 .section-box {
     max-width: 1000px;
+    max-height: 100%;
 }
 
 @media screen and (max-width: 900px) {

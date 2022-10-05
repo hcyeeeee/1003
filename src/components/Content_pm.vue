@@ -584,12 +584,26 @@ hr {
 
 .news h2 {
     padding: 0.3rem 1rem;
+
+    word-break: break-all;
+
 }
+
+@media screen and (max-width: 1000px) {
+    .news h2 {
+        padding: 0.3rem 1rem;
+        width: 200px;
+        word-break: break-all;
+
+    }
+}
+
 
 .news p {
     text-align: left;
     padding: 0.3rem 1rem;
     font-weight: lighter;
+    word-break: break-all;
 }
 
 .news img {
@@ -706,6 +720,12 @@ a {
     color: #2e2e2e;
 }
 
+.section-box {
+    max-height: 800px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 @media screen and (max-width: 500px) {
     .title {
         font-size: 1.2rem;
@@ -754,9 +774,10 @@ a {
     }
 
     .section-box {
-        max-height: 550px;
+        max-height: 500px;
         overflow-y: scroll;
         overflow-x: hidden;
+
     }
 
 
@@ -784,7 +805,7 @@ a {
 }
 
 .name {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-align: left;
 }
 
@@ -815,5 +836,11 @@ p {
 
 .lesscity {
     justify-content: center;
+}
+
+
+ul li:active {
+    background-color: rgb(217, 246, 201);
+    color: #000000;
 }
 </style>

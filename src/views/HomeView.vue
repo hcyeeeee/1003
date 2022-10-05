@@ -290,6 +290,7 @@ figure {
 .section {
   font-family: 'Noto Sans TC';
   margin: 2rem auto;
+  max-width: 1000px;
 
 
 }
@@ -382,5 +383,10 @@ hr {
 
 .nav-link {
   color: rgb(26, 26, 26);
+}
+
+
+.section-box {
+  max-width: 1000px;
 }
 </style>

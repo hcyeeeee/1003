@@ -9,10 +9,19 @@
       <nav class=" computer navbar">
         <router-link to="/">首頁</router-link>
         <router-link to="/about">選將名單</router-link>
-        <a href="/#news">新聞專區</a>
-        <a href="/#district">地方選戰</a>
-        <a href="/#video">影音專區</a>
+        <router-link to="/vote">修憲公投</router-link>
+        <router-link to="/">
+          <a href="/#district" @click="jump('dis')">地方選戰</a>
+        </router-link>
+        <router-link to="/">
+          <a href="/#news" @click="jump('news')">新聞專區</a>
+        </router-link>
+        <router-link to="/">
+          <a href="/#video" @click="jump('vid')">影音專區</a>
+        </router-link>
       </nav>
+
+
       <!-- mobile -->
       <div class="fad fa-2x fa-bars mobile" @click="menu">
         <nav class="nav">
@@ -20,27 +29,39 @@
           <hr>
           <router-link to="/about">選將名單</router-link>
           <hr>
-          <a href="/#news">新聞專區</a>
+          <router-link to="/vote">修憲公投</router-link>
           <hr>
-          <a href="/#district">地方選戰</a>
+
+          <router-link to="/">
+            <a href="/#district" @click="jump('dis')">地方選戰</a>
+          </router-link>
+
           <hr>
-          <a href="/#video">影音專區</a>
+          <router-link to="/">
+            <a href="/#news" @click="jump('news')">新聞專區</a>
+          </router-link>
+
+          <hr>
+          <router-link to="/">
+            <a href="/#video" @click="jump('vid')">影音專區</a>
+          </router-link>
           <hr>
         </nav>
       </div>
     </div>
     <router-view />
-
   </div>
 
 
 </template>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 <script>
-
+import bootstrap from 'bootstrap' 
 export default {
-
+  bootstrap,
   name: 'App',
   components: {
 
@@ -74,11 +95,25 @@ export default {
   methods: {
 
     menu() {
-      this.active.removeEventListener('click', false);
+      this.active.removeEventListener('click', true);
     },
     handleScroll() {
       this.active = window.scrollY < 700 ? true : false
     },
+
+    jump(tag) {
+      setTimeout(() => {
+        console.log(tag);
+        if (tag === 'news') {
+          window.location.hash = '#news'
+        } else if (tag === 'dis') {
+          window.location.hash = '#district'
+        } else {
+          window.location.hash = '#video'
+        }
+      }, 1000);
+    }
+
   },
   mounted() {
     this.scroll()

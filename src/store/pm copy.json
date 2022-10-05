@@ -1359,7 +1359,7 @@
       "city": "台北市",
       "zone": "第5選區",
       "name": "曾琳詒",
-      "party": "台灣動物保護黨",
+      "party": "台灣動保黨",
       "party_photo": "../assets/台灣動保黨.jpg",
     },
     {
@@ -1541,7 +1541,7 @@
       "city": "台北市",
       "zone": "第6選區",
       "name": "華珮君",
-      "party": "台灣動物保護黨",
+      "party": "台灣動保黨",
       "party_photo": "../assets/台灣動保黨.jpg",
     },
     {
@@ -1726,7 +1726,7 @@
       "zone": "第2選區",
       "name": "董俊宏",
       "party": "台灣基進黨 ",
-      "party_photo": "../assets/基進黨.jpg",
+      "party_photo": "../assets/台灣基進黨.jpg",
     },
     {
       "city": "新北市",
@@ -2229,7 +2229,7 @@
       "city": "新北市",
       "zone": "第7選區",
       "name": "蕭蒼澤",
-      "party": "台灣維新",
+      "party": "維新黨",
       "party_photo": "../assets/台灣團結聯盟.jpg",
     },
     {
@@ -3393,7 +3393,7 @@
       "city": "桃園市",
       "zone": "第13選區",
       "name": "蔡惠蘭",
-      "party": "台灣維新",
+      "party": "維新黨",
       "party_photo": "../assets/台灣團結聯盟.jpg",
     },
     {
@@ -5972,7 +5972,7 @@
       "city": "彰化縣",
       "zone": "第1選區",
       "name": "曾煥程",
-      "party": "台灣維新",
+      "party": "維新黨",
       "party_photo": "../assets/台灣團結聯盟.jpg",
     },
     {
@@ -6224,7 +6224,7 @@
       "city": "彰化縣",
       "zone": "第4選區",
       "name": "詹閔雄",
-      "party": "台灣維新",
+      "party": "維新黨",
       "party_photo": "../assets/台灣團結聯盟.jpg",
     },
     {
@@ -11058,7 +11058,7 @@
       "city": "臺東縣",
       "zone": "第4選區",
       "name": "王瀚駿",
-      "party": "台灣維新",
+      "party": "維新黨",
       "party_photo": "../assets/台灣團結聯盟.jpg",
     },
     {
