@@ -578,5 +578,9 @@ a {
         display: inline-block;
 
     }
+
+    .section-box {
+        max-height: fit-content;
+    }
 }
 </style>

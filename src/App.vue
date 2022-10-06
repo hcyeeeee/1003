@@ -9,7 +9,7 @@
       <nav class=" computer navbar">
         <router-link to="/">首頁</router-link>
         <router-link to="/about">選將名單</router-link>
-        <router-link to="/vote">修憲公投</router-link>
+        <!-- <router-link to="/vote">修憲公投</router-link> -->
         <router-link to="/">
           <a href="/#district" @click="jump('dis')">地方選戰</a>
         </router-link>
@@ -22,9 +22,9 @@
       </nav>
 
 
-      <!-- mobile -->
+      <!-- mobile
       <div class="fad fa-2x fa-bars mobile" @click="menu">
-        <nav class="nav">
+        <nav class="nav" v-on:click="menu = !menu">
           <router-link to="/">首頁</router-link>
           <hr>
           <router-link to="/about">選將名單</router-link>
@@ -47,28 +47,32 @@
           </router-link>
           <hr>
         </nav>
-      </div>
+      </div> -->
     </div>
+    <!-- <AdditionScrolltop /> -->
+    <AdditionButton />
     <router-view />
   </div>
 
 
 </template>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 <script>
-import bootstrap from 'bootstrap' 
+// import AdditionScrolltop from './components/Addition_scrolltop.vue'
+import AdditionButton from './components/Addition_bottom.vue'
 export default {
-  bootstrap,
+
   name: 'App',
   components: {
-
+    AdditionButton,
+    // AdditionScrolltop,
   },
 
   data() {
     return {
+
+
+      menu: false,
       list: [
         {
           title: '首頁',
@@ -93,14 +97,19 @@ export default {
     window.addEventListener('scroll', this.handleScroll)
   },
   methods: {
-
-    menu() {
-      this.active.removeEventListener('click', true);
-    },
+    // menu() {
+    //   this.isActive = !this.isActive;
+    // },
     handleScroll() {
       this.active = window.scrollY < 700 ? true : false
     },
-
+    toggle() {
+      if (!this.isActive) {
+        this.isActive = true;
+      } else {
+        this.isActive = false;
+      }
+    },
     jump(tag) {
       setTimeout(() => {
         console.log(tag);
@@ -111,7 +120,7 @@ export default {
         } else {
           window.location.hash = '#video'
         }
-      }, 1000);
+      }, 100);
     }
 
   },

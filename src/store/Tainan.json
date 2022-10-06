@@ -2,742 +2,742 @@
   "Tainan": [
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "沈家鳳",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "李宗翰",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "劉米山",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "王宣貿",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "張世賢",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "蔡育輝",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "姚正玉",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "趙昆原",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第1選區",
+      "zone": "第一選區",
       "name": "廖志峯",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第2選區",
+      "zone": "第二選區",
       "name": "蔡蘇秋金",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第2選區",
+      "zone": "第二選區",
       "name": "蔡秋蘭",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第2選區",
+      "zone": "第二選區",
       "name": "謝舒凡",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第2選區",
+      "zone": "第二選區",
       "name": "方一峰",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第2選區",
+      "zone": "第二選區",
       "name": "黃建昌",
       "party": "臺灣基進",
       "party_photo": "../assets/基進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第2選區",
+      "zone": "第二選區",
       "name": "蔣琦君",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第2選區",
+      "zone": "第二選區",
       "name": "陳昆和",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第3選區",
+      "zone": "第三選區",
       "name": "吳通龍",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第3選區",
+      "zone": "第三選區",
       "name": "陳秋宏",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第3選區",
+      "zone": "第三選區",
       "name": "尤榮智",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第3選區",
+      "zone": "第三選區",
       "name": "郭秀珠",
       "party": "無黨團結聯盟",
       "party_photo": "../assets/台灣團結聯盟.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第3選區",
+      "zone": "第三選區",
       "name": "姜雨良",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第3選區",
+      "zone": "第三選區",
       "name": "陳沛然",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第4選區",
+      "zone": "第四選區",
       "name": "陳福慶",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第4選區",
+      "zone": "第四選區",
       "name": "周奕齊",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "林志展",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "陳碧玉",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "李偉智",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "余柷青",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "李文俊",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "林全忠",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "洪岳銘",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "王清崎",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第5選區",
+      "zone": "第五選區",
       "name": "廖俊道",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "郭清華",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "王錦德",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "蔡麗青",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "李中岑",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "童小芸",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "陳詩薇",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "陳建大明",
       "party": "時代力量",
       "party_photo": "../assets/時代力量.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "王明彥",
       "party": "台灣基進黨",
       "party_photo": "../assets/基進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "郭信良",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "黃麗招",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "邱昭勝",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "陳進星",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "林緯",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第6選區",
+      "zone": "第六選區",
       "name": "陳瑜緁",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "陳秋萍",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "黃肇輝",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "朱正軒",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "林燕祝",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "李鎮國",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "江品璁",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "林易瑩",
       "party": "時代力量",
       "party_photo": "../assets/時代力量.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "吳依潔",
       "party": "台灣基進黨",
       "party_photo": "../assets/基進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "楊中成",
       "party": "台灣團結聯盟",
       "party_photo": "../assets/台灣團結聯盟.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "林冠維",
       "party": "無黨團結聯盟",
       "party_photo": "../assets/台灣團結聯盟.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "杜雪吟",
       "party": "小民參政歐巴桑聯盟",
       "party_photo": "../assets/小民參政歐巴桑聯盟.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "馬杰睿",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "陳世霖",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "許崇洲",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第7選區",
+      "zone": "第七選區",
       "name": "蔡明峰",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "邱莉莉",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "沈震東",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "陳怡珍",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "周嘉韋",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "許至椿",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "蔡宗豪",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "高凱旋",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "江明宗",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "李冠霖",
       "party": "時代力量",
       "party_photo": "../assets/時代力量.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第8選區",
+      "zone": "第八選區",
       "name": "李晉豪",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "呂維胤",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "周麗津",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "李啟維",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "林依婷",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "林美燕",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "蔡淑惠",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "盧崑福",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "陳嘉伶",
       "party": "台灣基進黨",
       "party_photo": "../assets/基進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "陳冠娟",
       "party": "小民參政歐巴桑聯盟",
       "party_photo": "../assets/小民參政歐巴桑聯盟.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "莊玉珠",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第9選區",
+      "zone": "第九選區",
       "name": "李伯利",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "蔡旺詮",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "蔡筱薇",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "陳金鐘",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "王家貞",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "曾培雅",
       "party": "國民黨",
       "party_photo": "../assets/國民黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "蔡宛秦",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "李宗霖",
       "party": "台灣基進黨",
       "party_photo": "../assets/基進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "邱瓊儀",
       "party": "小民參政歐巴桑聯盟",
       "party_photo": "../assets/小民參政歐巴桑聯盟.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "曾之婕",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第10選區",
+      "zone": "第十選區",
       "name": "陳世安",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "郭鴻儀",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "鄭佳欣",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "陳皇宇",
       "party": "民進黨",
       "party_photo": "../assets/民進黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "江國銘",
       "party": "民眾黨",
       "party_photo": "../assets/民眾黨.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "杜素吟",
       "party": "無黨團結聯盟",
       "party_photo": "../assets/台灣團結聯盟.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "吳禹寰",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "許又仁",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第11選區",
+      "zone": "第十一選區",
       "name": "翁語含",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第12選區",
+      "zone": "第十二選區",
       "name": "穎艾達利（Ingay Tali）",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第12選區",
+      "zone": "第十二選區",
       "name": "李美素",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第13選區",
+      "zone": "第十三選區",
       "name": "施余興望（Tjakumay Tagaw）",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第13選區",
+      "zone": "第十三選區",
       "name": "賴惠美",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"
     },
     {
       "city": "台南市",
-      "zone": "第13選區",
+      "zone": "第十三選區",
       "name": "伍宗康",
       "party": "無黨籍",
       "party_photo": "../assets/無黨籍.jpg"

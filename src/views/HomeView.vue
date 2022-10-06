@@ -377,7 +377,7 @@ hr {
 .nav.nav-tabs.nav-fill {
   display: flex;
   flex-flow: nowrap !important;
-  overflow: scroll;
+  /* overflow: scroll; */
   margin: auto;
 }
 

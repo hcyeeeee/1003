@@ -32,7 +32,7 @@ export default {
 }
 </script>
 
-<style >
+<style>
 .tab-content {
   /* overflow: scroll; */
   max-width: 2000px !important;
@@ -73,7 +73,4 @@ export default {
   max-width: 1300px;
   margin: auto;
 }
-
-
-
 </style>

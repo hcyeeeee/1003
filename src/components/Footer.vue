@@ -14,9 +14,8 @@ footer {
     margin: auto;
     color: black;
     padding: 1.5rem;
-
     font-weight: 500;
-    background: #679fdc;
+    background: #ddf2e1;
     /* Old browsers */
     background: -moz-linear-gradient(left, #679fdc 0%, #ece18c 49%, #b3d671 100%);
     /* FF3.6-15 */
@@ -25,5 +24,14 @@ footer {
     background: linear-gradient(to right, #679fdc 0%, #ece18c 49%, #b3d671 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        margin-bottom: 3rem;
+    }
 }
 </style>

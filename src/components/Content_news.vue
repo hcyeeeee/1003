@@ -1,4 +1,4 @@
-<template>
+<template >
     <div class="section" id="news">
         <h3>{{ title }}</h3>
         <ul class="desktop">
@@ -483,5 +483,9 @@ a {
     }
 
 
+}
+
+.section-box {
+    max-height: fit-content;
 }
 </style>

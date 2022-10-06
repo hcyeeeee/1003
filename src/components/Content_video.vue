@@ -118,6 +118,7 @@ hr {
     margin: 1rem auto;
     padding: 1rem;
     margin-bottom: 5rem;
+    max-height: fit-content;
 }
 
 h4 {
