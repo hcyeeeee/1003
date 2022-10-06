@@ -2,7 +2,7 @@
   <div>
 
     <COntentBanner />
-    <AdditionBox />
+    <!-- <AdditionBox /> -->
 
     <InfogramVoted />
     <Share />
@@ -15,7 +15,7 @@
 <script>
 
 import COntentBanner from '@/components/Content_banner.vue'
-import AdditionBox from '@/components/Addition_box.vue'
+// import AdditionBox from '@/components/Addition_box.vue'
 import InfogramVoted from '@/components/Infogram_voted.vue'
 import Footer from '@/components/Footer.vue'
 import Share from '../components/share.vue'
@@ -25,7 +25,7 @@ export default {
   name: 'App',
   components: {
     COntentBanner,
-    AdditionBox,
+    // AdditionBox,
     InfogramVoted,
     Footer,
     Share,
@@ -355,15 +355,13 @@ hr {
 
 .nav-tabs {
   --bs-nav-tabs-border-color: transparent;
+
 }
 
 .nav.nav-tabs.nav-fill {
   display: flex;
   flex-flow: nowrap !important;
   overflow: scroll;
-}
 
-.nav-link {
-  color: rgb(26, 26, 26);
 }
 </style>

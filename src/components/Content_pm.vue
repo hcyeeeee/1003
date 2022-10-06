@@ -832,6 +832,7 @@ p {
     padding: 0 1rem;
     width: 100%;
     max-width: 1000px;
+    padding: 0rem 1.5rem 0rem 1rem;
 }
 
 .lesscity {

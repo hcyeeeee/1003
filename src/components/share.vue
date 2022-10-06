@@ -1,12 +1,10 @@
 <template>
     <div>
-
-
-
-        <div class="layout_addition" @scroll="scroll">
+        <div class="layout_addition desktop" @scroll="scroll">
             <!--  AR-->
             <div class="layout_grid">
-                <div class="icon" :class="{ fixed: active }" id="icon">
+                <!-- <div class="icon" :class="{ fixed: active }" id="icon"> -->
+                <div class="icon" id="icon">
                     <!-- line -->
                     <a href="https://social-plugins.line.me/lineit/share?url=https://www.ftvnews.com.tw/topics/election2022"
                         target="_blank">
@@ -27,10 +25,35 @@
 
                 </div>
             </div>
+        </div>
+        <div class="layout_addition mobile" @scroll="scroll">
+            <!--  AR-->
+            <div class="layout_grid">
+                <!-- <div class="icon" :class="{ fixed: active }" id="icon"> -->
+                <div class="icon" id="icon">
+                    <!-- line -->
+                    <a href="https://social-plugins.line.me/lineit/share?url=https://www.ftvnews.com.tw/topics/election2022"
+                        target="_blank">
+                        <span id="social_line" data-href="https://www.ftvnews.com.tw/topics/election2022/">
+                            <img src="../assets/line.png" alt="line" width="60px" /></span>
+                    </a>
+                    <br />
+                    <!-- facebook -->
+                    <a target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ftvnews.com.tw%2Ftopics%2Felection2022%2F&amp;src=sdkpreparse"
+                        class="fb-xfbml-parse-ignore">
+                        <img src="../assets/fb.png" alt="facebook" width="60px" /></a>
+                    <br />
+                    <!-- localUrl -->
+                    <a target="_blank" @click="getLocalUrl" class="fb-xfbml-parse-ignore">
+                        <img src="../assets/share.png" alt="share" width="60px" /></a>
+                    <br />
 
-            <div v-if="scrollY > 100">
-                <i @click="scrollTop" id="toTop" class="fa-solid fa-2x fa-angle-up"></i>
+                </div>
             </div>
+        </div>
+        <div v-if="scrollY > 100">
+            <i @click="scrollTop" id="toTop" class="fa-solid fa-2x fa-angle-up"></i>
         </div>
     </div>
 
@@ -111,22 +134,30 @@ export default {
 @media screen and (max-width: 768px) {
     .layout_addition {
         position: fixed;
-        right: -5px !important;
+        right: 4rem !important;
         width: 70px;
-        top: 5rem;
+        top: .9rem;
+        align-items: center;
+        z-index: 999;
 
     }
 
     .layout_addition img {
-        padding: 0.3rem 0.8rem
-    }
+        padding: 0.4rem;
+        width: 2.5rem;
 
-    .layout_addition2 {
-        display: none;
     }
 
     .mobile {
-        display: block;
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .icon {
+        display: flex
     }
 
 }

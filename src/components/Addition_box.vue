@@ -35,7 +35,7 @@ setInterval(function () {  // 設置倒數計時: 結束時間 - 當前時間
     var offsetTime = (endTime - nowTime) / 1000; // ** 以秒為單位
     // var hr = parseInt(23 - hour); // 時
     var day = parseInt(offsetTime / 60 / 60 / 24); // 時
-    aI[0].textContent = day;
+    aI[0].textContent = day + 1;
     // aI[1].textContent = hr + "時";
 
 }, 1);

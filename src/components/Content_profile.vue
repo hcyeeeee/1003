@@ -6,8 +6,8 @@
             <b-tabs content-class="mt-3" fill>
                 <div class>
                     <b-tab title="北部">
-                        <b-tabs content-class="mt-3" fill>
-                            <b-tab title="基隆市">
+                        <b-tabs content-class="mt-3" class="tabsize" fill>
+                            <b-tab title="基隆市" class="tabsize">
                                 <div class="layout" v-for="(item, index) of getProfile1" :key="index">
                                     <div class="layout_card">
                                         <img class="person_img" :src="getProfile1[index].photo" alt="personal"
@@ -801,7 +801,7 @@ ul li {
     width: 150px;
     height: 150px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 100%;
     object-fit: cover;
 }
@@ -811,6 +811,7 @@ ul li {
     top: -4.5rem;
     right: -3.5rem;
     width: 50px;
+    border-radius: 100%;
 }
 
 .layout_card {
@@ -873,10 +874,11 @@ img {
 p {
     font-family: "Noto Sans TC";
     text-align: left;
-    margin: 0.5rem 0 1rem 0;
-    padding: 0rem 1rem;
+    margin: 0.5rem 0 .8rem 0;
+    padding: 0rem .5rem;
     line-height: 1.5rem;
     font-size: 1rem;
+
 }
 
 .text {
@@ -915,7 +917,7 @@ a {
 .section-box {
     font-family: 'Noto Sans TC';
     margin: 1rem auto;
-    padding: 1rem 2.2rem 1rem 1rem;
+    padding: 0rem 1.5rem 0rem 1rem;
 }
 
 .edu_content {
@@ -926,7 +928,7 @@ a {
 
 
 .aaa {
-    margin-top: 6rem;
+    margin-top: 2.5rem;
 }
 
 .section-box {
@@ -940,7 +942,7 @@ a {
         background-color: white;
         border-radius: 1.5rem;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        padding: .5rem 1rem;
+        padding: .5rem .8rem;
         margin: .5rem;
         width: 280px;
         overflow-y: hidden;
@@ -955,7 +957,7 @@ a {
         background-color: white;
         border-radius: 1.5rem;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        padding: .5rem 1rem;
+        padding: .5rem .7rem;
         margin: .5rem;
         width: 250px;
         overflow-y: hidden;
@@ -981,5 +983,15 @@ a {
     }
 
 
+}
+
+b-tab {
+    width: 100px;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+    white-space: nowrap;
+    width: 100px;
 }
 </style>

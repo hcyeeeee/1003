@@ -9,7 +9,7 @@
       <nav class=" computer navbar">
         <router-link to="/">首頁</router-link>
         <router-link to="/about">選將名單</router-link>
-        <!-- <router-link to="/vote">修憲公投</router-link> -->
+        <router-link to="/vote">修憲公投</router-link>
         <router-link to="/">
           <a href="/#district" @click="jump('dis')">地方選戰</a>
         </router-link>
@@ -245,7 +245,7 @@ a {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   position: fixed;
   background-color: #f3fff5a8;
   opacity: .99;
@@ -263,6 +263,9 @@ a {
   display: none;
 }
 
+.nav a {
+  margin: 0rem 1rem;
+}
 
 .computer {
 

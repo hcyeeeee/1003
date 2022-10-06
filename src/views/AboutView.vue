@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <COntentBanner />
-    <AdditionBox />
+    <!-- <AdditionBox /> -->
     <ContentProfile />
     <ContentPm />
     <Footer />
@@ -13,7 +13,7 @@
 
 <script>
 import COntentBanner from '@/components/Content_banner.vue'
-import AdditionBox from '@/components/Addition_box.vue'
+// import AdditionBox from '@/components/Addition_box.vue'
 import ContentProfile from '@/components/Content_profile.vue'
 import ContentPm from '@/components/Content_pm.vue'
 import Footer from '@/components/Footer.vue'
@@ -23,7 +23,7 @@ export default {
   name: 'App',
   components: {
     COntentBanner,
-    AdditionBox,
+    // AdditionBox,
     ContentProfile,
     ContentPm,
     Footer,
@@ -72,5 +72,17 @@ export default {
 .tabs {
   max-width: 1300px;
   margin: auto;
+}
+
+
+.nav-link {
+
+  color: rgb(26, 26, 26);
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+  white-space: nowrap;
+  width: 100%;
 }
 </style>

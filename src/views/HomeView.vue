@@ -2,7 +2,7 @@
   <div>
 
     <COntentBanner />
-    <AdditionBox />
+    <!-- <AdditionBox /> -->
     <ContentProcess />
     <ContentTime />
     <ContentProfile />
@@ -19,7 +19,7 @@
 <script>
 
 import COntentBanner from '@/components/Content_banner.vue'
-import AdditionBox from '@/components/Addition_box.vue'
+// import AdditionBox from '@/components/Addition_box.vue'
 import ContentProcess from '@/components/Content_process.vue'
 import ContentTime from '@/components/Content_time.vue'
 import ContentVideo from '@/components/Content_video.vue'
@@ -33,7 +33,7 @@ export default {
   name: 'App',
   components: {
     COntentBanner,
-    AdditionBox,
+    // AdditionBox,
     ContentProcess,
     ContentTime,
     ContentNews,
@@ -194,7 +194,7 @@ table {
 }
 </style>
 
-<style>
+<style scoped>
 /* 全局自訂 */
 * {
   scroll-behavior: smooth;
@@ -339,16 +339,20 @@ figure {
 .nav-tabs .nav-link.active {
   background-color: #A5D35E !important;
   color: rgb(45, 44, 44);
+
+  width: 88px;
 }
 
 .nav-item {
   color: rgb(32, 32, 32);
   border-bottom: 3px solid #A5D35E;
   margin: .5rem;
+
 }
 
 .nav-tabs .nav-link {
-  width: 100px;
+  width: 88px;
+
 }
 
 /* 候選人編號樣式 */
@@ -379,6 +383,8 @@ hr {
   flex-flow: nowrap !important;
   /* overflow: scroll; */
   margin: auto;
+
+
 }
 
 .nav-link {
