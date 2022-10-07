@@ -1,5 +1,5 @@
 <template >
-    <div class="section" id="news">
+    <div class="section" >
         <h3>{{ title }}</h3>
         <ul class="desktop">
             <li @click="getData_ftvNews">最新新聞</li>

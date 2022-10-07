@@ -9,13 +9,14 @@
       <nav class=" computer navbar">
         <router-link to="/">首頁</router-link>
         <router-link to="/about">選將名單</router-link>
-        <router-link to="/vote">修憲公投</router-link>
-        <router-link to="/">
+        <!-- <router-link to="/vote">歷年版圖</router-link> -->
+        <router-link to="/qa">修憲公投</router-link>
+        <!-- <router-link to="/">
           <a href="/#district" @click="jump('dis')">地方選戰</a>
-        </router-link>
-        <router-link to="/">
+        </router-link> -->
+        <!-- <router-link to="/">
           <a href="/#news" @click="jump('news')">新聞專區</a>
-        </router-link>
+        </router-link> -->
         <router-link to="/">
           <a href="/#video" @click="jump('vid')">影音專區</a>
         </router-link>
@@ -53,8 +54,6 @@
     <AdditionButton />
     <router-view />
   </div>
-
-
 </template>
 
 <script>
@@ -314,6 +313,15 @@ a {
 
 .section {
   max-width: 1200px
+}
+
+nav a {
+  font-size: 1.2rem;
+  margin: 0rem 1rem;
+  display: block;
+  color: #595757;
+  font-weight: bolder;
+  transition: 0.3s;
 }
 </style>
 

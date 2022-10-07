@@ -51,10 +51,6 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&display=swap');
 
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
- v2.0 | 20110126
- License: none (public domain)
-*/
 
 html,
 body {

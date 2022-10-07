@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="news">
         <img src="../assets/date.png" />
     </div>
 </template>

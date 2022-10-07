@@ -774,7 +774,7 @@ a {
     }
 
     .section-box {
-        max-height: 500px;
+
         overflow-y: scroll;
         overflow-x: hidden;
 

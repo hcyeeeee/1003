@@ -64,7 +64,7 @@ export default {
 
             }
         }
-        timer = setInterval(show_date_time, 1000);
+        timer = setInterval(show_date_time, 10);
     },
 }
 </script>

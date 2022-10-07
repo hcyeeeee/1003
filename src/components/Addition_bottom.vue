@@ -1,40 +1,31 @@
 <template>
     <div class="bottom">
-        <router-link class="bottom2" to="/">
-            <a href="/#news" @click="jump('news')">新聞專區</a>
-        </router-link>
-        <router-link class="bottom2" to="/">
-            <a href="/#district" @click="jump('dis')">地方選戰</a>
-        </router-link>
-        <router-link class="bottom2" to="/about">選將名單</router-link>
-        <!-- <router-link to="/vote">修憲公投</router-link> -->
-        <router-link class="bottom2" to="/">
-            <a href="/#video" @click="jump('vid')">影音專區</a>
+
+
+
+
+        <router-link to="/" class="bottom2">
+            <a href="/#news" @click="jump('news')">最新新聞</a>
         </router-link>
 
+        <!-- <router-link to="/">
+            <a href="/#district" @click="jump('dis')">地方選戰</a>
+        </router-link> -->
+
+        <!-- <router-link to="/">
+            <a href="/#video" @click="jump('vid')">影音專區</a>
+        </router-link> -->
+        <router-link class="bottom2" to="/about">選將名單</router-link>
+        <!-- <router-link to="/vote">歷年版圖</router-link> -->
+        <router-link class="bottom2" to="/qa">修憲公投</router-link>
     </div>
 </template>
 
 
-<!-- <hr>
-</router-link>
-<hr>
-</router-link>
-<hr>
 
-<router-link to="/">
-  <a href="/#district" @click="jump('dis')">地方選戰</a>
-</router-link>
 
-<hr>
-<router-link to="/">
-  <a href="/#news" @click="jump('news')">新聞專區</a>
-</router-link>
 
-<hr>
-<router-link to="/">
-  <a href="/#video" @click="jump('vid')">影音專區</a>
-</router-link> -->
+
 <script>
 export default {
     data() {
@@ -89,7 +80,7 @@ export default {
                 } else {
                     window.location.hash = '#video'
                 }
-            }, 1000);
+            }, 500);
         }
 
     },
@@ -150,12 +141,8 @@ export default {
 }
 
 
-
-a {}
-
 .bottom2 {
-
-    opacity: .7;
+    opacity: .9;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -170,5 +157,57 @@ a {}
     .bottom {
         display: flex;
     }
+}
+
+
+
+
+
+.ya {}
+
+/* Dropup Button */
+.dropbtn {
+    background: transparent;
+    font-size: 16px;
+    border: none;
+
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+    position: relative;
+    display: block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    min-width: 140px;
+    z-index: 1;
+
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: contents;
+    flex-direction: column;
+
+}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+    display: grid;
+
+
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+    background-color: transparent;
 }
 </style>

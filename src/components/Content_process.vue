@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="news">
         <img class="img" src="../assets/小可愛.png" alt="小可愛">
         <div class="section-box">
             <ul class="entries">

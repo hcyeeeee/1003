@@ -2,21 +2,18 @@
   <div>
 
     <COntentBanner />
-    <!-- <AdditionBox /> -->
 
-    <InfogramVoted />
+    <Vote />
     <Share />
     <Footer />
-
-
   </div>
 </template>
 
 <script>
 
 import COntentBanner from '@/components/Content_banner.vue'
-// import AdditionBox from '@/components/Addition_box.vue'
-import InfogramVoted from '@/components/Infogram_voted.vue'
+import Vote from '@/components/Infogram_result.vue'
+// import Vote from '@/components/Infogram_voted.vue'
 import Footer from '@/components/Footer.vue'
 import Share from '../components/share.vue'
 
@@ -26,10 +23,9 @@ export default {
   components: {
     COntentBanner,
     // AdditionBox,
-    InfogramVoted,
+    Vote,
     Footer,
     Share,
-
   },
 }
 </script>
@@ -39,10 +35,6 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&display=swap');
 
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
- v2.0 | 20110126
- License: none (public domain)
-*/
 
 html,
 body {
