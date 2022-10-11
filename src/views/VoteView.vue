@@ -12,8 +12,7 @@
 <script>
 
 import COntentBanner from '@/components/Content_banner.vue'
-import Vote from '@/components/Infogram_result.vue'
-// import Vote from '@/components/Infogram_voted.vue'
+import Vote from '@/components/Infogram_voted.vue'
 import Footer from '@/components/Footer.vue'
 import Share from '../components/share.vue'
 

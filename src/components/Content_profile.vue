@@ -959,7 +959,7 @@ a {
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         padding: .5rem .7rem;
         margin: .5rem;
-        width: 250px;
+        width: 280px;
         overflow-y: hidden;
         height: fit-content;
     }

@@ -10,6 +10,7 @@
         <router-link to="/">首頁</router-link>
         <router-link to="/about">選將名單</router-link>
         <!-- <router-link to="/vote">歷年版圖</router-link> -->
+        <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
         <router-link to="/qa">修憲公投</router-link>
         <!-- <router-link to="/">
           <a href="/#district" @click="jump('dis')">地方選戰</a>
@@ -129,6 +130,8 @@ export default {
   },
 }
 </script>
+
+
 <!-- <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

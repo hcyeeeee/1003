@@ -122,14 +122,6 @@ summary,
 time,
 mark,
 audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -310,32 +302,8 @@ figure {
   margin-left: 0;
 }
 
-/* Tabs style */
-.nav-tabs .nav-link.active {
-  background-color: #A5D35E !important;
-  color: rgb(45, 44, 44);
-}
 
-.nav-item {
-  color: rgb(32, 32, 32);
-  border-bottom: 3px solid #A5D35E;
-  margin: .5rem;
-}
 
-.nav-tabs .nav-link {
-  width: 100px;
-}
-
-/* 候選人編號樣式 */
-.fa.fa-circle-o {
-  font-weight: lighter !important;
-  color: #494949;
-}
-
-.fa-stack-1x {
-  color: red;
-  font-weight: bolder;
-}
 
 hr {
   color: inherit;
@@ -345,15 +313,5 @@ hr {
 
 }
 
-.nav-tabs {
-  --bs-nav-tabs-border-color: transparent;
 
-}
-
-.nav.nav-tabs.nav-fill {
-  display: flex;
-  flex-flow: nowrap !important;
-  overflow: scroll;
-
-}
 </style>

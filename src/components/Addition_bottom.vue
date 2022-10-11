@@ -16,7 +16,10 @@
             <a href="/#video" @click="jump('vid')">影音專區</a>
         </router-link> -->
         <router-link class="bottom2" to="/about">選將名單</router-link>
-        <!-- <router-link to="/vote">歷年版圖</router-link> -->
+
+        <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
+
+
         <router-link class="bottom2" to="/qa">修憲公投</router-link>
     </div>
 </template>
@@ -107,7 +110,7 @@ export default {
 
 .bottom a {
     width: 33.3%;
-    padding: 1.2rem 0rem;
+    padding: 1.5rem 0rem;
     color: rgb(36, 36, 36);
     /* font-weight: bolder; */
     text-align: center;

@@ -309,9 +309,6 @@ figure {
   }
 }
 
-.flex {
-  display: flex;
-}
 
 @media screen and (max-width: 350px) {
   .flex {
@@ -327,40 +324,26 @@ figure {
   line-height: 2rem;
 }
 
-.section-box p:nth-child(1) {
-  margin-left: 0;
-}
+
 
 /* Tabs style */
-.nav-tabs .nav-link.active {
+/* .nav-tabs .nav-link.active {
   background-color: #A5D35E !important;
   color: rgb(45, 44, 44);
-
-  width: 88px;
-}
+} */
 
 .nav-item {
   color: rgb(32, 32, 32);
   border-bottom: 3px solid #A5D35E;
-  margin: .5rem;
+  margin: .2rem;
 
 }
 
 .nav-tabs .nav-link {
-  width: 88px;
+  width: 78px;
 
 }
 
-/* 候選人編號樣式 */
-.fa.fa-circle-o {
-  font-weight: lighter !important;
-  color: #494949;
-}
-
-.fa-stack-1x {
-  color: red;
-  font-weight: bolder;
-}
 
 hr {
   color: inherit;

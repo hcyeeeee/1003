@@ -86,6 +86,7 @@
 
 
 
+
         <div class="section-box">
             <!-- 電腦版內容 -->
             <div class="news-layout desktop">
@@ -545,7 +546,7 @@ export default {
 
 @media screen and (max-width: 500px) {
     .news-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
@@ -592,7 +593,7 @@ hr {
 @media screen and (max-width: 1000px) {
     .news h2 {
         padding: 0.3rem 1rem;
-        width: 200px;
+        /* width: 200px; */
         word-break: break-all;
 
     }
@@ -726,6 +727,63 @@ a {
     overflow-x: hidden;
 }
 
+
+/* 
+.content-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+
+/* .porfile {
+    display: grid;
+    padding: .2rem;
+    grid-template-rows: 1fr 1fr;
+
+} */
+
+/* .name {
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.party {
+    font-size: 1.2rem;
+    text-align: left;
+
+} */
+
+.tab-pane {
+    display: flex;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.section-box {
+    max-width: 1200px;
+}
+
+.section {
+    margin: 0rem auto;
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0rem 1.5rem 0rem 1rem;
+}
+
+.lesscity {
+    justify-content: center;
+}
+
+
+ul li:active {
+    background-color: rgb(217, 246, 201);
+    color: #000000;
+}
+
+
 @media screen and (max-width: 500px) {
     .title {
         font-size: 1.2rem;
@@ -748,7 +806,9 @@ a {
     }
 
     .mobile1 {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+
     }
 
     ul li {
@@ -782,66 +842,33 @@ a {
 
 
     .porfile {
-        display: grid;
-        padding: .2rem;
-        /* grid-template-rows: 1fr 1fr; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
 
     }
 
-}
+    .content-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .name {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .party {
+        font-size: 1.2rem;
+        text-align: center;
+
+    }
+
+    .news p {
+        text-align: center;
+
+    }
 
 
-.content-layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-.porfile {
-    display: grid;
-    padding: .2rem;
-    grid-template-rows: 1fr 1fr;
-
-}
-
-.name {
-    font-size: 1.4rem;
-    text-align: left;
-}
-
-.party {
-    font-size: 1.2rem;
-    text-align: left;
-
-}
-
-.tab-pane {
-    display: flex;
-}
-
-p {
-    font-size: 1.2rem;
-}
-
-.section-box {
-    max-width: 1200px;
-}
-
-.section {
-    margin: 0rem auto;
-    padding: 0 1rem;
-    width: 100%;
-    max-width: 1000px;
-    padding: 0rem 1.5rem 0rem 1rem;
-}
-
-.lesscity {
-    justify-content: center;
-}
-
-
-ul li:active {
-    background-color: rgb(217, 246, 201);
-    color: #000000;
 }
 </style>
