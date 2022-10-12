@@ -1,5 +1,5 @@
 <template >
-    <div class="section" >
+    <div class="section">
         <h3>{{ title }}</h3>
         <ul class="desktop">
             <li @click="getData_ftvNews">最新新聞</li>
@@ -9,7 +9,8 @@
             <!-- <li @click="getData_ftvNews4">新竹選戰</li> -->
         </ul>
 
-        <ul class="mobile">
+        <ul class="mobile" :class="{ fixed: active }">
+
             <li @click="getData_ftvNews5">最新新聞</li>
             <li @click="getData_ftvNews6">政治新聞</li>
             <li @click="getData_ftvNews7">修憲公投</li>
@@ -68,7 +69,11 @@ export default {
         return {
             title: '最新新聞',
             newsInfo: [],
+            active: false, // 控制nav高度到達條件就轉成true，並加入class="fixed"
         }
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll)
     },
     methods: {
         getData_ftvNews() {
@@ -165,7 +170,7 @@ export default {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=九合一選舉&Page=1&sp=4')
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=九合一選舉&Page=1&sp=6')
                 .then((response) => {
                     // console.log(response)
                     let data = response.data.ITEM
@@ -182,7 +187,7 @@ export default {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=政治&Page=1&sp=4')
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=政治&Page=1&sp=6')
                 .then((response) => {
                     // console.log(response)
                     let data = response.data.ITEM
@@ -199,7 +204,7 @@ export default {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=18歲公民權&Page=1&sp=4')
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=18歲公民權&Page=1&sp=6')
                 .then((response) => {
                     // console.log(response)
                     let data = response.data.ITEM
@@ -217,7 +222,7 @@ export default {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=桃園市選戰&Page=1&sp=4')
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=桃園市選戰&Page=1&sp=6')
                 .then((response) => {
                     // console.log(response)
                     let data = response.data.ITEM
@@ -235,7 +240,7 @@ export default {
             document.querySelectorAll('.news').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
             axios
-                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=新竹市選戰&Page=1&sp=4')
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=新竹市選戰&Page=1&sp=6')
                 .then((response) => {
                     // console.log(response)
                     let data = response.data.ITEM
@@ -248,7 +253,12 @@ export default {
                     console.log('error' + error)
                 })
         },
+        handleScroll() {
+            this.active = window.scrollY < 2400 && window.scrollY > 700 ? true : false
+
+        },
     },
+
     mounted() {
         this.getData_ftvNews()
     },
@@ -256,6 +266,19 @@ export default {
 </script>
 
 <style scoped>
+.fixed {
+    z-index: 999 !important;
+    position: fixed !important;
+    top: 0 !important;
+    overflow-y: hidden;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f3fef5;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    opacity: .9;
+}
+
 .news-layout {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -358,6 +381,7 @@ ul {
 }
 
 .mobile1 {
+
     display: none;
 }
 
@@ -460,7 +484,7 @@ a {
     .mobile {
         display: flex;
 
-        margin: auto;
+        margin: auto -1rem;
     }
 
     .mobile1 {

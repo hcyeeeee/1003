@@ -14,8 +14,8 @@
                     <li @click="getData_ftvNews6">新竹縣</li>
                 </b-tab>
                 <b-tab title="中部">
-                    <!-- 中部 -->
-                    <li @click="getData_ftvNews7">苗栗縣</li>
+                    <!-- 中部
+                    <li @click="getData_ftvNews7">苗栗縣</li> -->
                     <li @click="getData_ftvNews8">台中市</li>
                     <li @click="getData_ftvNews9">彰化縣</li>
                     <li @click="getData_ftvNews10">南投縣</li>
@@ -42,25 +42,24 @@
                 </b-tab>
             </ul>
         </b-tabs>
-        <b-dropdown text="ssssss" block variant="primary" class="m-2" menu-class="w-100">
 
-            <b-dropdown-item href="#">
-                <li @click="getData_ftvNews7">苗栗縣</li>
-            </b-dropdown-item>
-            <b-dropdown-item href="#">Something else here</b-dropdown-item>
-        </b-dropdown>
+
+
+        <div>
+            <b-dropdown split split-variant="outline-info" text="Split Variant Dropdown" class="m-2">
+                <b-dropdown-item href="#">
+                    <li @click="getData_ftvNews7" value="苗栗縣
+                    ">苗栗縣</li>
+                </b-dropdown-item>
+                <b-dropdown-item href="#">Another action</b-dropdown-item>
+                <b-dropdown-item href="#">Something else here...</b-dropdown-item>
+            </b-dropdown>
+        </div>
         <!-- 手機版導覽列 -->
         <b-tabs class="mobile" content-class="mt-3" fill>
             <ul class="mobile">
                 <b-tab title="北部">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
 
-                        <option @click="getData_ftvNews7">苗栗縣</option>
-
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
 
 
                 </b-tab>
@@ -537,8 +536,11 @@ export default {
 
     },
     mounted() {
-        this.getData_ftvNews()
+        this.$root.$on('bv::dropdown::show', bvEvent => {
+            console.log('Dropdown is about to be shown', bvEvent)
+        })
     },
+
 }
 </script>
 

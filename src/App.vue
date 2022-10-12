@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" >
     <div class="header">
       <!-- logo -->
       <div class="flex-logo logo">
@@ -23,49 +23,22 @@
         </router-link>
       </nav>
 
-
-      <!-- mobile
-      <div class="fad fa-2x fa-bars mobile" @click="menu">
-        <nav class="nav" v-on:click="menu = !menu">
-          <router-link to="/">首頁</router-link>
-          <hr>
-          <router-link to="/about">選將名單</router-link>
-          <hr>
-          <router-link to="/vote">修憲公投</router-link>
-          <hr>
-
-          <router-link to="/">
-            <a href="/#district" @click="jump('dis')">地方選戰</a>
-          </router-link>
-
-          <hr>
-          <router-link to="/">
-            <a href="/#news" @click="jump('news')">新聞專區</a>
-          </router-link>
-
-          <hr>
-          <router-link to="/">
-            <a href="/#video" @click="jump('vid')">影音專區</a>
-          </router-link>
-          <hr>
-        </nav>
-      </div> -->
     </div>
-    <!-- <AdditionScrolltop /> -->
+
     <AdditionButton />
     <router-view />
   </div>
 </template>
 
 <script>
-// import AdditionScrolltop from './components/Addition_scrolltop.vue'
+
 import AdditionButton from './components/Addition_bottom.vue'
 export default {
 
   name: 'App',
   components: {
     AdditionButton,
-    // AdditionScrolltop,
+
   },
 
   data() {
@@ -101,7 +74,7 @@ export default {
     //   this.isActive = !this.isActive;
     // },
     handleScroll() {
-      this.active = window.scrollY < 700 ? true : false
+      this.active = window.scrollY < 4600 ? true : false
     },
     toggle() {
       if (!this.isActive) {
@@ -128,19 +101,12 @@ export default {
     this.scroll()
     this.moveBar()
   },
+
 }
 </script>
 
 
-<!-- <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-</style> -->
+
 <style scoped>
 ::-webkit-scrollbar {
   width: 0;
@@ -154,8 +120,18 @@ export default {
   background: transparent;
 }
 
+
 .fixed {
-  display: none;
+  z-index: 99999 !important;
+  position: fixed !important;
+  top: 0 !important;
+  overflow-y: hidden;
+  width: 100%;
+  height: 80px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #f3fef5;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
 }
 
 /* 漢堡選單 */
@@ -248,10 +224,10 @@ a {
 .header {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  position: fixed;
+  /* position: fixed; */
   background-color: #f3fff5a8;
   opacity: .99;
-  z-index: 100;
+  z-index: 10000;
   width: 100%;
   height: 4rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

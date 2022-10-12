@@ -86,7 +86,7 @@ h1 {
 }
 
 img.banner {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 
 /* 投票箱 */

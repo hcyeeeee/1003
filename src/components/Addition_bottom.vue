@@ -1,11 +1,8 @@
 <template>
     <div class="bottom">
 
-
-
-
-        <router-link to="/" class="bottom2">
-            <a href="/#news" @click="jump('news')">最新新聞</a>
+        <router-link to="/" class="bottom2">最新新聞
+            <!-- <a href="/#news" @click="jump('news')">最新新聞</a> -->
         </router-link>
 
         <!-- <router-link to="/">
@@ -15,6 +12,9 @@
         <!-- <router-link to="/">
             <a href="/#video" @click="jump('vid')">影音專區</a>
         </router-link> -->
+
+
+     
         <router-link class="bottom2" to="/about">選將名單</router-link>
 
         <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
@@ -30,6 +30,7 @@
 
 
 <script>
+
 export default {
     data() {
         return {

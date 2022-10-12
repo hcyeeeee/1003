@@ -9,20 +9,23 @@
             <li @click="get_ftvNews4">台中市</li>
             <li @click="get_ftvNews5">台南市</li>
             <li @click="get_ftvNews6">高雄市</li>
+            <li @click="get_ftvNews15">花蓮縣</li>
 
 
 
 
         </ul>
 
-        <ul class="mobile">
-            <li @click="get_ftvNews7">台北市</li>
+        <ul class="mobile" :class="{ fixed: active }">
+            <li @click=" get_ftvNews7">台北市</li>
             <li @click="get_ftvNews8">新北市</li>
             <li @click="get_ftvNews9">桃園市</li>
             <li @click="get_ftvNews10">新竹市</li>
             <li @click="get_ftvNews11">台中市</li>
             <li @click="get_ftvNews12">台南市</li>
             <li @click="get_ftvNews13">高雄市</li>
+            <li @click="get_ftvNews14">花蓮縣</li>
+
 
         </ul>
 
@@ -83,9 +86,14 @@ export default {
             ],
             district: '',
             newsInfo: [],
+            active: false, // 控制nav高度到達條件就轉成true，並加入class="fixed"
         }
     },
+    created() {
+        window.addEventListener('scroll', this.handleScroll)
+    },
     methods: {
+
         get_ftvNews() {
             document.querySelectorAll('.news1').forEach((e) => e.remove())
             // eslint-disable-next-line no-undef
@@ -329,10 +337,49 @@ export default {
                     console.log('error' + error)
                 })
         },
+        get_ftvNews14() {
+            document.querySelectorAll('.news1').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=花蓮縣選戰&Page=1&sp=6')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        get_ftvNews15() {
+            document.querySelectorAll('.news1').forEach((e) => e.remove())
+            // eslint-disable-next-line no-undef
+            axios
+                .get('https://ftvnews-api2.azurewebsites.net/API/FtvGetNewsWeb.aspx?Cate=花蓮縣選戰&Page=1&sp=6')
+                .then((response) => {
+                    // console.log(response)
+                    let data = response.data.ITEM
+                    data.forEach((item) => {
+                        this.newsInfo.push(item)
+                    })
+                    // console.log(this.newsInfo)
+                })
+                .catch((error) => {
+                    console.log('error' + error)
+                })
+        },
+        handleScroll() {
+            this.active = window.scrollY < 4600 && window.scrollY > 2700 ? true : false
+
+        },
     },
     mounted() {
         this.get_ftvNews()
     },
+
 }
 </script>
 
@@ -343,6 +390,20 @@ export default {
     grid-gap: 1.5rem;
     padding: 1rem;
 }
+
+.fixed {
+    z-index: 9999 !important;
+    position: fixed !important;
+    top: 0 !important;
+    overflow-y: hidden;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f3fef5;
+    opacity: .9;
+
+}
+
 
 @media screen and (max-width: 768px) {
     .news-layout {
@@ -546,6 +607,7 @@ a {
         display: -webkit-box;
         overflow-x: scroll;
         margin: auto 1.3rem;
+        margin: auto -1rem;
     }
 
     .mobile1 {

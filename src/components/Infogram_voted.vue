@@ -65,7 +65,9 @@ export default {
 .map {
     background-color: rgb(255, 255, 255);
     margin: 2rem .5rem 1rem .5rem;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
 }
 
 .orange {

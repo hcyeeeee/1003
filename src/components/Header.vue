@@ -65,7 +65,7 @@ export default {
 
         menu() { },
         handleScroll() {
-            this.active = window.scrollY < 700 ? true : false
+            this.active = window.scrollY < 4800 ? true : false
         },
     },
     mounted() {

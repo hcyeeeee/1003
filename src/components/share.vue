@@ -117,7 +117,7 @@ export default {
 }
 
 .layout_addition2 {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     top: 0;
     margin-top: 60px;
@@ -133,7 +133,7 @@ export default {
 
 @media screen and (max-width: 768px) {
     .layout_addition {
-        position: fixed;
+        position: absolute;
         right: 4rem !important;
         width: 70px;
         top: .9rem;
