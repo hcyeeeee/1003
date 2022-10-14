@@ -4,23 +4,15 @@
         <router-link to="/" class="bottom2">最新新聞
             <!-- <a href="/#news" @click="jump('news')">最新新聞</a> -->
         </router-link>
-
         <!-- <router-link to="/">
             <a href="/#district" @click="jump('dis')">地方選戰</a>
         </router-link> -->
-
         <!-- <router-link to="/">
             <a href="/#video" @click="jump('vid')">影音專區</a>
         </router-link> -->
-
-
-     
         <router-link class="bottom2" to="/about">選將名單</router-link>
-
         <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
-
-
-        <router-link class="bottom2" to="/qa">修憲公投</router-link>
+        <!-- <a href="https://bit.ly/3MvtQcq">選舉Ｑ＆Ａ</a> -->
     </div>
 </template>
 
@@ -97,42 +89,45 @@ export default {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #4e98a2;
     z-index: 999;
-    background: #374674;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    /* background: -moz-linear-gradient(left, #679fdc 0%, #ece18c 49%, #b3d671 100%);
-    background: -webkit-linear-gradient(left, #679fdc 0%, #ece18c 49%, #b3d671 100%);
-    background: linear-gradient(to right, #679fdc 0%, #ece18c 49%, #b3d671 100%); */
-    background: #cee3d2;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    background: transparent;
+    border-radius: 20px 20px 0px 0px;
 
 }
 
 .bottom a {
     width: 33.3%;
-    padding: 1.5rem 0rem;
+    padding: 1rem 0rem;
     color: rgb(36, 36, 36);
     /* font-weight: bolder; */
     text-align: center;
-
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 
 }
 
 
 
 
-/* .bottom a:nth-child(1) {
-    background-color: #374674;
-} */
+.bottom a:nth-child(1) {
+    background-color: #cfe5cc;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
 
 
 .bottom a:nth-child(2) {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     background: #83ad8c;
 }
 
 .bottom a:nth-child(3) {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     background-color: #a8c5ae;
+}
+
+.bottom a:nth-child(4) {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    background-color: #92b098;
 }
 
 .bottom a:hover {
@@ -145,10 +140,7 @@ export default {
 }
 
 
-.bottom2 {
-    opacity: .9;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
+.bottom2 {}
 
 
 

@@ -601,7 +601,7 @@ hr {
 
 
 .news p {
-    text-align: left;
+    text-align: center;
     padding: 0.3rem 1rem;
     font-weight: lighter;
     word-break: break-all;

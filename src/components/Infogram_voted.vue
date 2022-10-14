@@ -34,8 +34,12 @@
             <div class="infogram-embed" data-id="703de62a-676a-480e-ae68-b079245c0baa" data-type="interactive"
                 data-title="2018各縣市議員當選席次"></div>
             <div
-                style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;margin:0 30px">
-
+                style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+                <a href="https://infogram.com/703de62a-676a-480e-ae68-b079245c0baa"
+                    style="color:#989898!important;text-decoration:none!important;"
+                    target="_blank">2018各縣市議員當選席次</a><br><a href="https://infogram.com"
+                    style="color:#989898!important;text-decoration:none!important;" target="_blank"
+                    rel="nofollow">Infogram</a>
             </div>
         </div>
 
@@ -94,5 +98,10 @@ h3 {
     }
 
 
+}
+
+.section {
+    max-width: 1000px;
+    padding: 0rem 1rem;
 }
 </style>

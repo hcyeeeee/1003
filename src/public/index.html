@@ -20,15 +20,13 @@
         content="九合一選舉、18歲公民權公投年底11/26登場！將選出新一屆的縣市長、議員等，修憲公投也將決定是否調整投票門檻。民視新聞網彙整最新新聞、候選人政見、選情與公投資訊，將於當天LIVE直播即時開票。" />
     <meta property="fb:app_id" content="157389381527660" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css  " />
+
 </head>
 
 <body>
 
     <div id="app"></div>
-
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
-
     <!-- built files will be auto injected -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -43,19 +41,6 @@
         gtag('config', 'UA-101119806-1')
     </script>
 
-
-    <!-- Hotjar Tracking Code for https://www.ftvnews.com.tw/topics/election2022/ -->
-    <!-- <script>
-            (function (h, o, t, j, a, r) {
-                h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-                h._hjSettings = { hjid: 3160010, hjsv: 6 };
-                a = o.getElementsByTagName('head')[0];
-                r = o.createElement('script'); r.async = 1;
-                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script> -->
-
     <!-- Hotjar Tracking Code for https://www.ftvnews.com.tw/topics/ -->
     <script>
             (function (h, o, t, j, a, r) {
@@ -67,6 +52,7 @@
                 a.appendChild(r);
             })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
+
     <!-- facebook social share link setting -->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous"
@@ -81,27 +67,30 @@
     <!-- fontaweson Kit Code -->
     <script src="https://kit.fontawesome.com/60a0584099.js" crossorigin="anonymous"></script>
 
-    <!-- infogram -->
-    <script>
-        !(function (e, i, n, s) {
-            var t = 'InfogramEmbeds',
-                d = e.getElementsByTagName('script')[0]
-            if (window[t] && window[t].initialized) window[t].process && window[t].process()
-            else if (!e.getElementById(n)) {
-                var o = e.createElement('script')
-                    ; (o.async = 1),
-                        (o.id = n),
-                        (o.src = 'https://e.infogram.com/js/dist/embed-loader-min.js'),
-                        d.parentNode.insertBefore(o, d)
-            }
-        })(document, 0, 'infogram-async')
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'
+        integrity='sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=='
+        crossorigin='anonymous'></script>
+    <!-- typeform -->
+    <script src="//embed.typeform.com/next/embed.js"></script>
+    <!-- splide -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
+    <!-- ga4 -->
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-TG5GXFRX62&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=AW-875998462&amp;l=dataLayer&amp;cx=c"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-101119806-1" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-101119806-1');
+        gtag('config', 'AW-875998462');
+        gtag('config', 'G-TG5GXFRX62'); //新版GA-APP應用程式+網站
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script>
-        !function (e, i, n, s) { var t = "InfogramEmbeds", d = e.getElementsByTagName("script")[0]; if (window[t] && window[t].initialized) window[t].process && window[t].process(); else if (!e.getElementById(n)) { var o = e.createElement("script"); o.async = 1, o.id = n, o.src = "https://e.infogram.com/js/dist/embed-loader-min.js", d.parentNode.insertBefore(o, d) } }(document, 0, "infogram-async");
-    </script>
+
 </body>
 
 </html>

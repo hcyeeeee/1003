@@ -1,5 +1,5 @@
 <template >
-    <div class="section">
+    <div class="section" id="news">
         <h3>{{ title }}</h3>
         <ul class="desktop">
             <li @click="getData_ftvNews">最新新聞</li>
@@ -253,10 +253,10 @@ export default {
                     console.log('error' + error)
                 })
         },
-        handleScroll() {
-            this.active = window.scrollY < 2400 && window.scrollY > 700 ? true : false
+        // handleScroll() {
+        //     this.active = window.scrollY < 2400 && window.scrollY > 700 ? true : false
 
-        },
+        // },
     },
 
     mounted() {

@@ -1,5 +1,5 @@
 <template>
-  <div id="app" >
+  <div id="app">
     <div class="header">
       <!-- logo -->
       <div class="flex-logo logo">
@@ -9,25 +9,25 @@
       <nav class=" computer navbar">
         <router-link to="/">首頁</router-link>
         <router-link to="/about">選將名單</router-link>
-        <!-- <router-link to="/vote">歷年版圖</router-link> -->
         <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
         <router-link to="/qa">修憲公投</router-link>
+        <a class="nav-link" href="https://bit.ly/3erX5R7">熱門議題</a>
+        <a class="nav-link" href="https://bit.ly/3T1xwFt"> 政治術語大考驗</a>
         <!-- <router-link to="/">
           <a href="/#district" @click="jump('dis')">地方選戰</a>
         </router-link> -->
         <!-- <router-link to="/">
           <a href="/#news" @click="jump('news')">新聞專區</a>
         </router-link> -->
-        <router-link to="/">
+        <!-- <router-link to="/">
           <a href="/#video" @click="jump('vid')">影音專區</a>
-        </router-link>
+        </router-link> -->
       </nav>
-
     </div>
-
     <AdditionButton />
     <router-view />
   </div>
+
 </template>
 
 <script>
@@ -98,6 +98,26 @@ export default {
 
   },
   mounted() {
+    document.querySelector("#navbarBtn").addEventListener("click", o);
+    let e = document.querySelectorAll(".nav-link");
+    var t = !0;
+    function o() {
+      let e = document.querySelector("#switcher"),
+        o = document.querySelector("#navbar");
+      t
+        ? (e.classList.remove("fa-bars"),
+          e.classList.add("fa-times"),
+          (t = !1),
+          (o.style.display = "flex"))
+        : (e.classList.remove("fa-times"),
+          e.classList.add("fa-bars"),
+          (t = !0),
+          (o.style.display = "none"));
+    }
+    for (let t = 0; t < e.length; t++)
+      e[t].addEventListener("click", function () {
+        o();
+      });
     this.scroll()
     this.moveBar()
   },
@@ -224,10 +244,10 @@ a {
 .header {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  /* position: fixed; */
+  position: fixed;
   background-color: #f3fff5a8;
   opacity: .99;
-  z-index: 10000;
+  z-index: 100;
   width: 100%;
   height: 4rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;

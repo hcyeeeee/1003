@@ -48,10 +48,12 @@
                     <a target="_blank" @click="getLocalUrl" class="fb-xfbml-parse-ignore">
                         <img src="../assets/share.png" alt="share" width="60px" /></a>
                     <br />
-
                 </div>
             </div>
+
         </div>
+
+
         <div v-if="scrollY > 100">
             <i @click="scrollTop" id="toTop" class="fa-solid fa-2x fa-angle-up"></i>
         </div>
@@ -150,6 +152,7 @@ export default {
 
     .mobile {
         display: flex;
+        position: fixed;
     }
 
     .desktop {

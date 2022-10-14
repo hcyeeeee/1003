@@ -94,6 +94,8 @@ export default {
     border-radius: 10px;
     display: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+
 }
 
 .fa-bars {

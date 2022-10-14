@@ -1,12 +1,9 @@
 <template>
   <div>
-
     <COntentBanner />
     <QA />
     <Share />
     <Footer />
-
-
   </div>
 </template>
 

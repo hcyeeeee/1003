@@ -3,7 +3,7 @@
 
     <COntentBanner />
     <!-- <AdditionBox /> -->
-    <ContentProcess />
+    <!-- <ContentProcess /> -->
     <ContentTime />
     <ContentProfile />
     <ContentNews />
@@ -20,7 +20,7 @@
 
 import COntentBanner from '@/components/Content_banner.vue'
 // import AdditionBox from '@/components/Addition_box.vue'
-import ContentProcess from '@/components/Content_process.vue'
+// import ContentProcess from '@/components/Content_process.vue'
 import ContentTime from '@/components/Content_time.vue'
 import ContentVideo from '@/components/Content_video.vue'
 import ContentNews from '@/components/Content_news.vue'
@@ -34,7 +34,7 @@ export default {
   components: {
     COntentBanner,
     // AdditionBox,
-    ContentProcess,
+    // ContentProcess,
     ContentTime,
     ContentNews,
     ContentDistrict,

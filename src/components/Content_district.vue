@@ -371,10 +371,10 @@ export default {
                     console.log('error' + error)
                 })
         },
-        handleScroll() {
-            this.active = window.scrollY < 4600 && window.scrollY > 2700 ? true : false
+        // handleScroll() {
+        //     this.active = window.scrollY < 4600 && window.scrollY > 2700 ? true : false
 
-        },
+        // },
     },
     mounted() {
         this.get_ftvNews()
