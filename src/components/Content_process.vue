@@ -1,6 +1,6 @@
 <template>
     <div id="news">
-        <img class="img" src="../assets/小可愛.png" alt="小可愛">
+        <!-- <img class="img" src="../assets/小可愛.png" alt="小可愛">
         <div class="section-box">
             <ul class="entries">
                 <li class="entry">08.29 ~ 09.02 登記參選</li>
@@ -9,8 +9,14 @@
                 <li class="entry">11.25 公告選舉人數</li>
                 <li class="entry">11.26 投票日</li>
             </ul>
+        </div> -->
+        <marquee behavior="" direction="">08/29 - 09/02 登記參選&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+            10/21 號次抽籤&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+            11/11 - 11/25 政見發表會&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+            11/25 公告選舉人數&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+            11/26 投票日&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+        </marquee>
 
-        </div>
     </div>
 </template>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"
@@ -144,5 +150,13 @@ li {
     display: none;
     text-align: center;
 
+}
+
+
+marquee {
+    width: auto;
+    padding: 1rem;
+    background: #e2f0d0;
+    font-weight: 700;
 }
 </style>

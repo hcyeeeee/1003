@@ -126,6 +126,6 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 1rem;
-    color: #595757;
+    color: black;
 }
 </style>

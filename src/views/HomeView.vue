@@ -2,10 +2,8 @@
   <div>
 
     <COntentBanner />
-    <!-- <AdditionBox /> -->
-    <!-- <ContentProcess /> -->
+    <!-- <ContentProcess/> -->
     <ContentTime />
-    <ContentProfile />
     <ContentNews />
     <ContentDistrict />
     <ContentVideo />
@@ -19,7 +17,6 @@
 <script>
 
 import COntentBanner from '@/components/Content_banner.vue'
-// import AdditionBox from '@/components/Addition_box.vue'
 // import ContentProcess from '@/components/Content_process.vue'
 import ContentTime from '@/components/Content_time.vue'
 import ContentVideo from '@/components/Content_video.vue'
@@ -33,7 +30,6 @@ export default {
   name: 'App',
   components: {
     COntentBanner,
-    // AdditionBox,
     // ContentProcess,
     ContentTime,
     ContentNews,
@@ -41,7 +37,6 @@ export default {
     ContentVideo,
     Footer,
     Share,
-
   },
 }
 </script>
@@ -210,7 +205,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #595757;
+  color: #888888;
   transition: 0.3s;
   width: 100%;
   overflow-x: hidden;
@@ -264,7 +259,7 @@ p {
 
 a {
   font-family: 'Noto Sans TC';
-  color: #595757;
+  color: #888888;
   text-decoration: none !important;
 }
 

@@ -1,33 +1,38 @@
 <template>
-    <div class="bottom">
 
-        <router-link to="/" class="bottom2">最新新聞
-            <!-- <a href="/#news" @click="jump('news')">最新新聞</a> -->
-        </router-link>
-        <!-- <router-link to="/">
-            <a href="/#district" @click="jump('dis')">地方選戰</a>
-        </router-link> -->
-        <!-- <router-link to="/">
-            <a href="/#video" @click="jump('vid')">影音專區</a>
-        </router-link> -->
+    <div class="bottom">
+        <router-link to="/" class="bottom2">最新新聞</router-link>
         <router-link class="bottom2" to="/about">選將名單</router-link>
-        <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
-        <!-- <a href="https://bit.ly/3MvtQcq">選舉Ｑ＆Ａ</a> -->
+        <!-- <router-link class="bottom2 " to="/form">
+            政治術語大考驗
+        </router-link> -->
+        <a class="bottom2" v-bind:class="{ 'dropup': button_active_state }"
+            v-on:click="button_active_state = !button_active_state">
+            更多選舉資訊
+            <div class="dropup-content " id="myDIV">
+                <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
+                <a href="https://bit.ly/3erX5R7">熱門議題</a>
+                <router-link to="/qa">
+                    修憲公投
+                </router-link>
+                <a href="https://bit.ly/3T1xwFt"> 政治術語大考驗</a>
+            </div>
+        </a>
+
     </div>
 </template>
 
+<script>
 
-
-
+</script>
 
 
 <script>
-
 export default {
     data() {
         return {
-
-
+            button_active_state: false,
+            active: false,
             menu: false,
             list: [
                 {
@@ -53,9 +58,6 @@ export default {
         window.addEventListener('scroll', this.handleScroll)
     },
     methods: {
-        // menu() {
-        //   this.isActive = !this.isActive;
-        // },
         handleScroll() {
             this.active = window.scrollY < 700 ? true : false
         },
@@ -77,13 +79,70 @@ export default {
                     window.location.hash = '#video'
                 }
             }, 500);
-        }
+        },
+         myFunction() {
+    var element = document.getElementById("myDIV");
+    element.classList.toggle(".dropup");
+}
 
     },
 }
 </script>
 
 <style>
+.i-am-active {
+    color: orange;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #e2f2d0;
+    bottom: 50px;
+    z-index: -1;
+    padding: 20px 10px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+
+.dropup-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+
+
+}
+
+
+.dropup-content a:hover {
+    background-color: #d0e6b0;
+
+}
+
+
+.dropup:hover .dropup-content {
+    display: block;
+    z-index: -1;
+}
+
 .bottom {
     display: flex;
     position: fixed;
@@ -95,53 +154,52 @@ export default {
 
 }
 
-.bottom a {
-    width: 33.3%;
+.bottom2 {
+    width: 33.333%;
     padding: 1rem 0rem;
     color: rgb(36, 36, 36);
-    /* font-weight: bolder; */
+    font-weight: 700;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
 
 }
 
 
 
 
-.bottom a:nth-child(1) {
-    background-color: #cfe5cc;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+.bottom2:nth-child(1) {
+    background: #d0e6b0;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 
-.bottom a:nth-child(2) {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    background: #83ad8c;
+.bottom2:nth-child(2) {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 12px 0px;
+    background: #e2f1d0;
+
 }
 
-.bottom a:nth-child(3) {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    background-color: #a8c5ae;
+.bottom2:nth-child(3) {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 12px 0px;
+    background-color: #bbdb92;
 }
 
-.bottom a:nth-child(4) {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-    background-color: #92b098;
+.bottom2:nth-child(4) {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: #c7f0cf;
 }
 
-.bottom a:hover {
+.bottom2:hover {
     /* color: rgb(236, 236, 236) !important; */
     opacity: 1;
+    margin: -.5rem 0rem 0rem;
 }
 
-.bottom a::after {
+.bottom2::after {
     content: ""
 }
-
-
-.bottom2 {}
-
 
 
 
@@ -185,22 +243,9 @@ export default {
 
 }
 
-/* Links inside the dropup */
-.dropup-content a {
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    display: contents;
-    flex-direction: column;
-
-}
-
-/* Show the dropup menu on hover */
-.dropup:hover .dropup-content {
-    display: grid;
 
 
-}
+
 
 /* Change the background color of the dropup button when the dropup content is shown */
 .dropup:hover .dropbtn {

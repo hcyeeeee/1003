@@ -163,7 +163,7 @@ a {
     font-size: 1.2rem;
     margin: 0rem 1rem;
     display: block;
-    color: #595757;
+    color: black;
     font-weight: bolder;
     transition: 0.3s;
 

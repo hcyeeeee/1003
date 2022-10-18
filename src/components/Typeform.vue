@@ -9,14 +9,15 @@
 <style>
 .tf-v1-widget {
     width: 100%;
-    height: 70%;
-    position: absolute !important;
+
 }
 
-.tf-v1-widget {
+.tf-v1-widget iframe {
     width: 100%;
-    height: 80% !important;
-    margin: 4rem auto 10rem !important;
-    position: relative;
+    height: 90vh !important;
+    border: none;
+    overflow: hidden;
+    border-radius: 8px;
+
 }
 </style>

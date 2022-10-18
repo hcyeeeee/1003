@@ -323,6 +323,7 @@ li img {
 
     width: 100%;
     padding: 1rem;
+
 }
 
 
@@ -356,7 +357,7 @@ p {
 }
 
 .splide__slide p {
-    padding: 0rem 1.5rem;
+    padding: 1.5rem;
     line-height: 2rem;
     font-size: 1.1rem;
     display: flex;
@@ -377,7 +378,7 @@ p {
 } */
 
 li {
-    padding: .5rem 1.5rem;
+    padding: 0rem;
 }
 
 .time {
@@ -393,6 +394,7 @@ li {
 
 p.desktop {
     display: block;
+    margin: auto;
 }
 
 p.mobile {
@@ -405,21 +407,16 @@ p.mobile {
     .splide__slide {
         display: block;
         max-height: 700px;
-
-
+        padding: 0rem;
     }
 
-    p.desktop {
-        display: none;
-    }
 
-    p.mobile {
-        display: block;
-    }
 
-    .splide__slide p {
-        padding: 0rem .5rem;
+    li img {
 
+        width: 100%;
+        padding: 0rem;
+        margin: auto;
     }
 
 }
@@ -452,7 +449,18 @@ p.mobile {
 
     }
 
+    p.desktop {
+        display: none;
+    }
 
+    p.mobile {
+        display: block;
+    }
+
+    .splide__slide p {
+        padding: 0rem 1rem;
+
+    }
 
 }
 

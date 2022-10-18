@@ -31,5 +31,6 @@ export default {
     Share,
 
   },
+  
 }
 </script>

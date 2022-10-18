@@ -1,29 +1,6 @@
 <template>
     <div class="main">
         <h1>{{ title }}</h1>
-        <!-- 漢堡選單 -->
-        <nav id="navbarBtn"><i id="switcher" class="fas fa-bars fa-2x"></i></nav>
-        <nav id="navbar" class="navbar text-dark">
-            <nav class="nav nav-pills flex-column">
-
-                <a class="nav-link" href="#news">最新新聞</a>
-
-                <a class="nav-link" href="#district">地方選戰</a>
-
-                <a class="nav-link" href="#video">影音專區</a>
-
-                <a class="nav-link" href="https://www.ftvnews.com.tw/topics/election2022/#/about">選將名單</a>
-
-                <a class="nav-link" href="https://bit.ly/3CFJQFt">歷年版圖</a>
-
-                <a class="nav-link" href="https://bit.ly/3erX5R7">熱門議題</a>
-
-                <a class="nav-link" href="https://www.ftvnews.com.tw/topics/election2022/#/qa">修憲公投Ｑ＆Ａ</a>
-
-                <a class="nav-link" href="https://bit.ly/3T1xwFt"> 政治術語大考驗</a>
-
-            </nav>
-        </nav>
         <a href="#">
             <picture>
                 <source srcset="../assets/mobile.png" media="(max-width: 500px)" />
@@ -32,7 +9,7 @@
                 <img class="banner" src="../assets/desktop.png" alt="">
             </picture>
         </a>
-
+        <!-- 倒數 -->
         <div class="addition">
             <div class="vote-box">
                 <img class="box" src="../assets/投票箱.png" alt="box">
@@ -42,9 +19,9 @@
                     <p>天&nbsp;&nbsp;
                     </p>
                 </div>
-
             </div>
         </div>
+
     </div>
 </template>
 
@@ -56,29 +33,8 @@ export default {
         }
     },
 
-    mounted() {
-
-        // 漢堡icon點擊展開樣式
-        document.querySelector("#navbarBtn").addEventListener("click", o);
-        let e = document.querySelectorAll(".nav-link");
-        var t = !0;
-        function o() {
-            let e = document.querySelector("#switcher"),
-                o = document.querySelector("#navbar");
-            t
-                ? (e.classList.remove("fa-bars"),
-                    e.classList.add("fa-times"),
-                    (t = !1),
-                    (o.style.display = "flex"))
-                : (e.classList.remove("fa-times"),
-                    e.classList.add("fa-bars"),
-                    (t = !0),
-                    (o.style.display = "none"));
-        }
-        for (let t = 0; t < e.length; t++)
-            e[t].addEventListener("click", function () {
-                o();
-            });
+    mounted() { 
+ 
         var timer = null;
         var show = document.getElementById("show");
         function show_date_time() {
@@ -117,6 +73,11 @@ export default {
 /* 漢堡選單 */
 
 #navbarBtn {
+    display: none;
+}
+
+
+#navbarBtn {
     position: fixed;
     display: none;
     margin: 20px 10px;
@@ -125,7 +86,7 @@ export default {
     background: #f5fff6;
     padding: 10px;
     border-radius: 10px;
-    top: 3.2rem;
+    top: 4rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
@@ -135,7 +96,7 @@ export default {
     color: rgb(98, 96, 96);
 }
 
-#navbar {
+#navbar1 {
     position: fixed;
     height: 100vh;
     z-index: 99;
@@ -147,21 +108,22 @@ export default {
     font-size: 1.1rem;
     justify-content: center;
     background: #f5fff6;
-
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 
-#navbar a {
+#navbar1 a {
     color: black;
     color: rgb(90, 87, 87);
 }
+
+
 
 #navbarBtn {
     display: flex;
 }
 
-#navbar {
+#navbar1 {
     display: none;
 }
 
@@ -214,11 +176,11 @@ h1 {
 }
 
 img.banner {
-    /* margin-top: 4rem; */
+    margin-top: 4rem;
 }
 
 /* 投票箱 */
-/* 字大小再調一下現在應該偏小  */
+
 .addition {
     background: white;
     position: absolute;
@@ -318,6 +280,8 @@ img.banner {
     #show {
         font-size: 2.2rem;
     }
+
+
 
 }
 </style>

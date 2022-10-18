@@ -1,88 +1,67 @@
 <template>
   <div id="app">
-    <div class="header">
-      <!-- logo -->
-      <div class="flex-logo logo">
-        <a href="https://www.ftvnews.com.tw/" target="blank"> <img src="./assets/logo.png" alt="民視新聞網"></a>
-      </div>
-      <!-- desktop -->
-      <nav class=" computer navbar">
-        <router-link to="/">首頁</router-link>
-        <router-link to="/about">選將名單</router-link>
-        <a href="https://bit.ly/3CFJQFt">歷年版圖</a>
-        <router-link to="/qa">修憲公投</router-link>
-        <a class="nav-link" href="https://bit.ly/3erX5R7">熱門議題</a>
-        <a class="nav-link" href="https://bit.ly/3T1xwFt"> 政治術語大考驗</a>
-        <!-- <router-link to="/">
-          <a href="/#district" @click="jump('dis')">地方選戰</a>
-        </router-link> -->
-        <!-- <router-link to="/">
-          <a href="/#news" @click="jump('news')">新聞專區</a>
-        </router-link> -->
-        <!-- <router-link to="/">
-          <a href="/#video" @click="jump('vid')">影音專區</a>
-        </router-link> -->
-      </nav>
+    <div>
+      <b-navbar toggleable="md" type="light" variant="light">
+        <!-- logo -->
+        <b-navbar-brand class="flex-logo logo">
+          <a href="https://www.ftvnews.com.tw/" target="blank"> <img src="./assets/logo.png" alt="民視新聞網"></a>
+        </b-navbar-brand>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav>
+            <router-link to="/">首頁</router-link>
+          </b-navbar-nav>
+          <!-- 下拉選單start -->
+          <b-navbar-nav>
+            <b-nav-item-dropdown text="新聞專區">
+              <b-dropdown-item>
+                <a href="https://www.ftvnews.com.tw/topics/election2022/#/news" @click="jump('news')">新聞專區</a>
+              </b-dropdown-item>
+              <b-dropdown-item>
+                <a href="https://www.ftvnews.com.tw/topics/election2022/#/district" @click="jump('dis')">地方選戰</a>
+              </b-dropdown-item>
+              <b-dropdown-item>
+                <a href="https://www.ftvnews.com.tw/topics/election2022/#/video" @click="jump('vid')">影音專區</a>
+              </b-dropdown-item>
+            </b-nav-item-dropdown>
+          </b-navbar-nav>
+          <!-- 下拉選單end -->
+          <b-navbar-nav>
+            <router-link to="/about">選將名單</router-link>
+          </b-navbar-nav>
+
+          <!-- 下拉選單start -->
+          <b-navbar-nav>
+            <b-nav-item-dropdown text="選舉匯報">
+              <b-dropdown-item>
+                <router-link to="/qa">修憲公投</router-link>
+              </b-dropdown-item>
+              <a class="ddd" href="https://bit.ly/3erX5R7">熱門議題</a>
+              <a class="ddd" href="https://bit.ly/3CFJQFt">歷年版圖</a>
+
+            </b-nav-item-dropdown>
+          </b-navbar-nav>
+          <!-- 下拉選單end -->
+          <a class="ddd" href="https://bit.ly/3T1xwFt"> 政治術語大考驗</a>
+        </b-collapse>
+      </b-navbar>
     </div>
     <AdditionButton />
     <router-view />
   </div>
-
 </template>
 
 <script>
 
 import AdditionButton from './components/Addition_bottom.vue'
+
 export default {
 
   name: 'App',
   components: {
     AdditionButton,
-
-  },
-
-  data() {
-    return {
-
-
-      menu: false,
-      list: [
-        {
-          title: '首頁',
-          anchor: '#voting',
-        },
-        {
-          title: '最新新聞',
-          anchor: '#profile',
-        },
-        {
-          title: '影音專區',
-          anchor: '#porcess',
-        },
-        {
-          title: 'LIVE新聞',
-          anchor: '#news',
-        },
-      ],
-    }
-  },
-  created() {
-    window.addEventListener('scroll', this.handleScroll)
   },
   methods: {
-    // menu() {
-    //   this.isActive = !this.isActive;
-    // },
-    handleScroll() {
-      this.active = window.scrollY < 4600 ? true : false
-    },
-    toggle() {
-      if (!this.isActive) {
-        this.isActive = true;
-      } else {
-        this.isActive = false;
-      }
-    },
     jump(tag) {
       setTimeout(() => {
         console.log(tag);
@@ -95,103 +74,80 @@ export default {
         }
       }, 100);
     }
-
   },
-  mounted() {
-    document.querySelector("#navbarBtn").addEventListener("click", o);
-    let e = document.querySelectorAll(".nav-link");
-    var t = !0;
-    function o() {
-      let e = document.querySelector("#switcher"),
-        o = document.querySelector("#navbar");
-      t
-        ? (e.classList.remove("fa-bars"),
-          e.classList.add("fa-times"),
-          (t = !1),
-          (o.style.display = "flex"))
-        : (e.classList.remove("fa-times"),
-          e.classList.add("fa-bars"),
-          (t = !0),
-          (o.style.display = "none"));
-    }
-    for (let t = 0; t < e.length; t++)
-      e[t].addEventListener("click", function () {
-        o();
-      });
-    this.scroll()
-    this.moveBar()
-  },
-
 }
 </script>
-
-
-
 <style scoped>
-::-webkit-scrollbar {
-  width: 0;
-  /* Remove scrollbar space */
-  background: transparent;
-  /* Optional: just make scrollbar invisible */
+/* 漢堡選單 */
+
+#navbarBtn {
+  display: none;
 }
 
-/* Optional: show position indicator in red */
+
+#navbarBtn {
+  position: fixed;
+  display: none;
+  margin: 20px 10px;
+  cursor: pointer;
+  z-index: 100;
+  background: #f5fff6;
+  padding: 10px;
+  border-radius: 10px;
+  top: 3.3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.fa-solid,
+.fas {
+  font-weight: 900;
+  color: rgb(98, 96, 96);
+}
+
+#navbar {
+  position: fixed;
+  height: 100vh;
+  z-index: 99;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  justify-content: center;
+  background: #f5fff6;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+
+#navbar a {
+  color: black;
+  color: rgb(90, 87, 87);
+}
+
+
+#navbarBtn {
+  display: flex;
+}
+
+#navbar {
+  display: none;
+}
+
+.bg-light {
+  opacity: 0.9;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
 ::-webkit-scrollbar-thumb {
   background: transparent;
 }
 
-
-.fixed {
-  z-index: 99999 !important;
-  position: fixed !important;
-  top: 0 !important;
-  overflow-y: hidden;
-  width: 100%;
-  height: 80px;
-  cursor: pointer;
-  text-decoration: none;
-  background-color: #f3fef5;
-  box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
-}
-
-/* 漢堡選單 */
-
-.nav {
-  width: 220px;
-  padding: 1rem;
-  position: fixed;
-  background-color: #F3FFF5;
-  z-index: 998;
-  top: 3.3rem;
-  right: 1rem;
-  border-radius: 10px;
-  display: none;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
-.fa-bars {
-  color: #78a17f;
-  cursor: pointer;
-  position: absolute;
-  z-index: 999;
-  top: 1rem;
-  right: 1rem;
-  border-radius: 10px;
-  padding: 5px;
-
-}
-
-.fa-bars:hover .nav {
-  display: block;
-}
-
-
-.nav a:hover::before {
-  /* content: '\f061'; */
-  padding-right: 1rem;
-}
-
-
+/* logo  start*/
 .logo {
   max-width: 100%;
   width: 250px;
@@ -221,40 +177,27 @@ export default {
   }
 }
 
-/* 進度條 */
-.progress {
-  position: fixed;
-  top: 1px;
-  width: 0.5%;
-  height: 10px;
-  z-index: 999;
-}
+/* logo end*/
 
 a {
   font-size: 1.2rem;
   margin: 1rem;
   display: block;
-  color: #595757;
+  color: black;
   font-weight: bolder;
   transition: 0.3s;
 
 
 }
 
-.header {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  position: fixed;
-  background-color: #f3fff5a8;
-  opacity: .99;
-  z-index: 100;
-  width: 100%;
-  height: 4rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
 
 .navbar {
-  justify-content: end;
+  justify-content: start;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  opacity: .9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .nav {
@@ -263,6 +206,7 @@ a {
 
 .nav a {
   margin: 0rem 1rem;
+  text-align: center;
 }
 
 .computer {
@@ -318,9 +262,49 @@ nav a {
   font-size: 1.2rem;
   margin: 0rem 1rem;
   display: block;
-  color: #595757;
+  color: black;
   font-weight: bolder;
   transition: 0.3s;
+  text-align: center;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: end;
+}
+
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  /* background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important; */
+  background-color: #f3fff5 !important;
+  ;
+}
+
+.nav-item {
+  color: rgb(32, 32, 32);
+  font-weight: bolder;
+  border-bottom: none;
+  margin: 0.5rem;
+}
+
+b-navbar {
+  position: fixed;
+}
+
+@media screen and (max-width: 768px) {
+  #navbarBtn {
+    display: none;
+  }
+
+
+}
+
+.ddd {
+  text-align: center;
+  margin: 1rem;
 }
 </style>
 
